@@ -1,0 +1,12 @@
+l_english:
+#ARNOR LONDO COUNTRY EVENTS
+ ARL.1.t:0 "The Coming Days"
+ ARL.1.d:0 "PLACEHOLDER DESCRIPTIOM"
+ ARL.1.a:0 "We need to be aggressive"
+ ARL.1.b:0 "Use threats backed with force"
+ ARL.1.c:0 "Diplomacy is the only option"
+ ARL.2.t:0 "The Reformation"
+ ARL.2.d:0 "PLACEHOLDER DESCRIPTION"
+ ARL.2.a:0 "Fallback onto tradition"
+ ARL.2.b:0 "Nationalism will create security"
+ ARL.3.c:0 "We must adapt to the modern day to have stability"

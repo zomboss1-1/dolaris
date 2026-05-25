@@ -1,0 +1,10 @@
+spriteTypes = {
+  spriteType = {
+    name = GFX_focus_ARL_convene_the_kingdom
+    texturefile = gfx/interface/national_focus/GFX_focus_ARL_convene_the_kingdom.png
+  }
+  spriteType = {
+    name = GFX_focus_ARL_address_the_elephant
+    texturefile = gfx/interface/national_focus/GFX_focus_ARL_address_the_elephant.png
+  }
+}

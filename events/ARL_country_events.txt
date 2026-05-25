@@ -1,0 +1,51 @@
+add_namespace = ARL
+
+#CONVENE THE KINGDOM
+country_event = {
+  id = ARL.1
+  title = ARL.1.t
+  desc = ARL.1.d
+  is_triggered_only = yes
+  fire_only_once = yea
+
+  #AGGRESSIVE FOREIGN POLICY
+  option = {
+    name = ARL.1.a
+    complete_focus = ARL_make_our_stand
+  }
+  #MODERATE FOREIGN POLICY
+  option = {
+    name = ARL.1.b
+    complete_focus = ARL_our_words_have_power
+  }
+  #DIPLOMACY ALWAYS WINS
+  option = {
+    name = ARL.1.c
+    complete_focus = ARL_diplomacy_always_wins
+  }
+}
+
+#ADDRESS THE ELEPHANT
+country_event = {
+  id = ARL.2
+  title = ARL.2.t
+  desc = ARL.2.d
+  is_triggered_only = yes
+  fire_only_once = yea
+
+  #TRADITION IS KEY
+  option = {
+    name = ARL.2.a
+    complete_focus = ARL_tradition_is_kay
+  }
+  #NATIONALIST REFORM
+  option = {
+    name = ARL.2.b
+    complete_focus = ARL_a_nationalist_reform
+  }
+  #LIBERAL REFORM
+  option = {
+    name = ARL.2.c
+    complete_focus = ARL_liberal_reform
+  }
+}

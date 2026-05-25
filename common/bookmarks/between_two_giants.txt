@@ -1,0 +1,37 @@
+bookmarks = {
+  bookmark = {
+    name = 1900_between_two_giants
+    desc = 1900_between_two_giants_desc
+    date = 1900.1.1.12
+    #picture = GFX_1900_between_two_giants
+    "---" = {
+      history = 1900_BETWEEN_TWO_GIANTS_HISTORY
+    }
+    effect = {
+      randomize_weather = 55799
+    }
+    default = yes
+    default_country = ARL
+
+    ARL = {
+      history = 1900_between_two_giants_ARL
+      ideology = monarchism
+      focuses = {
+
+      }
+      ideas = {
+
+      }
+    }
+    ATL = {
+      history = 1900_between_two_giants_ATL
+      ideology = democratic
+      focuses = {
+
+      }
+      ideas = {
+
+      }
+    }
+  }
+}

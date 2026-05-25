@@ -1,0 +1,2 @@
+ATL = "countris/Atlantis.txt"
+ARL = "countris/Arnor_Londo.txt"
