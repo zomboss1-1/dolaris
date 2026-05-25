@@ -1,0 +1,27 @@
+l_english:
+ anarchism:0 "Anarchist"
+ anarchism_noun:0 "Anarchism"
+ anarchism_desc:0 "PLACEHOLDER"
+ collective_anarchism:0 "Collective Anarchism"
+ collective_anarchism_desc:0 "PLACEHOLDER"
+ individual_anarchism:0 "Individual Anarchism"
+ individual_anarchism_desc:0 "PLACEHOLDER"
+ disorganized_anarchism:0 "Disorganized Anarchism"
+ disorgnized_anarchism_desc:0 "PLACEHOLDER"
+ 
+ monarchism:0 "Monarchy"
+ monarchism_noun:0 "Monarchism"
+ monarchism_desc:0 "PLACEHOLDER"
+ absolute_monarchy:0 "Absolute Monarchism"
+ absolute_monarchy_desc:0 "PLACEHOLDER"
+ constitutional_monarchy:0 "Constitutional Monarchism"
+ constitutional_monarchy_desc:0 "PLACEHOLDER"
+
+#ARNOR LONDO PARTIES
+ ARL_monarchism_party:0 "The Golden Kingdom"
+ ARL_democracy_party:0 "Party for the Free Thinking People's of Arnor Londo"
+ ARL_fascism_party:0 "The Restoration Militia"
+ ARL_neutrality_party:0 "Confederated Union of Arnorian Peoples"
+ ARL_communism_party:0 "Organized Collective of Workers Unions"
+ ARL_anarchism_party:0 "The Arnorian Commune"
+ 
