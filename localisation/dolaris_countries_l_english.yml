@@ -1,0 +1,11 @@
+l_english:
+#ARNOR LONDO
+ ARL:0 "Arnor Londo"
+ ARL_def:0 "Arnor Londo"
+ ARL_adj:0 "Arnorian"
+ ARL_monarchism:0 "Golden Kingdom of Arnor Londo"
+ ARL_monarchism_def:0 "the Golden Kingdom of Arnor Londo"
+ ARL_democrtic:0 "Republic of Arnor Londo"
+ ARL_democratic_def:0 "the Republic of Arnor Londo"
+ ARL_anarchism:0 "Communal Territories of Arnor Londo"
+ ARL_anarchism_def:0 "the Communal Territories of Arnor Londo"
