@@ -1,0 +1,32 @@
+capital = 563
+#oob = "ARL_1900"
+set_research_slots = 3
+set_stability = 0.45
+set_war_support = 0.25
+
+add_ideas = {
+  ARL_treaty_of_atland
+  ARL_divided_nation
+  ARL_birthplace_of_goldism
+}
+
+set_technology = {
+
+}
+
+recruit_character = ARL_andrej_ciernik
+
+set_popularities = {
+  monarchism = 60
+  democracy = 18
+  fascism = 10
+  socialism = 10
+  anarchism = 2
+}
+
+set_politics = {
+  ruling_party = monarchism
+  last_election = "1900.1.1"
+  election_frequency = 60
+  elections_allowed = no
+}
