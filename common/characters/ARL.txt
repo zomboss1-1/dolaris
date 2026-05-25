@@ -1,0 +1,15 @@
+characters = {
+  ARL_andrej_ciernik = {
+    name = ARL_andrej_ciernik
+    portraits = {
+      civilian = {
+        large = "GFX_portrait_ARL_andrej_ciernik"
+      }
+    }
+    country_leader = {
+      ideology = absolute_monarchy
+      traits = { }
+      desc = ARL_andrej_ciernik_desc
+    }
+  }
+}
