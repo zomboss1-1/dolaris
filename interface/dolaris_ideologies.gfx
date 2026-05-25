@@ -1,0 +1,14 @@
+spriteTypes = {
+  spriteType = {
+    name = GFX_ideology_monarchism_group
+    texturefile = gfx/interface/ideologies/Monarchism.png
+  }
+  spriteType = {
+    name = GFX_ideology_absolute_monarchism
+    texturefile = gfx/interface/ideologies/Absolute_Monarchism.png
+  }
+  spriteType = {
+    name = GFX_ideology_constitutional_monarchism
+    texturefile = gfx/interface/ideologies/Constitutional_Monarchism.png
+  }
+}
