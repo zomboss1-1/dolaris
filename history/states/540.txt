@@ -1,0 +1,40 @@
+
+state={
+	id=540
+	name="STATE_540"
+	manpower = 2855720
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			5525 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		5518 5519 5520 5521 5522 5523 5524 5525 5526 5527 5528 5529 5530 5531 
+	}
+	local_supplies=0.0 
+}

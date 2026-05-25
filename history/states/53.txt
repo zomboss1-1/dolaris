@@ -1,0 +1,40 @@
+
+state={
+	id=53
+	name="STATE_53"
+	manpower = 5272132
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=21
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 3
+			industrial_complex = 1
+			
+			595 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		591 592 593 594 595 596 597 598 599 600 601 602 603 604 605 606 
+	}
+	local_supplies=0.0 
+}

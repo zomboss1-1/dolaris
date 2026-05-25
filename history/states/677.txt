@@ -1,0 +1,40 @@
+
+state={
+	id=677
+	name="STATE_677"
+	manpower = 5587369
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 2
+			7000 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		7000 7001 7002 7003 7004 7005 7006 7007 7008 7009 7010 7011 7012 7013 7014 7015 7016 7017 7018 7019 7020 
+	}
+	local_supplies=0.0 
+}

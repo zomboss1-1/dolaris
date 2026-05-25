@@ -1,0 +1,37 @@
+
+state={
+	id=608
+	name="STATE_608"
+	manpower = 1965889
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		6295 6296 6297 6298 6299 6300 6301 
+	}
+	local_supplies=0.0 
+}

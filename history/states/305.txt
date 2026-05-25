@@ -1,0 +1,37 @@
+
+state={
+	id=305
+	name="STATE_305"
+	manpower = 2823134
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=4
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 2
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		3017 3018 3019 3020 3021 3022 3023 3024 3025 
+	}
+	local_supplies=0.0 
+}

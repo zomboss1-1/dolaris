@@ -1,0 +1,40 @@
+
+state={
+	id=429
+	name="STATE_429"
+	manpower = 3646122
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 2
+			
+			4125 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		4118 4119 4120 4121 4122 4123 4124 4125 4126 4127 4128 
+	}
+	local_supplies=0.0 
+}

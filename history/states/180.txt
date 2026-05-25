@@ -1,0 +1,40 @@
+
+state={
+	id=180
+	name="STATE_180"
+	manpower = 2272963
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=13
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			1964 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		1963 1964 1965 1966 1967 1968 
+	}
+	local_supplies=0.0 
+}

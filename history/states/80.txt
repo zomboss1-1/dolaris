@@ -1,0 +1,37 @@
+
+state={
+	id=80
+	name="STATE_80"
+	manpower = 3132815
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=8
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		886 887 888 889 890 891 892 893 894 895 896 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=476
+	name="STATE_476"
+	manpower = 2632831
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=19
+		chromium=21
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		4593 4594 4595 4596 4597 4598 4599 4600 4601 4602 4603 4604 4605 4606 4607 4608 4609 
+	}
+	local_supplies=0.0 
+}

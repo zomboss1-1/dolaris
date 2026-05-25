@@ -1,0 +1,40 @@
+
+state={
+	id=809
+	name="STATE_809"
+	manpower = 1542006
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			8421 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		8421 8422 8423 8424 
+	}
+	local_supplies=0.0 
+}

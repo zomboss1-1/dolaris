@@ -1,0 +1,37 @@
+
+state={
+	id=115
+	name="STATE_115"
+	manpower = 4149617
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=1
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 2
+			
+			
+		}
+		
+	}
+
+	provinces={
+		1308 1309 1310 1311 1312 1313 1314 1315 1316 1317 1318 1319 1320 1321 
+	}
+	local_supplies=0.0 
+}

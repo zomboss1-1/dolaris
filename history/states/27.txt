@@ -1,0 +1,37 @@
+
+state={
+	id=27
+	name="STATE_27"
+	manpower = 3645261
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		
+	}
+
+	provinces={
+		325 326 327 328 329 330 331 332 333 334 335 336 337 338 
+	}
+	local_supplies=0.0 
+}

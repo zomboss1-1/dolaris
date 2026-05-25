@@ -1,0 +1,37 @@
+
+state={
+	id=280
+	name="STATE_280"
+	manpower = 2392112
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		2774 2775 2776 2777 2778 2779 2780 2781 2782 2783 2784 2785 2786 2787 
+	}
+	local_supplies=0.0 
+}

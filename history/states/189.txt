@@ -1,0 +1,37 @@
+
+state={
+	id=189
+	name="STATE_189"
+	manpower = 2568808
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		
+	}
+
+	provinces={
+		2024 2025 2026 2027 2028 2029 2030 2031 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=216
+	name="STATE_216"
+	manpower = 2101994
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			2277 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		2275 2276 2277 2278 2279 2280 
+	}
+	local_supplies=0.0 
+}

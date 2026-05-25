@@ -1,0 +1,40 @@
+
+state={
+	id=29
+	name="STATE_29"
+	manpower = 4746993
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 2
+			344 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		342 343 344 345 346 347 348 349 350 351 352 353 354 355 356 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=629
+	name="STATE_629"
+	manpower = 4601514
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=14
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			6451 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		6451 6452 6453 6454 6455 6456 6457 6458 6459 6460 6461 6462 6463 6464 6465 6466 6467 6468 6469 6470 6471 6472 6473 6474 
+	}
+	local_supplies=0.0 
+}

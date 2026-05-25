@@ -1,0 +1,40 @@
+
+state={
+	id=260
+	name="STATE_260"
+	manpower = 3693938
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=3
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 1
+			2625 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		2618 2619 2620 2621 2622 2623 2624 2625 2626 2627 2628 
+	}
+	local_supplies=0.0 
+}

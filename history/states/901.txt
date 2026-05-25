@@ -1,0 +1,40 @@
+
+state={
+	id=901
+	name="STATE_901"
+	manpower = 4838157
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=8
+		tungsten=0
+		coal=1
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			9819 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		9810 9811 9812 9813 9814 9815 9816 9817 9818 9819 9820 9821 9822 9823 9824 9825 9826 9827 9828 9829 9830 9831 9832 9833 9834 9835 
+	}
+	local_supplies=0.0 
+}

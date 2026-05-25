@@ -1,0 +1,37 @@
+
+state={
+	id=1041
+	name="STATE_1041"
+	manpower = 1954503
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		
+	}
+
+	provinces={
+		11395 11396 11397 11398 11399 11400 11401 11402 11403 
+	}
+	local_supplies=0.0 
+}

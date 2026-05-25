@@ -1,0 +1,40 @@
+
+state={
+	id=1137
+	name="STATE_1137"
+	manpower = 6426527
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=27
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=9
+		coal=3
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 2
+			12155 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		12140 12141 12142 12143 12144 12145 12146 12147 12148 12149 12150 12151 12152 12153 12154 12155 12156 12157 12158 12159 12160 12161 12162 12163 
+	}
+	local_supplies=0.0 
+}

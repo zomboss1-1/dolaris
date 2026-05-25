@@ -1,0 +1,40 @@
+
+state={
+	id=787
+	name="STATE_787"
+	manpower = 5690592
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=4
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			8220 = {
+				naval_base = 1
+			}
+			
+		}
+		
+	}
+
+	provinces={
+		8213 8214 8215 8216 8217 8218 8219 8220 8221 8222 8223 8224 8225 8226 8227 8228 8229 8230 8231 8232 8233 8234 8235 8236 8237 8238 8239 8240 
+	}
+	local_supplies=0.0 
+}

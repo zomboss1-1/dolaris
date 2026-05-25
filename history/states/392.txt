@@ -1,0 +1,37 @@
+
+state={
+	id=392
+	name="STATE_392"
+	manpower = 3424771
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		
+	}
+
+	provinces={
+		3826 3827 3828 3829 3830 3831 3832 3833 3834 3835 3836 
+	}
+	local_supplies=0.0 
+}
