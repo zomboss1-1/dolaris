@@ -1,4 +1,4 @@
-national_focus = {
+focus_tree = {
   id = arnor_focus_1900
   country = {
     factor = 1
