@@ -6,7 +6,7 @@ country_event = {
   title = ARL.1.t
   desc = ARL.1.d
   is_triggered_only = yes
-  fire_only_once = yea
+  fire_only_once = yes
 
   #AGGRESSIVE FOREIGN POLICY
   option = {
@@ -31,7 +31,7 @@ country_event = {
   title = ARL.2.t
   desc = ARL.2.d
   is_triggered_only = yes
-  fire_only_once = yea
+  fire_only_once = yes
 
   #TRADITION IS KEY
   option = {

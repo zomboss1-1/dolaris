@@ -1,13 +1,13 @@
 ideas = {
   country = {
     ARL_treaty_of_atland = {
-
+      picture = GFX_idea_treaty_of_atland
     }
     ARL_divided_nation = {
-
+      picture = GFX_idea_divided_nation
     }
     ARL_birthplace_of_goldism = {
-
+    
     }
   }
 }

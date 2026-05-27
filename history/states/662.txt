@@ -17,20 +17,17 @@ state={
 	}
 
 	history={
-		
-		
 		buildings = {
 			infrastructure = 2
-			
 			arms_factory = 1
 			industrial_complex = 0
 			
 			6812 = {
 				naval_base = 1
 			}
-			
 		}
-		
+		owner = ARL
+		add_core_of = ARL
 	}
 
 	provinces={

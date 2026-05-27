@@ -1,37 +1,37 @@
 national_focus = {
   id = arnor_focus_1900
   country = {
-    factor = 0
+    factor = 1
     modifier = {
-      original_tag = ARL
+      tag = ARL
       add = 100
     }
-    reset_on_civil_war = no
-    continuous_focus_position = { x = 1200 y = 100 }
-    initial_show_position = ARL_convene_the_kingdom
+  }
+  reset_on_civil_war = no
+  continuous_focus_position = { x = 1200 y = 100 }
+  initial_show_position = ARL_convene_the_kingdom
 
 #INTRO SUBBRANCH
-    focus = {
-      id = ARL_convene_the_kingdom
-      icon =  GFX_focus_ARL_convene_the_kingdom
-      x = 0
-      y = 0
-      cost = 1
-      completion_effect = {
-        country_event = { id = ARL.1 } 
-      }
+  focus = {
+    id = ARL_convene_the_kingdom
+    icon =  GFX_focus_ARL_convene_the_kingdom
+    x = 0
+    y = 0
+    cost = 1
+    completion_effect = {
+      country_event = { id = ARL.1 } 
     }
-    focus = {
-      id = ARL_address_the_elephant
-      icon =  GFX_focus_ARL_address_the_elephant
-      x = 0
-      y = 2
-      relative_position_id = ARL_convene_the_kingdom
-      prerequisite = { focus = ARL_convene_the_kingdom }
-      cost = 1
-      completion_effect = {
-        country_event = ARL.2
-      }
+  }
+  focus = {
+    id = ARL_address_the_elephant
+    icon =  GFX_focus_ARL_address_the_elephant
+    x = 0
+    y = 2
+    relative_position_id = ARL_convene_the_kingdom
+    prerequisite = { focus = ARL_convene_the_kingdom }
+    cost = 1
+    completion_effect = {
+      country_event = ARL.2
     }
   }
 }

@@ -1,11 +1,11 @@
 spriteTypes = {
     spriteType = {
         name = GFX_focus_ARL_convene_the_kingdom
-        texturefile = gfx/interface/national_focus_icons/GFX_focus_ARL_convene_the_kingdom.png   
+        texturefile = gfx/interface/national_focus/GFX_focus_ARL_convene_the_kingdom.png   
     }
     spriteType = {
         name = GFX_focus_ARL_convene_the_kingdom_shine 
-        texturefile = gfx/interface/goals/GFX_focus_ARL_convene_the_kingdom.png
+        texturefile = gfx/interface/national_focus/GFX_focus_ARL_convene_the_kingdom.png
         effectFile = gfx/FX/buttonstate.lua
         animation = {
             animationmaskfile = gfx/interface/national_focus/GFX_focus_ARL_convene_the_kingdom.png
@@ -34,12 +34,12 @@ spriteTypes = {
         legacy_lazy_load = no
     }
     spriteType = {
-        name = GFX_focus_ARL_convene_the_kingdom
-        texturefile = gfx/interface/national_focus_icons/GFX_focus_ARL_address_the_elephant.png   
+        name = GFX_focus_ARL_address_the_elephant
+        texturefile = gfx/interface/national_focus/GFX_focus_ARL_address_the_elephant.png   
     }
     spriteType = {
         name = GFX_focus_ARL_address_the_elephant_shine
-        texturefile = gfx/interface/goals/GFX_focus_ARL_address_the_elephant.png   
+        texturefile = gfx/interface/national_focus/GFX_focus_ARL_address_the_elephant.png   
         effectFile = gfx/FX/buttonstate.lua
         animation = {
             animationmaskfile = gfx/interface/national_focus/GFX_focus_ARL_address_the_elephant.png

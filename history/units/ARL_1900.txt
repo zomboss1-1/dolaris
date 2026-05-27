@@ -31,7 +31,7 @@ instant_effect = {
   }
   add_equipment_production = {
      equipment = {
-	      type = artillery_0
+	      type = artillery_equipment_1
 	      creator = "ARL"
   	}
 	  requested_factories = 1

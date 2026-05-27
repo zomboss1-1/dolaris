@@ -8,7 +8,7 @@ bookmarks = {
       history = 1900_BETWEEN_TWO_GIANTS_HISTORY
     }
     effect = {
-      randomize_weather = 55799
+      randomize_weather = 22345
     }
     default = yes
     default_country = ARL
@@ -20,7 +20,9 @@ bookmarks = {
 
       }
       ideas = {
-
+        ARL_treaty_of_atland
+        ARL_divided_nation
+        ARL_birthplace_of_goldism
       }
     }
     ATL = {

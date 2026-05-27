@@ -1,2 +1,2 @@
-ATL = "countris/Atlantis.txt"
-ARL = "countris/Arnor_Londo.txt"
+ATL = "countries/Atlantis.txt"
+ARL = "countries/Arnor_Londo.txt"
