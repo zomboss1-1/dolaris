@@ -33,4 +33,16 @@ focus_tree = {
       country_event = ARL.2
     }
   }
+  focus = {
+    id = ARL_tradition_is_key
+    #icon =  GFX_focus_ARL_
+    cost = 1
+    x = -50
+    y = 2
+    available = { always = no }
+    allow_branch = { has_completed_focus = ARL_tradition_is_key }
+    completion_reward = {
+      
+    }
+  }
 }
