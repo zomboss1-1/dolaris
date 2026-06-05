@@ -1,21 +1,21 @@
 ﻿l_english:
  anarchism:0 "Anarchist"
  anarchism_noun:0 "Anarchism"
- anarchism_desc:0 "PLACEHOLDER"
- collective_anarchism:0 "Collective Anarchism"
- collective_anarchism_desc:0 "PLACEHOLDER"
+ anarchism_desc:0 "Anarchism is a form of governance that is led by the population of a territory, and seeks to get rid of any forms of institutions that allow an authority to control the people of the state. Anarchism is widely shunned, banned, or persecuted around the globe.“
+ collective_anarchism:0 "Collective Anarchism
+ collective_anarchism_desc:0 "The followers of Collective Anarchism believe that everyone in the state should own the means of production and that the worker should be able to enjoy the results of their own labor. This is usually ensured by collective groups such as trade unions."
  individual_anarchism:0 "Individual Anarchism"
- individual_anarchism_desc:0 "PLACEHOLDER"
+ individual_anarchism_desc:0 "Individual Anarchism puts the emphasis on a person's ability to govern themselves above the bounds of social rules, systems, and norms. This does not necessarily mean that a person doesn’t work with others, but rather works with others in pursuit of their own self-interest. It is believed that a form of natural selection based on responsibility, integrity, and morals is the key to keeping this system stable."
  disorganized_anarchism:0 "Disorganized Anarchism"
- disorgnized_anarchism_desc:0 "PLACEHOLDER"
+ disorgnized_anarchism_desc:0 "Also known as lawlessness, this form of Anarchism emerges when the worst has happened. There is no social order, violence and criminal activity are a staple, and the state ceases to exist. Order and chaos reign, and any person would be hard pressed to reform the state, with or without force."
  
  monarchism:0 "Monarchy"
  monarchism_noun:0 "Monarchism"
- monarchism_desc:0 "PLACEHOLDER"
+ monarchism_desc:0 "Monarchism is a system founded on the belief that a monarch is the head of the nation, and that the monarch supports the system of governance. Not to be confused with a dictatorship, the stability of a monarchy is founded in the satisfaction of the people rather than the control over the population, and the monarch comes to power through an established system rather than a seizure of the government."
  absolute_monarchy:0 "Absolute Monarchism"
- absolute_monarchy_desc:0 "PLACEHOLDER"
+ absolute_monarchy_desc:0 "The monarch has absolute power over the state. However, they are still bound to the wants and needs of the people. A new monarch is chosen through a pre-established system, such as bloodlines or a council."
  constitutional_monarchy:0 "Constitutional Monarchism"
- constitutional_monarchy_desc:0 "PLACEHOLDER"
+ constitutional_monarchy_desc:0 "The monarch is bound by a constitution limiting their power. Often there is a democratic council associated with the constitution, making changes as needed and keeping the power of the monarch in check."
 
  ARL_monarchism_party:0 "The Golden Kingdom"
  ARL_democracy_party:0 "Party for the Free Thinking People's of Arnor Londo"
@@ -23,4 +23,3 @@
  ARL_neutrality_party:0 "Confederated Union of Arnorian Peoples"
  ARL_communism_party:0 "Organized Collective of Workers Unions"
  ARL_anarchism_party:0 "The Arnorian Commune"
- 
