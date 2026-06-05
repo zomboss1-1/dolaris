@@ -12,16 +12,19 @@ country_event = {
   option = {
     name = ARL.1.a
     complete_focus = ARL_make_our_stand
+    mark_focus_tree_layout_dirty = yes
   }
   #MODERATE FOREIGN POLICY
   option = {
     name = ARL.1.b
     complete_focus = ARL_our_words_have_power
+    mark_focus_tree_layout_dirty = yes
   }
   #DIPLOMACY ALWAYS WINS
   option = {
     name = ARL.1.c
     complete_focus = ARL_diplomacy_always_wins
+    mark_focus_tree_layout_dirty = yes
   }
 }
 
@@ -36,16 +39,19 @@ country_event = {
   #TRADITION IS KEY
   option = {
     name = ARL.2.a
-    complete_focus = ARL_tradition_is_kay
+    complete_focus = ARL_tradition_is_key
+    mark_focus_tree_layout_dirty = yes
   }
   #NATIONALIST REFORM
   option = {
     name = ARL.2.b
     complete_focus = ARL_a_nationalist_reform
+    mark_focus_tree_layout_dirty = yes
   }
   #LIBERAL REFORM
   option = {
     name = ARL.2.c
     complete_focus = ARL_liberal_reform
+    mark_focus_tree_layout_dirty = yes
   }
 }
