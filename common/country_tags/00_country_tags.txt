@@ -1,2 +1,37 @@
 ATL = "countries/Atlantis.txt"
 ARL = "countries/Arnor_Londo.txt"
+KIJ = “countries/Kiji.txt”
+BEL = “countries/Belejan.txt”
+ALO = “countries/Aloria.txt”
+TRN = “countries/Thernva.txt”
+TIB = “countries/Tihobia.txt”
+CTU = “countries/Central_Tarsian_Union.txt”
+GSH = “countries/Greater_Shande.txt”
+SSH = “countries/South_Shande.txt”
+NSH = “countries/North_Shande.txt”
+MSH = “countries/Shande_Minor.txt”
+LIL = “countries/Liland.txt”
+ALN = “countries/Allonia.txt”
+AIO = “countries/Aion.txt”
+CRE = “countries/Cresinia.txt”
+ARO = “countries/Arondia.txt”
+GLO = “countries/Glorinda.txt”
+XXA = “countries/Placeholder1.txt”
+XXB = “countries/Placeholder2.txt”
+XXC = “countries/Placeholder3.txt”
+XXD = “countries/Placeholder4.txt”
+XXE = “countries/Placeholder5.txt”
+XXF = “countries/Placeholder6.txt”
+XXG = “countries/Placeholder7.txt”
+XXH = “countries/Placeholder8.txt”
+XXI = “countries/Placeholder9.txt”
+XXJ = “countries/Placeholder10.txt”
+XXK = “countries/Placeholder11.txt”
+XXL = “countries/Placeholder12.txt”
+XXM = “countries/Placeholder13.txt”
+XXN = “countries/Placeholder14.txt”
+XXO = “countries/Placeholder15.txt”
+XXP = “countries/Placeholder16.txt”
+XXQ = “countries/Placeholder17.txt”
+
+
