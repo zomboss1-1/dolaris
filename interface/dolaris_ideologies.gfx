@@ -11,4 +11,16 @@ spriteTypes = {
     name = GFX_ideology_constitutional_monarchism
     texturefile = gfx/interface/ideologies/Constitutional_Monarchism.png
   }
+  spriteType = {
+    name = GFX_ideology_collective_anarchism
+    texturefile = gfx/interface/ideologies/Collective_Anarchism.png
+  }
+  spriteType = {
+    name = GFX_ideology_disorganized_anarchism
+    texturefile = gfx/interface/ideologies/Disorganized_Anarchism.png
+  }
+  spriteType = {
+    name = GFX_ideology_individual_anarchism
+    texturefile = gfx/interface/ideologies/Individualist_Anarchism.png
+  }
 }
