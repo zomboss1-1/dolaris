@@ -1,7 +1,7 @@
 ﻿l_english:
  anarchism:0 "Anarchist"
  anarchism_noun:0 "Anarchism"
- anarchism_desc:0 "Anarchism is a form of governance that is led by the population of a territory, and seeks to get rid of any forms of institutions that allow an authority to control the people of the state. Anarchism is widely shunned, banned, or persecuted around the globe.“
+ anarchism_desc:0 "Anarchist state“
  collective_anarchism:0 "Collective Anarchism
  collective_anarchism_desc:0 "The followers of Collective Anarchism believe that everyone in the state should own the means of production and that the worker should be able to enjoy the results of their own labor. This is usually ensured by collective groups such as trade unions."
  individual_anarchism:0 "Individual Anarchism"
@@ -11,7 +11,7 @@
  
  monarchism:0 "Monarchy"
  monarchism_noun:0 "Monarchism"
- monarchism_desc:0 "Monarchism is a system founded on the belief that a monarch is the head of the nation, and that the monarch supports the system of governance. Not to be confused with a dictatorship, the stability of a monarchy is founded in the satisfaction of the people rather than the control over the population, and the monarch comes to power through an established system rather than a seizure of the government."
+ monarchism_desc:0 "Monarchist regime"
  absolute_monarchy:0 "Absolute Monarchism"
  absolute_monarchy_desc:0 "The monarch has absolute power over the state. However, they are still bound to the wants and needs of the people. A new monarch is chosen through a pre-established system, such as bloodlines or a council."
  constitutional_monarchy:0 "Constitutional Monarchism"
