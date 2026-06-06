@@ -47,7 +47,7 @@ ideologies = {
       
       }
     }
-    #ai_monarchism = yes
+    ai_neutrality = yes
   }
 anarchism = {
     types = {
