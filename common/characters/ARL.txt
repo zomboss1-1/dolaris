@@ -3,7 +3,7 @@ characters = {
     name = ARL_andrej_ciernik
     portraits = {
       civilian = {
-        large = "GFX_portrait_ARL_andrej_ciernik"
+        large = "GFX_ARL_andrej_ciernik"
       }
     }
     country_leader = {
