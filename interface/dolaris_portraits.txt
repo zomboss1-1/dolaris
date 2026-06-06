@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_ARL_andrej_ciernik
+        texturefile = gfx/interface/portraits/ARL/ARL_andrej_ciernik.png
+    }
+}
