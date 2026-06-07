@@ -8,14 +8,14 @@ focus_tree = {
     }
   }
   reset_on_civilwar = no
-  continuous_focus_position = { x = -1200 y = 100 }
+  continuous_focus_position = { x = -2200 y = 100 }
   initial_show_position = { focus = ARL_convene_the_kingdom }
 
   focus = {
     id = ARL_convene_the_kingdom
     icon =  GFX_focus_ARL_convene_the_kingdom
     cost = 1
-    x = 6
+    x = 0
     y = 0
     completion_reward = {
       country_event = ARL.1
@@ -26,7 +26,7 @@ focus_tree = {
     icon =  GFX_focus_ARL_address_the_elephant
     cost = 1
     x = 0
-    y = 2
+    y = 1
     relative_position_id = ARL_convene_the_kingdom
     prerequisite = { focus = ARL_convene_the_kingdom }
     completion_reward = {
@@ -37,10 +37,519 @@ focus_tree = {
     id = ARL_tradition_is_key
     #icon =  GFX_focus_ARL_
     cost = 1
-    x = -50
-    y = 2
+    x = -3
+    y = 1
     available = { always = no }
-    allow_branch = { has_completed_focus = ARL_tradition_is_key }
+    allow_branch = { 
+      has_completed_focus = ARL_tradition_is_key 
+    }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_terrances_word_is_law
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 0
+    y = 1
+    relative_position_id = ARL_tradition_is_key
+    prerequisite = { focus = ARL_tradition_is_key }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_rebuilding_our_holy_sites
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 0
+    y = 1
+    relative_position_id = ARL_terrances_word_is_law
+    prerequisite = { focus = ARL_terrances_word_is_law }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_the_fake_defendants
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 0
+    y = 1
+    relative_position_id = ARL_rebuilding_our_holy_sites
+    prerequisite = { focus = ARL_rebuilding_our_holy_sites }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_purge_the_herasy
+    #icon =  GFX_focus_ARL_
+    cost = 5
+    x = 0
+    y = 1
+    relative_position_id = ARL_the_fake_defendants
+    prerequisite = { focus = ARL_the_fake_defendants }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_mandate_traditional_goldism
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 0
+    y = 1
+    relative_position_id = ARL_purge_the_herasy
+    prerequisite = { focus = ARL_purge_the_herasy }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_address_the_bombing
+    #icon =  GFX_focus_ARL_
+    cost = 0.5
+    x = 0
+    y = 1
+    relative_position_id = ARL_mandate_traditional_goldism
+    prerequisite = { focus = ARL_mandate_traditional_goldism }
+    allow_branch = {
+      has_country_flag = ARL_goldism_bombing_occured_cf
+    }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_launch_an_investigation
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = -2
+    y = 1
+    relative_position_id = ARL_address_the_bombing
+    prerequisite = { focus = ARL_address_the_bombing }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_demonize_the_bombers
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 0
+    y = 1
+    relative_position_id = ARL_launch_an_investigation
+    prerequisite = { focus = ARL_launch_an_investigation }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_arrest_known_elements
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 2
+    y = 1
+    relative_position_id = ARL_address_the_bombing
+    prerequisite = { focus = ARL_address_the_bombing }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_raid_the_meetings
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 0
+    y = 1
+    relative_position_id = ARL_arrest_known_elements
+    prerequisite = { focus = ARL_arrest_known_elements }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_trial_and_justice
+    #icon =  GFX_focus_ARL_
+    cost = 1
+    x = 2
+    y = 1
+    relative_position_id = ARL_demonize_the_bombers
+    prerequisite = { focus = ARL_demonize_the_bombers }
+    prerequisite = { focus = ARL_raid_the_meetings }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_start_the_education_reforms
+    #icon =  GFX_focus_ARL_
+    cost = 1
+    x = -4
+    y = 1
+    relative_position_id = ARL_terrances_word_is_law
+    prerequisite = { focus = ARL_terrances_word_is_law }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_found_the_school_of_education
+    #icon =  GFX_focus_ARL_
+    cost = 5
+    x = 0
+    y = 1
+    relative_position_id = ARL_start_the_education_reforms
+    prerequisite = { focus = ARL_start_the_education_reforms }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_start_training_government_endorsed_teachers
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 0
+    y = 1
+    relative_position_id = ARL_found_the_school_of_education
+    prerequisite = { focus = ARL_found_the_school_of_education }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_require_government_issued_teaching_liscences
+    #icon =  GFX_focus_ARL_
+    cost = 1
+    x = 0
+    y = 1
+    relative_position_id = ARL_start_the_education_reforms
+    prerequisite = { focus = ARL_start_the_education_reforms }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_remake_the_curriculum
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 0
+    y = 1
+    relative_position_id = ARL_require_government_issued_teaching_liscences
+    prerequisite = { focus = ARL_require_government_issued_teaching_liscences }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_mandate_government_endorsed_schooling
+    #icon =  GFX_focus_ARL_
+    cost = 1
+    x = 0
+    y = 1
+    relative_position_id = ARL_remake_the_curriculum
+    prerequisite = { focus = ARL_remake_the_curriculum }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_the_best_for_our_future_generations
+    #icon =  GFX_focus_ARL_
+    cost = 1
+    x = 0
+    y = 4
+    relative_position_id = ARL_mandate_government_endorsed_schooling
+    prerequisite = { focus = ARL_mandate_government_endorsed_schooling }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_strengthen_domestic_intelligence
+    #icon =  GFX_focus_ARL_
+    cost = 5
+    x = 6
+    y = 1
+    relative_position_id = ARL_terrances_word_is_law
+    prerequisite = { focus = ARL_terrances_word_is_law }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_the_constitutional_front
+    #icon =  GFX_focus_ARL_
+    cost = 1
+    x = 0
+    y = 1
+    relative_position_id = ARL_strengthen_domestic_intelligence
+    prerequisite = { focus = ARL_strengthen_domestic_intelligence }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_denounce_the_atlantian_loving_freaks
+    #icon =  GFX_focus_ARL_
+    cost = 1
+    x = 0
+    y = 1
+    relative_position_id = ARL_the_constitutional_front
+    prerequisite = { focus = ARL_the_constitutional_front }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_kick_down_the_doors
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 0
+    y = 1
+    relative_position_id = ARL_denounce_the_atlantian_loving_freaks
+    prerequisite = { focus = ARL_denounce_the_atlantian_loving_freaks }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_the_nationalist_front
+    #icon =  GFX_focus_ARL_
+    cost = 1
+    x = -2
+    y = 1
+    relative_position_id = ARL_strengthen_domestic_intelligence
+    prerequisite = { focus = ARL_strengthen_domestic_intelligence }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_legalize_government_endorsed_militias
+    #icon =  GFX_focus_ARL_
+    cost = 1
+    x = 0
+    y = 1
+    relative_position_id = ARL_the_nationalist_front
+    prerequisite = { focus = ARL_the_nationalist_front}
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_hunt_the_illegal_militias
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 0
+    y = 1
+    relative_position_id = ARL_legalize_government_endorsed_militias
+    prerequisite = { focus = ARL_legalize_government_endorsed_militias }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_the_socialist_front
+    #icon =  GFX_focus_ARL_
+    cost = 1
+    x = 2
+    y = 1
+    relative_position_id = ARL_strengthen_domestic_intelligence
+    prerequisite = { focus = ARL_strengthen_domestic_intelligence }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_ban_unions
+    #icon =  GFX_focus_ARL_
+    cost = 1
+    x = 0
+    y = 1
+    relative_position_id = ARL_the_socialist_front
+    prerequisite = { focus = ARL_the_socialist_front }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_the_union_busters
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 0
+    y = 1
+    relative_position_id = ARL_ban_unions
+    prerequisite = { focus = ARL_ban_unions }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_the_trial_before_the_watchers
+    #icon =  GFX_focus_ARL_
+    cost = 1
+    x = 0
+    y = 4
+    relative_position_id = ARL_kick_down_the_doors
+    prerequisite = { focus = ARL_hunt_the_illegal_militias }
+    prerequisite = { focus = ARL_kick_down_the_doors}
+    prerequisite = { focus = ARL_the_union_busters }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_the_corporate_menace
+    #icon =  GFX_focus_ARL_
+    cost = 1
+    x = -9
+    y = 1
+    relative_position_id = ARL_terrances_word_is_law
+    prerequisite = { focus = ARL_terrances_word_is_law }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_cast_out_greed
+    #icon =  GFX_focus_ARL_
+    cost = 5
+    x = 0
+    y = 1
+    relative_position_id = ARL_the_corporate_menace
+    prerequisite = { focus = ARL_the_corporate_menace }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_laziness_empowers_chaos
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 0
+    y = 1
+    relative_position_id = ARL_cast_out_greed
+    prerequisite = { focus = ARL_cast_out_greed }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_nationalize_capital
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 0
+    y = 1
+    relative_position_id = ARL_laziness_empowers_chaos
+    prerequisite = { focus = ARL_laziness_empowers_chaos }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_expel_foreign_companies
+    #icon =  GFX_focus_ARL_
+    cost = 5
+    x = 0
+    y = 1
+    relative_position_id = ARL_nationalize_capital
+    prerequisite = { focus = ARL_nationalize_capital }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_made_by_arnorians_for_arnorians
+    #icon =  GFX_focus_ARL_
+    cost = 5
+    x = -2
+    y = 1
+    relative_position_id = ARL_expel_foreign_companies
+    prerequisite = { focus = ARL_expel_foreign_companies }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_this_land_is_our_land
+    #icon =  GFX_focus_ARL_
+    cost = 5
+    x = 0
+    y = 1
+    relative_position_id = ARL_expel_foreign_companies
+    prerequisite = { focus = ARL_expel_foreign_companies }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_take_back_arnorian_rescources
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 2
+    y = 1
+    relative_position_id = ARL_expel_foreign_companies
+    prerequisite = { focus = ARL_expel_foreign_companies }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_absorb_the_corporation
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 1
+    y = 1
+    relative_position_id = ARL_made_by_arnorians_for_arnorians
+    prerequisite = { focus = ARL_made_by_arnorians_for_arnorians }
+    prerequisite = { focus = ARL_this_land_is_our_land }
+    prerequisite = { focus = ARL_take_back_arnorian_rescources }
+    mutually_exclusive = { focus = ARL_the_corporate_tax }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_the_corporate_tax
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 1
+    y = 1
+    relative_position_id = ARL_this_land_is_our_land
+    prerequisite = { focus = ARL_made_by_arnorians_for_arnorians }
+    prerequisite = { focus = ARL_this_land_is_our_land }
+    prerequisite = { focus = ARL_take_back_arnorian_rescources }
+    mutually_exclusive = { focus = ARL_absorb_the_corporation }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_the_menace_ended
+    #icon =  GFX_focus_ARL_
+    cost = 1
+    x = 1
+    y = 1
+    relative_position_id = ARL_absorb_the_corporation
+    prerequisite = { focus = ARL_absorb_the_corporation focus = ARL_the_corporate_tax }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_arnor_born_anew
+    #icon =  GFX_focus_ARL_
+    cost = 1
+    x = 0
+    y = 1
+    relative_position_id = ARL_trial_and_justice
+    prerequisite = { focus = ARL_the_menace_ended }
+    prerequisite = { focus = ARL_the_best_for_our_future_generations }
+    prerequisite = { focus = ARL_trial_and_justice }
+    prerequisite = { focus = ARL_the_trial_before_the_watchers }
     completion_reward = {
       
     }
