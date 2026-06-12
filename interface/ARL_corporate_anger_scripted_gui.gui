@@ -1,0 +1,28 @@
+guiTypes = {
+  containerWindowType = {
+    name = "ARL_corporate_anger_scripted_gui"
+    size = { width = 500 height = 500 }
+
+    instantTextboxType = {
+      name = "ARL_corporate_anger_control"
+      position = { x = 20 y = 50 }
+      format = "LEFT"
+      font = "hoi4_typewriter16"
+      text = "ARL_corporate_anger_control_text"
+      maxWidth = 36
+      maxHeight = 24
+      pdx_tooltip = "ARL_corporate_anger_control_tt"
+    }
+
+    instantTextboxType = {
+      name = "ARL_corporate_anger_anger"
+      position = { x = 20 y = 100 }
+      format = "LEFT"
+      font = "hoi4_typewriter16"
+      text = "ARL_corporate_anger_anger_text"
+      maxWidth = 36
+      maxHeight = 24
+      pdx_tooltip = "ARL_corporate_anger_anger_tt"
+    }
+  }
+}
