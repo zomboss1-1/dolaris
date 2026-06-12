@@ -1,5 +1,5 @@
 leader_traits = {
-  king_of_kings = {
+  ARL_king_of_kings = {
     random = no
     sprite = 1
     stability_factor = 0.10
