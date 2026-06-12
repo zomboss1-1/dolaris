@@ -8,7 +8,7 @@ characters = {
     }
     country_leader = {
       ideology = absolute_monarchy
-      traits = { king_of_kings }
+      traits = { ARL_king_of_kings }
       desc = ARL_andrej_ciernik_desc
     }
   }
