@@ -1,0 +1,6 @@
+on_actions = {
+  on_startup = {
+    set_variable = { ARL_government_control_var = 3 }
+    set_variable = { ARL_corporate_anger_var = 1 }
+  }
+}
