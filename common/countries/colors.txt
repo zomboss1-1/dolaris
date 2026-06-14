@@ -2,3 +2,7 @@ ARL = {
 	color = rgb { 235 207 62 }
 	color_ui = rgb { 235 207 62 }
 }
+ATL = {
+	color = rgb { 34 34 207 }
+	color_ui = rgb { 34 34 207 }
+}
