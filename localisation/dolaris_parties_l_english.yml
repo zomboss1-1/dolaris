@@ -23,3 +23,10 @@
  ARL_neutrality_party:0 "Confederated Union of Arnorian Peoples"
  ARL_communism_party:0 "Organized Collective of Workers Unions"
  ARL_anarchism_party:0 "The Arnorian Commune"
+
+ ATL_monarchism_party:0 "Kings Party"
+ ATL_democracy_party:0 "Capital Democrats of Atlantis"
+ ATL_fascism_party:0 "Nationalists of Atlantis"
+ ATL_neutrality_party:0 "Atlantian Union"
+ ATL_communism_party:0 "Atlantian Workers Party"
+ ATL_anarchism_party:0 "Atlantis Anarchist Party"
