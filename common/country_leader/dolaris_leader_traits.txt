@@ -6,4 +6,11 @@ leader_traits = {
     political_power_factor = 0.05
     opinion_gain_monthly_same_ideology_factor = 0.10
   }
+  industrial_baron = {
+    random = no
+    sprite = 1
+    production_speed_buildings_factor = 0.10
+    industrial_capacity_factory = 0.05
+    production_factory_max_efficiency_factor = 0.05
+  }
 }
