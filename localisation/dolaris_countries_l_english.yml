@@ -1,4 +1,5 @@
 ﻿l_english:
+ 
  ARL:0 "Arnor Londo"
  ARL_def:0 "Arnor Londo"
  ARL_adj:0 "Arnorian"
@@ -8,3 +9,13 @@
  ARL_democratic_def:0 "the Republic of Arnor Londo"
  ARL_anarchism:0 "Communal Territories of Arnor Londo"
  ARL_anarchism_def:0 "the Communal Territories of Arnor Londo"
+
+ ATL:0 "Atlantis"
+ ATL_def:0 "Atlantis"
+ ATL_adj:0 "Atlantian"
+ ATL_monarchism:0 "Kingdom of Atlantis"
+ ATL_monarchism_def:0 "the Kingdom of Atlantis"
+ ATL_democrtic:0 "Atlantis"
+ ATL_democratic_def:0 "Atlantis"
+ ATL_anarchism:0 "Anarchist State of Atlantis"
+ ATL_anarchism_def:0 "the Anarchist State of Atlantis"
