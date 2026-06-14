@@ -1,0 +1,15 @@
+characters = {
+  ATL_akilla_pretense = {
+    name = ATL_akilla_pretense
+    portraits = {
+      civilian = {
+        large = "GFX_ATL_akilla_pretense"
+      }
+    }
+    country_leader = {
+      ideology = conservatism
+      traits = { industrial_baron }
+      desc = ATL_akilla_pretense_desc
+    }
+  }
+}
