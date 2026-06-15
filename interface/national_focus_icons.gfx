@@ -7,4 +7,8 @@ spriteTypes = {
     name = GFX_focus_ARL_address_the_elephant
     texturefile = gfx/interface/national_focus/GFX_focus_ARL_address_the_elephant.png
   }
+  spriteType = {
+    name = GFX_focus_ARL_tradition_is_key
+    texturefile = gfx/interface/national_focus/Tradition_is_Key.png
+  }
 }
