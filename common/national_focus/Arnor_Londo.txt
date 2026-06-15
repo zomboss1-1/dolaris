@@ -35,7 +35,7 @@ focus_tree = {
   }
   focus = {
     id = ARL_tradition_is_key
-    #icon =  GFX_focus_ARL_
+    icon =  ARL_tradition_is_key
     cost = 1
     x = -3
     y = 1
