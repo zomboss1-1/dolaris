@@ -617,121 +617,121 @@ focus_tree = {
     }
   }
   focus = {
-    id = ARL_
+    id = ARL_arnorian_economic_sphere
     #icon = GFX_focus_ARL_
-    cost = 
-    x = 
-    y = 
-    relative_position_id = 
-    prerequisite = { focus = ARL_ }
+    cost = 3
+    x = 3
+    y = 2
+    relative_position_id = ARL_moderate_foreign_policy
+    prerequisite = { focus = ARL_moderate_foreign_policy_ }
     completion_reward = {
 
     }
   }
   focus = {
-    id = ARL_
+    id = ARL_joint_funding
     #icon = GFX_focus_ARL_
-    cost = 
-    x = 
-    y = 
-    relative_position_id = 
-    prerequisite = { focus = ARL_ }
+    cost = 6
+    x = 3
+    y = 2
+    relative_position_id = ARL_arnorian_economic_sphere
+    prerequisite = { focus = ARL_arnorian_economic_sphere }
     completion_reward = {
 
     }
   }
   focus = {
-    id = ARL_
+    id = ARL_mandate_internal_trade
     #icon = GFX_focus_ARL_
-    cost = 
-    x = 
-    y = 
-    relative_position_id = 
-    prerequisite = { focus = ARL_ }
+    cost = 6
+    x = 0
+    y = 2
+    relative_position_id = ARL_joint_funding
+    prerequisite = { focus = ARL_joint_funding }
     completion_reward = {
 
     }
   }
   focus = {
-    id = ARL_
+    id = ARL_joint_research
     #icon = GFX_focus_ARL_
-    cost = 
-    x = 
-    y = 
-    relative_position_id = 
-    prerequisite = { focus = ARL_ }
+    cost = 8
+    x = 0
+    y = 2
+    relative_position_id = ARL_mandate_internal_trade
+    prerequisite = { focus = ARL_mandate_internal_trade }
     completion_reward = {
 
     }
   }
   focus = {
-    id = ARL_
+    id = ARL_the_silent_war
     #icon = GFX_focus_ARL_
-    cost = 
-    x = 
-    y = 
-    relative_position_id = 
-    prerequisite = { focus = ARL_ }
+    cost = 2
+    x = 0
+    y = 4
+    relative_position_id = ARL_moderate_foreign_policy
+    prerequisite = { focus = ARL_moderate_foreign_policy }
     completion_reward = {
 
     }
   }
   focus = {
-    id = ARL_
+    id = ARL_Arias_blossom
     #icon = GFX_focus_ARL_
-    cost = 
-    x = 
-    y = 
-    relative_position_id = 
-    prerequisite = { focus = ARL_ }
+    cost = 3
+    x = -2
+    y = 2
+    relative_position_id = ARL_the_silent_war
+    prerequisite = { focus = ARL_the_silent_war }
     completion_reward = {
 
     }
   }
   focus = {
-    id = ARL_
+    id = ARL_the_shande_question
     #icon = GFX_focus_ARL_
-    cost = 
-    x = 
-    y = 
-    relative_position_id = 
-    prerequisite = { focus = ARL_ }
+    cost = 3
+    x = -1
+    y = 4
+    relative_position_id = ARL_the_silent_war
+    prerequisite = { focus = ARL_the_silent_war }
     completion_reward = {
 
     }
   }
   focus = {
-    id = ARL_
+    id = ARL_extend_a_hand_to_our_friends
     #icon = GFX_focus_ARL_
-    cost = 
-    x = 
-    y = 
-    relative_position_id = 
-    prerequisite = { focus = ARL_ }
+    cost = 3
+    x = 0
+    y = 2
+    relative_position_id = ARL_the_silent_war
+    prerequisite = { focus = ARL_the_silent_war }
     completion_reward = {
 
     }
   }
   focus = {
-    id = ARL_
+    id = ARL_the_lilish_problem
     #icon = GFX_focus_ARL_
-    cost = 
-    x = 
-    y = 
-    relative_position_id = 
-    prerequisite = { focus = ARL_ }
+    cost = 3
+    x = 1
+    y = 4
+    relative_position_id = ARL_the_silent_war
+    prerequisite = { focus = ARL_the_silent_war }
     completion_reward = {
 
     }
   }
   focus = {
-    id = ARL_
+    id = ARL_glorindas_gamble
     #icon = GFX_focus_ARL_
-    cost = 
-    x = 
-    y = 
-    relative_position_id = 
-    prerequisite = { focus = ARL_ }
+    cost = 3
+    x = 2
+    y = 2
+    relative_position_id = ARL_the_silent_war
+    prerequisite = { focus = ARL_the_silent_war }
     completion_reward = {
 
     }
