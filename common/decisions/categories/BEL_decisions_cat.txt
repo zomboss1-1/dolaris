@@ -1,0 +1,16 @@
+belejan_civil_war_cat = {
+  #picture = GFX_
+  icon = {
+    #GFX_
+  }
+  allowed = {
+    original_tag = BEL
+  }
+  visible = {
+    date > 1907.03.01.12
+  }
+  priority = {
+    base = 50
+  }
+  visible_when_empty = yes
+}
