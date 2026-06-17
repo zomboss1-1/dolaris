@@ -3,8 +3,8 @@ scripted_gui ={
     window_name = "ARL_corporate_anger_scripted_gui_window"
     context_type = decision_category
 
-    triggers = {
-      has_country_flag = ARL_corporate_anger_active_cf
+    visible = {
+      always = yes
     }
   }
 }
