@@ -555,4 +555,185 @@ focus_tree = {
       
     }
   }
+  focus = {
+    id = ARL_moderate_foreign_policy
+    #icon = GFX_focus_ARL_
+    cost = 0
+    x = 15
+    y = 1
+    available = {
+      always = no
+    }
+    completion_reward = {
+
+    }
+  }
+  focus = {
+    id = ARL_cresinian_development
+    #icon = GFX_focus_ARL_
+    cost = 3
+    x = -3
+    y = 2
+    relative_position_id = ARL_moderate_foreign_policy
+    prerequisite = { focus = ARL_moderate_foreign_policy }
+    completion_reward = {
+
+    }
+  }
+  focus = {
+    id = ARL_arnorcresinian_railway
+    #icon = GFX_focus_ARL_
+    cost = 6
+    x = -3
+    y = 2
+    relative_position_id = ARL_cresinian_development
+    prerequisite = { focus = ARL_cresinian_development }
+    completion_reward = {
+
+    }
+  }
+  focus = {
+    id = ARL_improve_cresinian_logistics
+    #icon = GFX_focus_ARL_
+    cost = 6
+    x = 0
+    y = 2
+    relative_position_id = ARL_arnorcresinian_railway
+    prerequisite = { focus = ARL_arnorcresinian_railway }
+    completion_reward = {
+
+    }
+  }
+  focus = {
+    id = ARL_fortify_kijan_frontier
+    #icon = GFX_focus_ARL_
+    cost = 8
+    x = 0
+    y = 2
+    relative_position_id = ARL_improve_cresinian_logistics
+    prerequisite = { focus = ARL_improve_cresinian_logistics }
+    completion_reward = {
+
+    }
+  }
+  focus = {
+    id = ARL_
+    #icon = GFX_focus_ARL_
+    cost = 
+    x = 
+    y = 
+    relative_position_id = 
+    prerequisite = { focus = ARL_ }
+    completion_reward = {
+
+    }
+  }
+  focus = {
+    id = ARL_
+    #icon = GFX_focus_ARL_
+    cost = 
+    x = 
+    y = 
+    relative_position_id = 
+    prerequisite = { focus = ARL_ }
+    completion_reward = {
+
+    }
+  }
+  focus = {
+    id = ARL_
+    #icon = GFX_focus_ARL_
+    cost = 
+    x = 
+    y = 
+    relative_position_id = 
+    prerequisite = { focus = ARL_ }
+    completion_reward = {
+
+    }
+  }
+  focus = {
+    id = ARL_
+    #icon = GFX_focus_ARL_
+    cost = 
+    x = 
+    y = 
+    relative_position_id = 
+    prerequisite = { focus = ARL_ }
+    completion_reward = {
+
+    }
+  }
+  focus = {
+    id = ARL_
+    #icon = GFX_focus_ARL_
+    cost = 
+    x = 
+    y = 
+    relative_position_id = 
+    prerequisite = { focus = ARL_ }
+    completion_reward = {
+
+    }
+  }
+  focus = {
+    id = ARL_
+    #icon = GFX_focus_ARL_
+    cost = 
+    x = 
+    y = 
+    relative_position_id = 
+    prerequisite = { focus = ARL_ }
+    completion_reward = {
+
+    }
+  }
+  focus = {
+    id = ARL_
+    #icon = GFX_focus_ARL_
+    cost = 
+    x = 
+    y = 
+    relative_position_id = 
+    prerequisite = { focus = ARL_ }
+    completion_reward = {
+
+    }
+  }
+  focus = {
+    id = ARL_
+    #icon = GFX_focus_ARL_
+    cost = 
+    x = 
+    y = 
+    relative_position_id = 
+    prerequisite = { focus = ARL_ }
+    completion_reward = {
+
+    }
+  }
+  focus = {
+    id = ARL_
+    #icon = GFX_focus_ARL_
+    cost = 
+    x = 
+    y = 
+    relative_position_id = 
+    prerequisite = { focus = ARL_ }
+    completion_reward = {
+
+    }
+  }
+  focus = {
+    id = ARL_
+    #icon = GFX_focus_ARL_
+    cost = 
+    x = 
+    y = 
+    relative_position_id = 
+    prerequisite = { focus = ARL_ }
+    completion_reward = {
+
+    }
+  }
 }
