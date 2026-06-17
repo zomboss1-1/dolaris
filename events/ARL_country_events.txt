@@ -17,7 +17,7 @@ country_event = {
   #MODERATE FOREIGN POLICY
   option = {
     name = ARL.1.b
-    complete_national_focus = ARL_our_words_have_power
+    complete_national_focus = ARL_moderate_foreign_policy
     mark_focus_tree_layout_dirty = yes
   }
   #DIPLOMACY ALWAYS WINS
