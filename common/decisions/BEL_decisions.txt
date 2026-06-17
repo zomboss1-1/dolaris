@@ -1,0 +1,22 @@
+belejan_civil_war_cat = {
+  BEL_civil_war_imminent = {
+    #icon = GFX_
+    is_good = yes
+    days_mission_timeout = 180
+    activation = {
+      date > 1907.03.01.12
+    }
+    timeout_effect = {
+      start_civil_war = {
+        ideology = monarchism
+        #capital = 
+        states = {
+
+        }
+        effects = {
+
+        }
+      }
+    }
+  }
+}
