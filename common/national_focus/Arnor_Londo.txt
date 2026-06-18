@@ -49,7 +49,7 @@ focus_tree = {
   }
   focus = {
     id = ARL_terrances_word_is_law
-    #icon =  GFX_focus_ARL_
+    icon =  GFX_focus_ARL_terrances_word_is_law
     cost = 2
     x = 0
     y = 1
@@ -403,7 +403,7 @@ focus_tree = {
   }
   focus = {
     id = ARL_the_corporate_menace
-    #icon =  GFX_focus_ARL_
+    icon =  GFX_focus_ARL_the_corporate_menace
     cost = 1
     x = -9
     y = 1
