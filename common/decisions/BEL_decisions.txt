@@ -9,9 +9,9 @@ belejan_civil_war_cat = {
     timeout_effect = {
       start_civil_war = {
         ideology = monarchism
-        #capital = 
+        capital = 860
         states = {
-
+          860
         }
         effects = {
 
