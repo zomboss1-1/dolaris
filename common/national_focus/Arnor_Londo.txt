@@ -673,7 +673,7 @@ focus_tree = {
     relative_position_id = ARL_moderate_foreign_policy
     prerequisite = { focus = ARL_moderate_foreign_policy }
     completion_reward = {
-
+      add_country_flag = ARL_the_silent_war_cf
     }
   }
   focus = {
@@ -685,7 +685,7 @@ focus_tree = {
     relative_position_id = ARL_the_silent_war
     prerequisite = { focus = ARL_the_silent_war }
     completion_reward = {
-
+      
     }
   }
   focus = {
