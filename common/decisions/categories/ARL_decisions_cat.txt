@@ -13,3 +13,16 @@ ARL_corporate_anger_decision_cat = {
   visible_when_empty = yes
   scripted_gui = ARL_corporate_anger_scripted_gui
 }
+ARL_the_silent_war_decision_cat = {
+  #icon = 
+  #picutre = 
+
+  visible = {
+    has_country_flag = ARL_the_silent_war_cf
+  }
+  allowed = {
+    tag = ARL
+  }
+
+  priority = 10
+}
