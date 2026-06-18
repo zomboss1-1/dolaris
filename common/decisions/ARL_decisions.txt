@@ -4,6 +4,9 @@ ARL_the_silent_war_decisions_cat = {
     allowed = {
       tag = ARL
     }
+    visible = {
+      has_completed_focus = ARL_arias_blossom
+    }
     available = {
       has_equipment = {
         infantry_equipment > 499
@@ -31,6 +34,9 @@ ARL_the_silent_war_decisions_cat = {
     allowed = {
       tag = ARL
     }
+    visible = {
+      has_completed_focus = ARL_arias_blossom
+    }
     available = {
       has_equipment = {
         artillery > 49
@@ -57,6 +63,9 @@ ARL_the_silent_war_decisions_cat = {
     #icon = 
     allowed = {
       tag = ARL
+    }
+    visible = {
+      has_completed_focus = ARL_arias_blossom
     }
     available = {
       has_manpower > 14999
