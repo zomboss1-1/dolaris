@@ -11,4 +11,12 @@ spriteTypes = {
     name = GFX_focus_ARL_tradition_is_key
     texturefile = gfx/interface/national_focus/Tradition_is_Key.png
   }
+  spriteType = {
+    name = GFX_focus_ARL_terrances_word_is_law
+    texturefile = gfx/interface/national_focus/Terrances_word_is_law.png
+  }
+  spriteType = {
+    name = GFX_focus_ARL_the_corporate_menace
+    texturefile = gfx/interface/national_focus/The_corporate_menace.png
+  }
 }
