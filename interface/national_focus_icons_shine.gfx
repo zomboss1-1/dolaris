@@ -69,6 +69,10 @@ spriteTypes = {
     }
     spriteType = {
         name = GFX_focus_ARL_tradition_is_key
+        texturefile = gfx/interface/national_focus/Tradition_is_key.png   
+    }
+    spriteType = {
+        name = GFX_focus_ARL_tradition_is_key_shine
         texturefile = gfx/interface/national_focus/Tradition_is_Key.png   
         effectFile = gfx/FX/buttonstate.lua
         animation = {
@@ -97,4 +101,73 @@ spriteTypes = {
         }
         legacy_lazy_load = no
     }
+    spriteType = {
+        name = GFX_focus_ARL_terrances_word_is_law
+        texturefile = gfx/interface/national_focus/Terrances_word_is_law.png   
+    }
+    spriteType = {
+        name = GFX_focus_ARL_terrances_word_is_law
+        texturefile = gfx/interface/national_focus/Terrances_word_is_law.png   
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Terrances_word_is_law.png
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Terrances_word_is_law.png
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_focus_ARL_the_corporate_menace
+        texturefile = gfx/interface/national_focus/The_corporate_menace.png   
+    }
+    spriteType = {
+        name = GFX_focus_ARL_the_corporate_menace
+        texturefile = gfx/interface/national_focus/The_corporate_menace.png   
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/The_corporate_menace.png
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/The_corporate_menace.png
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
 }
+
