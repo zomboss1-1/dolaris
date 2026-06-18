@@ -9,5 +9,11 @@ ideas = {
     ARL_birthplace_of_goldism = {
     
     }
+    ARL_supporting_BEL = {
+      #picture = 
+      modifier = {
+        send_volunteer_size = 2
+      }
+    }
   }
 }
