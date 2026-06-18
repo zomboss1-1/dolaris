@@ -564,6 +564,9 @@ focus_tree = {
     available = {
       always = no
     }
+    allow_branch = {
+      has_completed_focus = ARL_moderate_foreign_policy
+    }
     completion_reward = {
 
     }
