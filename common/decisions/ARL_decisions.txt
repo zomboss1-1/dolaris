@@ -80,4 +80,18 @@ ARL_the_silent_war_decisions_cat = {
       }
     }
   }
+ARL_invest_in_BEL = {
+    #icon = 
+    allowed = {
+      tag = ARL
+    }
+    visible = {
+      has_completed_focus = ARL_arias_blossom
+    }
+    days_re_enable = 61
+    cost = 100
+    complete_effect = {
+      country_event = ARL.3
+    }
+  }
 }
