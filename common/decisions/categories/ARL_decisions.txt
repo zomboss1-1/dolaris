@@ -1,0 +1,74 @@
+ARL_the_silent_war_decisions_cat = {
+  ARL_guns_to_BEL_monarchs = {
+    #icon = 
+    allowed = {
+      tag = ARL
+    }
+    available = {
+      has_equipment = {
+        infantry_equipment > 499
+      }
+    }
+    days_re_enable = 35
+    cost = 50
+    complete_effect = {
+      add_equipment_to_stockpile = {
+        type = infantry_equipment
+        amount = -500
+        producer = ARL
+      }
+      BEL = {
+        add_equipment_to_stockpile = {
+          type = infantry_equipment
+          amount = 500
+          producer = ARL
+        }
+      }
+    }
+  }
+  ARL_artillery_to_BEL_monarchs = {
+    #icon = 
+    allowed = {
+      tag = ARL
+    }
+    available = {
+      has_equipment = {
+        artillery > 49
+      }
+    }
+    days_re_enable = 35
+    cost = 50
+    complete_effect = {
+      add_equipment_to_stockpile = {
+        type = artillery
+        amount = -50
+        producer = ARL
+      }
+      BEL = {
+        add_equipment_to_stockpile = {
+          type = artillery
+          amount = 50
+          producer = ARL
+        }
+      }
+    }
+  }
+  ARL_send_volunteers_to_BEL = {
+    #icon = 
+    allowed = {
+      tag = ARL
+    }
+    available = {
+      has_manpower > 14999
+    }
+    fire_only_once = yes
+    cost = 100
+    complete_effect = {
+      add_ideas = ARL_supporting_BEL
+      add_manpower = -15000
+      BEL = {
+        add_manpower = 15000
+      }
+    }
+  }
+}
