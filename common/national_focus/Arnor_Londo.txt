@@ -664,7 +664,14 @@ focus_tree = {
     relative_position_id = ARL_mandate_internal_trade
     prerequisite = { focus = ARL_mandate_internal_trade }
     completion_reward = {
-
+      all_country = {
+        if = {
+          limit = {
+            has_idea = AES_member
+          }
+          country_event = common.2
+        }
+      }
     }
   }
   focus = {
