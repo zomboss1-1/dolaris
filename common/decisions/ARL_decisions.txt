@@ -118,8 +118,13 @@ ARL_invest_in_BEL = {
       news_event = news.1
       add_political_power = 25
       add_opinion_modifier = {
-        target = ARL
+        target = BEL
         modifier = BEL_recognized_our_government
+      }
+      add_opinion_modifier = {
+      target = ARL
+      target = BEL
+      modifier = BEL_ARL_trade
       }
       BEL = {
         add_ideas = BEL_likes_monarchism_hidden
