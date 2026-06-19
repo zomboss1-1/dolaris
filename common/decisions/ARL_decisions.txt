@@ -21,6 +21,7 @@ ARL_the_silent_war_decisions_cat = {
         producer = ARL
       }
       BEL = {
+        country_event = BEL.1
         add_equipment_to_stockpile = {
           type = infantry_equipment
           amount = 500
@@ -51,6 +52,7 @@ ARL_the_silent_war_decisions_cat = {
         producer = ARL
       }
       BEL = {
+        country_event = BEL.2
         add_equipment_to_stockpile = {
           type = artillery
           amount = 50
@@ -77,6 +79,7 @@ ARL_the_silent_war_decisions_cat = {
       add_manpower = -15000
       BEL = {
         add_manpower = 15000
+        country_event = BEL.3
       }
     }
   }
