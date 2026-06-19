@@ -1,0 +1,41 @@
+add_namespace = common
+
+#JOIN AES
+country_event = {
+  id = common.1
+  title = common.1.t
+  desc = common.1.d
+  #picture = 
+
+  is_triggered_only = yes
+
+  #YES
+  option = {
+    name = common.1.a
+    add_ideas = aes_member
+  }
+
+  #NO
+  option = {
+    name = common.1.b
+  }
+}
+  
+#JOIN AES RESEARCH GROUP
+country_event = {
+  id = common.2
+  title = common.2.t
+  desc = common.2.d
+  #picture = 
+
+  is_triggered_only = yes
+
+  #YES
+  option = {
+    name = common.2.a
+    add_to_tech_sharing_group = AES_tech_share_group
+  }
+  option = {
+    name = common.2.b
+  }
+}
