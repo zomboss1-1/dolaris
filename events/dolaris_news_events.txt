@@ -1,0 +1,56 @@
+add_namespace = news
+
+#ARNOR RECOGNIZES BELEJAN MONARCHS LEGITAMACY
+news_event = {
+  id = news.1
+  title = news.1.t
+  desc = news.1.d
+
+  is_triggered_only = yes
+  is_major = yes
+
+  #MONARCHISTS
+  option = {
+    news.1.a
+    trigger = {
+      ideology = monarchism
+      NOT = {
+        OR = {
+          tag = ARL
+          tag = BEL
+        }
+      }
+    }
+  }
+
+  #ARNOR AND BELEJAN
+  option = {
+    news.1.b
+    trigger = {
+      ideology = monarchism
+      OR = {
+        tag = BEL
+        tag = ARL
+      }
+    }
+  }
+
+  #DEMOCRATIC NATIONS
+  option = {
+    news.1.c
+    trigger = {
+      ideology = democratic
+    }
+  }
+
+  #EVERYONE ELSE
+  option = {
+    news.1.e
+    trigger = {
+      NOT = {
+        ideology = monarchism
+        ideology = democratic
+      }
+    }
+  }
+}
