@@ -97,4 +97,31 @@ ARL_invest_in_BEL = {
       country_event = ARL.3
     }
   }
+  ARL_recognize_BEL_monarchs = {
+    #icon = 
+    allowed = {
+      tag = ARL
+    }
+    visible = {
+      BEL = {
+        AND = {
+          NOT = {
+            has_civil_war = yes
+          }
+          ideology = monarchism
+        }
+      }
+    }
+    fire_only_once = yes
+    cost = 150
+    complete_effect = {
+      news_event = news.1
+      add_political_power = 25
+      add_opinion_modifier = {
+        target = ARL
+        modifier = BEL_recognized_our_government
+      }
+      add_ideas = ARL_forwards_with_BEL
+    }
+  }
 }
