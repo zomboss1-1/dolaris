@@ -121,7 +121,9 @@ ARL_invest_in_BEL = {
         target = ARL
         modifier = BEL_recognized_our_government
       }
-      add_ideas = ARL_forwards_with_BEL
+      BEL = {
+        add_ideas = BEL_likes_monarchism_hidden
+      }
     }
   }
 }
