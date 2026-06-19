@@ -1,0 +1,5 @@
+opinion_modifiers = {
+  BEL_recognized_our_government = {
+    value = 50
+  }
+}
