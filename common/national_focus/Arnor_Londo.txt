@@ -685,6 +685,11 @@ focus_tree = {
     cost = 3
     x = -2
     y = 2
+    available = {
+      BEL = {
+        has_civil_war = yes
+      }
+    }
     relative_position_id = ARL_the_silent_war
     prerequisite = { focus = ARL_the_silent_war }
     completion_reward = {
