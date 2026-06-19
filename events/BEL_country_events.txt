@@ -1,0 +1,79 @@
+add_namespace = BEL
+
+#ARNOR SENDS GUNS
+country_event = {
+  id = BEL.1
+  title = BEL.1.t
+  desc = BEL.1.d
+
+  is_triggered_only = yes
+
+  option = {
+    name = BEL.1.a
+  }
+}
+
+#ARNOR SENDS ARTILLERY
+country_event = {
+  id = BEL.2
+  title = BEL.2.t
+  desc = BEL.2.d
+
+  is_triggered_only = yes
+
+  option = {
+    name = BEL.2.a
+  }
+}
+
+#ARNOR SENDS VOLUNTEERS
+country_event = {
+  id = BEL.3
+  title = BEL.3.t
+  desc = BEL.3.d
+
+  is_triggered_only = yes
+
+  option = {
+    name = BEL.3.a
+  }
+}
+
+#ARNOR INVESTS IN ECONOMY
+country_event = {
+  id = BEL.4
+  title = BEL.4.t
+  desc = BEL.4.d
+
+  is_triggered_only = yes
+
+  option = {
+    name = BEL.4.a
+  }
+}
+
+#ARNOR INVESTS IN ARMY
+country_event = {
+  id = BEL.5
+  title = BEL.5.t
+  desc = BEL.5.d
+
+  is_triggered_only = yes
+
+  option = {
+    name = BEL.5.a
+  }
+}
+
+#ARNOR INVESTS IN NAVY
+country_event = {
+  id = BEL.6
+  title = BEL.6.t
+  desc = BEL.6.d
+
+  is_triggered_only = yes
+
+  option = {
+    name = BEL.6.a
+  }
+}
