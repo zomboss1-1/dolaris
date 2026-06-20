@@ -39,3 +39,31 @@ country_event = {
     name = common.2.b
   }
 }
+
+#ARNOR SENDS GUNS (SILENT WAR FOCUS)
+country_event = {
+  id = common.3
+  title = common.3.t
+  desc = common.3.d
+  #picture = 
+
+  is_triggered_only = yes
+
+  option = {
+    name = common.3.a
+    ARL = {
+      add_equipment_to_stockpile = {
+        type = infantry_equipment
+        amount = -500
+        producer = ARL
+      }
+    }
+    add_to_stockpile = {
+      add_equipment_to_stockpile = {
+        type = infantry_equipment
+        amount = 500
+        producer = ARL
+      }
+    }
+  }
+}
