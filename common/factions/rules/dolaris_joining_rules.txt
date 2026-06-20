@@ -1,0 +1,13 @@
+#IDEOLOGY
+joining_rule_monarchist_omly = {
+  type = joining_rules
+  visible = {
+    has_government = monarchism
+  }
+  trigger = {
+    has_government = monarchism
+  }
+  can_remove = {
+    always = no
+  }
+}
