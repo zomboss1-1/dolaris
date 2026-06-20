@@ -684,6 +684,7 @@ focus_tree = {
     prerequisite = { focus = ARL_moderate_foreign_policy }
     completion_reward = {
       add_country_flag = ARL_the_silent_war_cf
+      create_faction_from_template = faction_template_MOC_monarchist_coalition
     }
   }
   focus = {
