@@ -21,5 +21,23 @@ ideas = {
         consumer_goods_factor = 0.05
       }
     }
+    ARL_the_bombings = {
+      #picture = 
+      modifier = {
+        stability_factor = -0.15
+        monarchism_drift = -0.01
+        political_power_factor = -0.15
+      }
+    }
+    ARL_the_bombings_demonize = {
+      #picture = 
+      modifier = {
+        stability_factor = -0.20
+        monarchism_drift = -0.01
+        political_power_factor = -0.20
+        weekly_manpower = -50
+        custom_effect_tooltip = demonize_bombers_tt
+      }
+    }
   }
 }
