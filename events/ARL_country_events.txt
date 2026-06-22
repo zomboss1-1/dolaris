@@ -124,5 +124,6 @@ country_event = {
   option = {
     name = ARL.4.a
     add_ideas = ARL_the_bombings
+    mark_focus_tree_layout_dirty = yes
   }
 }
