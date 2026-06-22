@@ -61,7 +61,7 @@ focus_tree = {
   }
   focus = {
     id = ARL_rebuilding_our_holy_sites
-    #icon =  GFX_focus_ARL_
+    icon =  GFX_focus_ARL_rebuilding_our_holy_sites
     cost = 2
     x = 0
     y = 1
@@ -276,7 +276,7 @@ focus_tree = {
   }
   focus = {
     id = ARL_strengthen_domestic_intelligence
-    #icon =  GFX_focus_ARL_
+    icon =  GFX_focus_ARL_strengthen_domestic_intelligence
     cost = 5
     x = 6
     y = 1
