@@ -169,5 +169,73 @@ spriteTypes = {
         }
         legacy_lazy_load = no
     }
+    spriteType = {
+        name = GFX_focus_ARL_strengthen_domestic_intelligence
+        texturefile = gfx/interface/national_focus/Strengthen_domestic_intelligence.png   
+    }
+    spriteType = {
+        name = GFX_focus_ARL_strengthen_domestic_intelligence_shine 
+        texturefile = gfx/interface/national_focus/Strengthen_domestic_intelligence.png
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Strengthen_domestic_intelligence.png
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Strengthen_domestic_intelligence.png
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_focus_ARL_rebuilding_our_holy_sites
+        texturefile = gfx/interface/national_focus/rebuilding_our_holy_sites.png   
+    }
+    spriteType = {
+        name = GFX_focus_ARL_rebuilding_our_holy_sites_shine 
+        texturefile = gfx/interface/national_focus/rebuilding_our_holy_sites.png
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/rebuilding_our_holy_sites.png
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/rebuilding_our_holy_sites.png
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
 }
 
