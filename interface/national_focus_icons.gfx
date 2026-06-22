@@ -19,4 +19,12 @@ spriteTypes = {
     name = GFX_focus_ARL_the_corporate_menace
     texturefile = gfx/interface/national_focus/The_corporate_menace.png
   }
+  spriteType = {
+    name = GFX_focus_ARL_strenghten_domestic_intelligence
+    texturefile = gfx/interface/national_focus/Strengthen_domestic_intelligence.png
+  }
+  spriteType = {
+    name = GFX_focus_ARL_rebuilding_our_holy_sites
+    texturefile = gfx/interface/national_focus/rebuilding_our_holy_sites.png
+  }
 }
