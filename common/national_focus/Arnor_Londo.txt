@@ -418,7 +418,7 @@ focus_tree = {
     prerequisite = { focus = ARL_terrances_word_is_law }
     completion_reward = {
       add_country_flag = ARL_corporate_anger_active_cf
-      tooltip: "The government has started to crack down on the corporations in Arnor. This unlocks the Corporate Anger mechanic as well as associated decisions."
+      custom_effect_tooltip = ARL_corporations_mechanic_tt
     }
   }
   focus = {
