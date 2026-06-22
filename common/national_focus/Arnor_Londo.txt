@@ -103,6 +103,13 @@ focus_tree = {
     y = 1
     relative_position_id = ARL_purge_the_herasy
     prerequisite = { focus = ARL_purge_the_herasy }
+    hidden_effect = {
+      country_event = {
+        id = ARL.4
+        days = 6
+        random_days = 15
+      }
+    }
     completion_reward = {
       
     }
@@ -116,7 +123,7 @@ focus_tree = {
     relative_position_id = ARL_mandate_traditional_goldism
     prerequisite = { focus = ARL_mandate_traditional_goldism }
     allow_branch = {
-      has_country_flag = ARL_goldism_bombing_occured_cf
+      has_idea = ARL_the_bombings
     }
     completion_reward = {
       
