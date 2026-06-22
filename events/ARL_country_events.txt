@@ -112,3 +112,17 @@ country_event = {
     }
   }
 }
+
+#THE BOMBINGS
+country_event = {
+  id = ARL.4
+  title = ARL.4.t
+  desc = ARL.4.d
+  is_triggered_only = yes
+
+  #HUNT THEM DOWN ANS MAKE THEM PAY
+  option = {
+    name = ARL.4.a
+    add_ideas = ARL_the_bombings
+  }
+}
