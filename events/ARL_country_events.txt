@@ -120,7 +120,7 @@ country_event = {
   desc = ARL.4.d
   is_triggered_only = yes
 
-  #HUNT THEM DOWN ANS MAKE THEM PAY
+  #HUNT THEM DOWN AND MAKE THEM PAY
   option = {
     name = ARL.4.a
     add_ideas = ARL_the_bombings
