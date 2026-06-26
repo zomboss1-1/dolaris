@@ -24,8 +24,8 @@ state={
 			
 		}
 		victory_points = { 5833 50 }
-		owner = ATL
-		add_core_of = ATL
+		owner = ARL
+		add_core_of = ARL
 		add_to_array = { state_victory_points = 5833 }
 	}
 
