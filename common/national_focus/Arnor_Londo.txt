@@ -60,8 +60,8 @@ focus_tree = {
     }
   }
   focus = {
-    id = ARL_rebuilding_our_holy_sites
-    icon =  GFX_focus_ARL_rebuilding_our_holy_sites
+    id = ARL_increase_goldist_funding
+    #icon =  GFX_focus_ARL_
     cost = 2
     x = 0
     y = 1
@@ -72,120 +72,272 @@ focus_tree = {
     }
   }
   focus = {
-    id = ARL_the_fake_defendants
+    id = ARL_restoring_our_holy_sites
+    icon =  GFX_focus_ARL_rebuilding_our_holy_sites
+    cost = 2
+    x = 1
+    y = 1
+    relative_position_id = ARL_increase_goldist_funding
+    prerequisite = { focus = ARL_increase_goldist_funding }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_maintain_our_places_of_worship
     #icon =  GFX_focus_ARL_
     cost = 2
-    x = 0
+    x = -1
     y = 1
-    relative_position_id = ARL_rebuilding_our_holy_sites
-    prerequisite = { focus = ARL_rebuilding_our_holy_sites }
+    relative_position_id = ARL_increase_goldist_funding
+    prerequisite = { focus = ARL_increase_goldist_funding }
     completion_reward = {
       
     }
   }
   focus = {
-    id = ARL_purge_the_herasy
+    id = ARL_the_seven_sacred_places
     #icon =  GFX_focus_ARL_
-    cost = 5
-    x = 0
+    cost = 4
+    x = 1
     y = 1
-    relative_position_id = ARL_the_fake_defendants
-    prerequisite = { focus = ARL_the_fake_defendants }
+    relative_position_id = ARL_maintain_our_places_of_worship
+    prerequisite = { focus = ARL_maintain_our_places_of_worship }
+    prerequisite = { focus = ARL_restore_our_holy_sites }
     completion_reward = {
       
     }
   }
   focus = {
-    id = ARL_mandate_traditional_goldism
+    id = ARL_protect_the_seven
+    #icon =  GFX_focus_ARL_
+    cost = 4
+    x = 0
+    y = 1
+    relative_position_id = ARL_the_seven_sacred_places
+    prerequisite = { focus = ARL_the_seven_sacred_places }
+    prerequisite = { focus = ARL_restore_the_kings_guard focus = ARL_the_guard_is_ceremonial }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_a_new_archdefendant
     #icon =  GFX_focus_ARL_
     cost = 2
-    x = 0
+    x = -4
     y = 1
-    relative_position_id = ARL_purge_the_herasy
-    prerequisite = { focus = ARL_purge_the_herasy }
-    hidden_effect = {
-      country_event = {
-        id = ARL.4
-        days = 6
-        random_days = 15
-      }
-    }
+    relative_position_id = ARL_increase_goldist_funding
+    prerequisite = { focus = ARL_increase_goldist_funding }
     completion_reward = {
       
     }
   }
   focus = {
-    id = ARL_address_the_bombing
+    id = ARL_restore_the_kings_guard
+    #icon =  GFX_focus_ARL_
+    cost = 4
+    x = -1
+    y = 1
+    relative_position_id = ARL_a_new_archdefendant
+    prerequisite = { focus = ARL_a_new_archdefendant }
+    mutually_exclusive = { focus = ARL_the_guard_is_ceremonial }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_the_guard_is_ceremonial
+    #icon =  GFX_focus_ARL_
+    cost = 4
+    x = 1
+    y = 1
+    relative_position_id = ARL_a_new_archdefendant
+    prerequisite = { focus = ARL_a_new_archdefendant }
+    mutually_exclusive = { focus = ARL_restore_the_kings_guard }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_remove_known_heretics
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 1
+    y = 1
+    relative_position_id = ARL_restore_the_kings_guard
+    prerequisite = { focus = ARL_restore_the_kings_guard focus = ARL_the_guard_is_ceremonial }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_prohibit_good_faith_donations
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 4
+    y = 1
+    relative_position_id = ARL_increase_goldist_funding
+    prerequisite = { focus = ARL_increase_goldist_funding }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_shut_down_nontraditionalist_places_of_worship
+    #icon =  GFX_focus_ARL_
+    cost = 3
+    x = 0
+    y = 1
+    relative_position_id = ARL_prohibit_good_faith_donations
+    prerequisite = { focus = ARL_prohibit_good_faith_donations }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_investigate_defendants
+    #icon =  GFX_focus_ARL_
+    cost = 3
+    x = -1
+    y = 1
+    relative_position_id = ARL_shut_down_nontraditionalist_places_of_worship
+    prerequisite = { focus = ARL_shut_down_nontraditionalist_places_of_worship }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_mandate_archdefendnt_approval
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 1
+    y = 1
+    relative_position_id = ARL_shut_down_nontraditionalist_places_of_worship
+    prerequisite = { focus = ARL_shut_down_nontraditionalist_places_of_worship }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_require_traditional_goldism
+    #icon =  GFX_focus_ARL_
+    cost = 3
+    x = 0
+    y = 1
+    relative_position_id = ARL_protect_the_seven
+    prerequisite = { focus = ARL_remove_known_heretics }
+    prerequisite = { focus = ARL_protect_the_seven }
+    prerequisite = { focus = ARL_investigate_defendants focus = ARL_mandate_archdefendant_approval }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_mass_arrests
+    #icon =  GFX_focus_ARL_
+    cost = 4
+    x = 0
+    y = 1
+    relative_position_id = ARL_require_traditional_goldism
+    prerequisite = { focus = ARL_require_traditional_goldism }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_the_heretics_trial
+    #icon =  GFX_focus_ARL_
+    cost = 8
+    x = 0
+    y = 1
+    relative_position_id = ARL_mass_arrests
+    prerequisite = { focus = ARL_mass_arrests }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_address_the_bombings
     #icon =  GFX_focus_ARL_
     cost = 0.5
     x = 0
     y = 1
-    relative_position_id = ARL_mandate_traditional_goldism
-    prerequisite = { focus = ARL_mandate_traditional_goldism }
-    allow_branch = {
-      has_idea = ARL_the_bombings
-    }
+    relative_position_id = ARL_the_heretics_trial
+    prerequisite = { focus = ARL_the_heretics_trial }
     completion_reward = {
       
     }
   }
   focus = {
-    id = ARL_launch_an_investigation
-    #icon =  GFX_focus_ARL_
-    cost = 2
-    x = -2
-    y = 1
-    relative_position_id = ARL_address_the_bombing
-    prerequisite = { focus = ARL_address_the_bombing }
-    completion_reward = {
-      
-    }
-  }
-  focus = {
-    id = ARL_demonize_the_bombers
-    #icon =  GFX_focus_ARL_
-    cost = 2
-    x = 0
-    y = 1
-    relative_position_id = ARL_launch_an_investigation
-    prerequisite = { focus = ARL_launch_an_investigation }
-    completion_reward = {
-      
-    }
-  }
-  focus = {
-    id = ARL_arrest_known_elements
-    #icon =  GFX_focus_ARL_
-    cost = 2
-    x = 2
-    y = 1
-    relative_position_id = ARL_address_the_bombing
-    prerequisite = { focus = ARL_address_the_bombing }
-    completion_reward = {
-      
-    }
-  }
-  focus = {
-    id = ARL_raid_the_meetings
-    #icon =  GFX_focus_ARL_
-    cost = 2
-    x = 0
-    y = 1
-    relative_position_id = ARL_arrest_known_elements
-    prerequisite = { focus = ARL_arrest_known_elements }
-    completion_reward = {
-      
-    }
-  }
-  focus = {
-    id = ARL_trial_and_justice
+    id = ARL_protect_our_holy_places
     #icon =  GFX_focus_ARL_
     cost = 1
-    x = 2
+    x = -1
     y = 1
-    relative_position_id = ARL_demonize_the_bombers
-    prerequisite = { focus = ARL_demonize_the_bombers }
-    prerequisite = { focus = ARL_raid_the_meetings }
+    relative_position_id = ARL_address_the_bombings
+    prerequisite = { focus = ARL_address_the_bombings }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_hear_something_say_something
+    #icon =  GFX_focus_ARL_
+    cost = 1
+    x = 1
+    y = 1
+    relative_position_id = ARL_address_the_bombings
+    prerequisite = { focus = ARL_address_the_bombings }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_nationwide_investigations
+    #icon =  GFX_focus_ARL_
+    cost = 1
+    x = 1
+    y = 1
+    relative_position_id = ARL_protect_our_holy_places
+    prerequisite = { focus = ARL_protect_our_holy_places }
+    prerequisite = { focus = ARL_hear_something_say_something }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_send_in_the_military
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 0
+    y = 1
+    relative_position_id = ARL_nationwide_investigations
+    prerequisite = { focus = ARL_nationwide_investigations }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_strike_their_heart
+    #icon =  GFX_focus_ARL_
+    cost = 2
+    x = 0
+    y = 1
+    relative_position_id = ARL_send_in_the_military
+    prerequisite = { focus = ARL_send_in_the_military }
+    completion_reward = {
+      
+    }
+  }
+  focus = {
+    id = ARL_conclude_the_trials
+    #icon =  GFX_focus_ARL_
+    cost = 5
+    x = 0
+    y = 1
+    relative_position_id = ARL_strike_their_heart
+    prerequisite = { focus = ARL_strike_their_heart }
     completion_reward = {
       
     }
