@@ -44,7 +44,7 @@ focus_tree = {
       has_completed_focus = ARL_tradition_is_key 
     }
     completion_reward = {
-      
+      country_event = { id = ARL.5 days = 1 }
     }
   }
   focus = {
