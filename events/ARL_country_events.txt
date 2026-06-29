@@ -127,3 +127,39 @@ country_event = {
     mark_focus_tree_layout_dirty = yes
   }
 }
+
+#TRADITION IS KEY
+country_event = {
+  id = ARL.5
+  title = ARL.5.t
+  desc = ARL.5.d
+  is_triggered_only = yes
+
+  option = {
+    name = ARL.5.a
+  }
+}
+
+#NATIONALISM IS THE WAY
+country_event = {
+  id = ARL.6
+  title = ARL.6.t
+  desc = ARL.6.d
+  is_triggered_only = yes
+
+  option = {
+    name = ARL.6.a
+  }
+}
+
+#LIBERALISM IS THE FUTURE
+country_event = {
+  id = ARL.7
+  title = ARL.7.t
+  desc = ARL.7.d
+  is_triggered_only = yes
+
+  option = {
+    name = ARL.7.a
+  }
+}
