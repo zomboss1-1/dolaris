@@ -124,6 +124,7 @@ country_event = {
   option = {
     name = ARL.4.a
     add_ideas = ARL_the_bombings
+    add_country_flag = ARL_the_bombings_cf
     mark_focus_tree_layout_dirty = yes
   }
 }
@@ -172,6 +173,7 @@ country_event = {
   is_triggered_only = yes
   fire_only_once = yes
 
+  #RESTORE THEM
   option = {
     name = ARL.8.a
     add_timed_idea = {
@@ -179,6 +181,7 @@ country_event = {
       days = 1825
     }
   }
+  #LEAVE THEM
   option = {
     name = ARL.8.b
     add_political_power = 100
@@ -223,5 +226,37 @@ country_event = {
   option = {
     name = ARL.10.b
     #ADVISOR 2
+  }
+}
+
+#A DARK DAY
+country_event = {
+  id = ARL.11
+  title = ARL.11.t
+  desc = ARL.11.d
+  is_triggered_only = yes
+  fire_only_once = yes
+
+  #TOGETHER WE STAND AGAINST THIS EVIL
+  option = {
+    name = ARL.11.a
+  }
+}
+
+#THE GREAT TRIALS
+country_event = {
+  id = ARL.12
+  title = ARL.12.t
+  desc = ARL.12.d
+  is_triggered_only = yes
+  fire_only_once = yes
+
+  #IMPRISONMENT
+  option = {
+    name = ARL.12.a
+  }
+  #DEATH
+  option = {
+    name = ARL.12.b
   }
 }
