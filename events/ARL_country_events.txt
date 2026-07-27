@@ -163,3 +163,46 @@ country_event = {
     name = ARL.7.a
   }
 }
+
+#RESTORE OUR HOLY SITES?
+country_event = {
+  id = ARL.8
+  title = ARL.8.t
+  desc = ARL.8.d
+  is_triggered_only = yes
+  fire_only_once = yes
+
+  option = {
+    name = ARL.8.a
+    add_timed_idea = {
+      idea = ARL_restoring_holy_sites
+      days = 1825
+    }
+  }
+  option = {
+    name = ARL.8.b
+    add_political_power = 100
+  }
+}
+
+#MAINTAIN OUR HOLY SITES?
+country_event = {
+  id = ARL.9
+  title = ARL.9.t
+  desc = ARL.9.d
+  is_triggered_only = yes
+  fire_only_once = yes
+
+  option = {
+    name = ARL.9.a
+    
+  }
+  option = {
+    name = ARL.9.b
+    
+  }
+  option = {
+    name = ARL.9.c
+    
+  }
+}
