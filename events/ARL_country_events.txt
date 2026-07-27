@@ -206,3 +206,22 @@ country_event = {
     
   }
 }
+
+#A NEW ARCHDEFENDANT
+country_event = {
+  id = ARL.10
+  title = ARL.10.t
+  desc = ARL.10.d
+  is_triggered_only = yes
+  fire_only_once = yes
+
+  option = {
+    name = ARL.10.a
+    #ADVISOR 1
+  }
+
+  option = {
+    name = ARL.10.b
+    #ADVISOR 2
+  }
+}
