@@ -72,5 +72,11 @@ ideas = {
         consumer_goods_factor = 0.05
       }
     }
+    ARL_restoring_holy_sites = {
+      #picture = 
+      modifier = {
+        consumer_goods_factor = 0.10
+      }
+    }
   }
 }
