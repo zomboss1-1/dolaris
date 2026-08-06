@@ -13,4 +13,11 @@ leader_traits = {
     industrial_capacity_factory = 0.05
     production_factory_max_efficiency_factor = 0.05
   }
+  ARL_the_kings_guard = {
+    random = no
+    sprite = no
+    stability_factor = 0.05
+    war_support_factor = 0.05
+    political_power_factor = 0.05
+  }
 }
