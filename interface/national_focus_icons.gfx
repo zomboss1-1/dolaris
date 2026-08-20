@@ -27,4 +27,28 @@ spriteTypes = {
     name = GFX_focus_ARL_rebuilding_our_holy_sites
     texturefile = gfx/interface/national_focus/rebuilding_our_holy_sites.png
   }
+  spriteType = {
+    name = GFX_focus_ARL_goldist_budget
+    texturefile = gfx/interface/national_focus/Goldist_Budget.png
+  }
+  spriteType = {
+    name = GFX_focus_ARL_faith_donations
+    texturefile = gfx/interface/national_focus/Prohibit_Faith_Donations.png
+  }
+  spriteType = {
+    name = GFX_focus_ARL_non_believers
+    texturefile = gfx/interface/national_focus/Remove_non-believer.png
+  }
+  spriteType = {
+    name = GFX_focus_ARL_restore_the_guard
+    texturefile = gfx/interface/national_focus/Restore_the_King_Guard.png
+  }
+  spriteType = {
+    name = GFX_focus_ARL_ceremonial_guard
+    texturefile = gfx/interface/national_focus/The_Guard_is_Ceremonial_Only.png
+  }
+  spriteType = {
+    name = GFX_focus_ARL_seven_sites
+    texturefile = gfx/interface/national_focus/The_Seven_Sitess.png
+  }
 }
