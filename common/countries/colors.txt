@@ -78,3 +78,7 @@ CAL = {
 	color = rgb { 247 247 245 }
 	color_ui = rgb { 247 247 245 }
 }
+PFZ = {
+	color = rgb { 161 40 198 }
+	color_ui = rgb { 161 40 198 }
+}
