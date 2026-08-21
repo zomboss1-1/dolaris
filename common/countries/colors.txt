@@ -6,3 +6,59 @@ ATL = {
 	color = rgb { 34 34 207 }
 	color_ui = rgb { 34 34 207 }
 }
+KIJ = {
+	color = rgb { 250 232 35 }
+	color_ui = rgb {250 232 35 }
+}
+BEL = {
+	color = rgb { 110 245 243 }
+	color_ui = rgb { 110 245 243 }
+}
+ALO = {
+	color = rgb { 39 142 245 }
+	color_ui = rgb { 39 142 245 }
+}
+TRN = {
+	color = rgb { 21 168 5 }
+	color_ui = rgb { 21 168 5 }
+}
+TIB = {
+	color = rgb { 240 195 48 }
+	color_ui = rgb { 240 195 48 }
+}
+CTU = {
+	color = rgb { 255 47 92 }
+	color_ui = rgb { 255 47 92 }
+}
+LIL = {
+	color = rgb { 9 125 36 }
+	color_ui = rgb { 9 125 36 }
+}
+GSH = {
+	color = rgb { 77 149 171 }
+	color_ui = rgb { 77 149 171 }
+}
+SSH = {
+	color = rgb { 92 1 7 }
+	color_ui = rgb { 92 1 7 }
+}
+NSH = {
+	color = rgb { 56 55 55 }
+	color_ui = rgb { 56 55 55 }
+}
+MSH = {
+	color = rgb { 240 159 155 }
+	color_ui = rgb { 240 159 155 }
+}
+CRE = {
+	color = rgb { 51 158 245 }
+	color_ui = rgb { 51 158 245 }
+}
+ARO = {
+	color = rgb { 247 7 35 }
+	color_ui = rgb { 247 7 35 }
+}
+GLO = {
+	color = rgb { 31 7 247 }
+	color_ui = rgb { 31 7 247 }
+}
