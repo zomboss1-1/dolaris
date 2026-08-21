@@ -62,3 +62,19 @@ GLO = {
 	color = rgb { 31 7 247 }
 	color_ui = rgb { 31 7 247 }
 }
+ELS = {
+	color = rgb { 180 185 194 }
+	color_ui = rgb { 180 185 194 }
+}
+ALN = {
+	color = rgb { 252 141 182 }
+	color_ui = rgb { 252 141 182 }
+}
+AIO = {
+	color = rgb { 252 208 104 }
+	color_ui = rgb { 252 208 104 }
+}
+CAL = {
+	color = rgb { 247 247 245 }
+	color_ui = rgb { 247 247 245 }
+}
