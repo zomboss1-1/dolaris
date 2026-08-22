@@ -30,7 +30,7 @@ ideologies = {
       war_impact_on_world_tension = 0.65
       faction_impact_on_world_tension = 0.4
       modifiers = {
-        generate_wargoal_tenaion = 0.30
+        generate_wargoal_tension = 0.30
         join_faction_tension = 0.0
         lend_lease_tension = 0.15
         send_volunteers_tension = 0.15
@@ -43,7 +43,7 @@ ideologies = {
       }
       can_be_boosted = no
       can_collaborate = yes
-      faction_modifiers = 
+      faction_modifiers = {
       
       }
     }
@@ -83,7 +83,7 @@ anarchism = {
       war_impact_on_world_tension = 0.5
       faction_impact_on_world_tension = 0.2
       modifiers = {
-        generate_wargoal_tenaion = 1
+        generate_wargoal_tension = 1
         join_faction_tension = 1
         lend_lease_tension = 0.50
         send_volunteers_tension = 0.50
