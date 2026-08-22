@@ -89,3 +89,8 @@ TUJ = {
 BOL = {
 	color = rgb { 112 100 3 }
 	color_ui = rgb { 112 100 3 }
+}
+OUR = {
+	color = rgb { 240 174 31 }
+	color_ui = rgb { 249 174 31 }
+}
