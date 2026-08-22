@@ -1,5 +1,5 @@
 #capital = 
-#oob = " "
+oob = "TRN_1900"
 set_research_slots = 2
 set_stability = 0.45
 set_war_support = 0.25
