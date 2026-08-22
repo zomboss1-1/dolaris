@@ -83,6 +83,6 @@ PFZ = {
 	color_ui = rgb { 161 40 198 }
 }
 TUJ = {
-	color = rgb { 173 55 12 }
-	color_ui = rgb { 173 55 12 }
+	color = rgb { 173 155 12 }
+	color_ui = rgb { 173 155 12 }
 }
