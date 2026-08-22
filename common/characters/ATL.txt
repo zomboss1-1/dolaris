@@ -7,7 +7,7 @@ characters = {
       }
     }
     country_leader = {
-      ideology = conservatism
+      ideology = elitist
       traits = { industrial_baron }
       desc = ATL_akilla_pretense_desc
     }
