@@ -39,3 +39,23 @@
  BEL_democratic_def:0 "the Parlimentary Republic of Belejan"
  BEL_anarchism:0 "Lawlessness"
  BEL_anarchism_def:0 "Lawlessness"
+
+ ALO:0 "Aloria"
+ ALO_def:0 "Aloria"
+ ALO_adj:0 "Alorian"
+ ALO_monarchism:0 "Alorian Kingdom
+ ALO_monarchism_def:0 "the Alorian Kingdom"
+ ALO_democratic:0 "Alorian Federation"
+ ALO_democratic_def:0 "the Alorian Federation"
+ ALO_anarchism:0 "Lawlessness"
+ ALO_anarchism_def:0 "Lawlessness"
+
+ TRN:0 "Thernva"
+ TRN_def:0 "Thernva"
+ TRN_adj:0 "Thernvan"
+ TRN_monarchism:0 "Thernvan Imperium"
+ TRN_monarchism_def:0 "the Thernvan Imperium"
+ TRN_democratic:0 "Republic of Thernva"
+ TRN_democratic_def:0 "the Republic of Thernva"
+ TRN_anarchism:0 "Lawlessness"
+ TRN_anarchism_def:0 "Lawlessness"
