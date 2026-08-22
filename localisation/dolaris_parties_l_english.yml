@@ -1,4 +1,9 @@
 ﻿l_english:
+ elitist:0 "Elitist Democracy"
+ elitist_desc:0 "A system of democratic governance where an individuls ability to vote is based off of social standing. This could be a class based system, a position based system, a knowledge based system, or any other system based off of social standing."
+ census:0 "Census Democracy"
+ census_desc:0 "This is a form of democracy that aims to exclude specific groups from voting, whether that is based off of race, religion, class, or something else."
+ 
  anarchism:0 "Anarchist"
  anarchism_noun:0 "Anarchism"
  anarchism_desc:0 "Anarchist state“
@@ -19,14 +24,10 @@
 
  ARL_monarchism_party:0 "The Golden Kingdom"
  ARL_democracy_party:0 "Party for the Free Thinking People's of Arnor Londo"
- ARL_fascism_party:0 "The Restoration Militia"
  ARL_neutrality_party:0 "Confederated Union of Arnorian Peoples"
- ARL_communism_party:0 "Organized Collective of Workers Unions"
  ARL_anarchism_party:0 "The Arnorian Commune"
 
  ATL_monarchism_party:0 "Kings Party"
  ATL_democracy_party:0 "Capital Democrats of Atlantis"
- ATL_fascism_party:0 "Nationalists of Atlantis"
  ATL_neutrality_party:0 "Atlantian Union"
- ATL_communism_party:0 "Atlantian Workers Party"
  ATL_anarchism_party:0 "Atlantis Anarchist Party"
