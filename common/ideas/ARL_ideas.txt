@@ -7,7 +7,7 @@ ideas = {
       picture = divided_nation
     }
     ARL_birthplace_of_goldism = {
-    
+      picture = birthplace_of_goldism
     }
     ARL_supporting_BEL = {
       #picture = 

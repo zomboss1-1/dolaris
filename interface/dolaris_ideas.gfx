@@ -7,8 +7,8 @@ spriteTypes = {
     name = GFX_idea_divided_nation
     texturefile = gfx/interface/ideas/The_Divided_Nation.png
   }
-  #spriteType = {
-  #  name = GFX_idea_birthplace_of_goldism
-  #  texturefile = gfx/interface/ideas/Birthplace_of_Goldim.png
-  #}
+  spriteType = {
+    name = GFX_idea_birthplace_of_goldism
+    texturefile = gfx/interface/ideas/Birthplace_of_Goldim.png
+  }
 }
