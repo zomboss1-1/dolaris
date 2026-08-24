@@ -26,8 +26,8 @@ state={
 				naval_base = 1
 			}
 		}
-		owner = ATL
-		add_core_of = ATL
+		owner = ARL
+		add_core_of = ARL
 	}
 
 	provinces={
