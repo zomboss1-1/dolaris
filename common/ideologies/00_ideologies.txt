@@ -47,7 +47,6 @@ ideologies = {
       faction_modifiers = {
       
       }
-    }
     ai_neutral = yes
   }
   anarchism = {
@@ -104,6 +103,7 @@ ideologies = {
     }
     ai_democratic = yes
   }
+
   democratic = {
     types = {
       populism = {
@@ -161,7 +161,5 @@ ideologies = {
       faction_modifiers = {
 
       }
-    }
     ai_democratic = yes
   }
-}
