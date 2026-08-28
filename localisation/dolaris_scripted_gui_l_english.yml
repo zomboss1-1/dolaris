@@ -1,6 +1,0 @@
-l_english:
- ARL_corporate_anger_scripted_gui:0 "Corporate Anger"
- ARL_corporate_anger_control_text:0 "Government control: [?ARL_government_control_var]"
- ARL_corporate_anger_control_tt:0 " "
- ARL_corporate_anger_anger_text:0 "Corporate anger: [?ARL_corporate_anger_var]"
- ARL_corporate_anger_anger_tt:0 " "

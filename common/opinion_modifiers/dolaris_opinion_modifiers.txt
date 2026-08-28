@@ -1,9 +1,0 @@
-opinion_modifiers = {
-  BEL_recognized_our_government = {
-    value = 50
-  }
-  BEL_ARL_trade = {
-    trade = yes
-    value = 50
-  }
-}
