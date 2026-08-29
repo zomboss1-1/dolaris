@@ -94,3 +94,7 @@ OUR = {
 	color = rgb { 240 174 31 }
 	color_ui = rgb { 249 174 31 }
 }
+TRA = {
+	color = rgb { 247 220 48 }
+	color_ui = rgb { 247 220 48 }
+}

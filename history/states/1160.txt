@@ -27,7 +27,7 @@ state={
 			
 			
 		}
-		
+		owner = ATL
 	}
 
 	provinces={
