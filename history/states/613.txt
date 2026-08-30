@@ -30,7 +30,8 @@ state={
 			}
 			
 		}
-		
+		owner = ELS
+		add_core_of = ELS
 	}
 
 	provinces={

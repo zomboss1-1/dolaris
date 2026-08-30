@@ -27,7 +27,8 @@ state={
 			
 			
 		}
-		
+		owner= BEL
+		add_core_of = BEL
 	}
 
 	provinces={

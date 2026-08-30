@@ -43,7 +43,7 @@
  ALO:0 "Aloria"
  ALO_def:0 "Aloria"
  ALO_adj:0 "Alorian"
- ALO_monarchism:0 "Alorian Kingdom
+ ALO_monarchism:0 "Alorian Kingdom"
  ALO_monarchism_def:0 "the Alorian Kingdom"
  ALO_democratic:0 "Alorian Federation"
  ALO_democratic_def:0 "the Alorian Federation"
@@ -110,9 +110,9 @@
  NSH_anarchism:0 "Lawlessness"
  NSH_anarchism_def:0 "Lawlessness"
 
- MSH:0 "Shande Minor
+ MSH:0 "Shande Minor"
  MSH_def:0 "Shande Minor"
- MSH_adj:0 "Shandian
+ MSH_adj:0 "Shandian"
  MSH_monarchism:0 "Kingdom of Shande"
  MSH_monarchism_def:0 "the Kingdom of Shande"
  MSH_democratic:0 "Shande Minor"
@@ -140,7 +140,7 @@
  ALN_anarchism:0 "Lawlessness"
  ALN_anarchism_def:0 "Lawlessness"
 
- AIO:0 "Aion
+ AIO:0 "Aion"
  AIO_def:0 "Aion"
  AIO_adj:0 "Aish"
  AIO_monarchism:0 "Aion"
@@ -190,7 +190,7 @@
  ELS_anarchism:0 "Lawlessness"
  ELS_anarchism_def:0 "Lawlessness"
 
- CAL:0 "Calumia
+ CAL:0 "Calumia"
  CAL_def:0 "Calumia"
  CAL_adj:0 "Calumian"
  CAL_monarchism:0 "Calumian Kingdom"
@@ -209,3 +209,13 @@
  PFZ_democratic_def:0 "the Republic of Pforzheim"
  PFZ_anarchism:0 "Lawlessness"
  PFZ_anarchism_def:0 "Lawlessness"
+
+ OUR:0 "Oureia"
+ OUR_def:0 "Ouriea"
+ OUR_ADJ:0 "Oureian"
+ OUR_monarchism:0 "Oureian Kingdom"
+ OUR_monarchism_def:0 "the Oureian Kingdom"
+ OUR_democratic:0 "Republic of Oureia"
+ OUR_democratic_def:0 "the Republic of Oureia"
+ OUR_anarchism:0 "Lawlessness"
+ OUR_anarchism_def:0 "Lawlessness"

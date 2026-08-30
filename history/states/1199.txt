@@ -30,7 +30,8 @@ state={
 			}
 			
 		}
-		
+		owner= OUR
+		add_core_of = OUR
 	}
 
 	provinces={
