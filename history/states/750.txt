@@ -30,7 +30,8 @@ state={
 			}
 			
 		}
-		
+		owner = CRE
+		add_core_of = CRE
 	}
 
 	provinces={

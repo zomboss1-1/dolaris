@@ -27,7 +27,8 @@ state={
 			
 			
 		}
-		
+		owner = GLO
+		add_core_of = GLO
 	}
 
 	provinces={

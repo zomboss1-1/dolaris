@@ -30,7 +30,8 @@ state={
 			}
 			
 		}
-		
+		owner = BOL
+		add_core_of = BOL
 	}
 
 	provinces={

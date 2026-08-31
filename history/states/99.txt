@@ -30,7 +30,8 @@ state={
 			}
 			
 		}
-		
+		owner = MSH
+		add_core_of = MSH
 	}
 
 	provinces={

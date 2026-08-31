@@ -4,7 +4,7 @@ state={
 	name="STATE_316"
 	manpower = 4601578
 	
-	state_category = megalopolis
+	state_category = megAROpolis
 	#impassable = yes
 	resources={
 		aluminium=0
@@ -30,7 +30,8 @@ state={
 			}
 			
 		}
-		
+		owner = BOL
+		add_core_of = BOL
 	}
 
 	provinces={

@@ -27,7 +27,8 @@ state={
 			
 			
 		}
-		
+		owner = ARO
+		add_core_of = ARO
 	}
 
 	provinces={

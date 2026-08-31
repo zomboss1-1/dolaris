@@ -27,7 +27,8 @@ state={
 			
 			
 		}
-		
+		owner = PFZ
+		add_core_of = PFZ
 	}
 
 	provinces={

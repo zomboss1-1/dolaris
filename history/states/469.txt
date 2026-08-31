@@ -30,7 +30,8 @@ state={
 			}
 			
 		}
-		
+		owner = CAL
+		add_core_of = CAL
 	}
 
 	provinces={

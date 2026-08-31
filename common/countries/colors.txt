@@ -14,7 +14,7 @@ BEL = {
 	color = rgb { 110 245 243 }
 	color_ui = rgb { 110 245 243 }
 }
-ALO = {
+ARO = {
 	color = rgb { 39 142 245 }
 	color_ui = rgb { 39 142 245 }
 }

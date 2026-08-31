@@ -30,7 +30,8 @@ state={
 			}
 			
 		}
-		
+		owner = GSH
+		add_core_of = GSH
 	}
 
 	provinces={

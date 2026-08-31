@@ -27,7 +27,8 @@ state={
 			
 			
 		}
-		
+		owner = CTU
+		add_core_of = CTU
 	}
 
 	provinces={
