@@ -102,3 +102,7 @@ BLE = {
 	color = rgb { 10 79 10 }
 	color_ui = rgb { 10 79 10 }
 }
+SOL = {
+	color = rgb { 255 220 51 }
+	color_ui = rgb { 255 220 51 }
+}

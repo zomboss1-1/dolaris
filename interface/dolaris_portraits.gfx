@@ -3,4 +3,8 @@ spriteTypes = {
         name = GFX_ARL_andrej_ciernik
         texturefile = gfx/interface/portraits/ARL/ARL_andrej_ciernik.png
     }
+    spriteType = {
+        name = GFX_ATL_akilla_pretense
+        texturefile = gfx/interface/portraits/ATL/ATL_Akilla_Pretense.png
+    }
 }
