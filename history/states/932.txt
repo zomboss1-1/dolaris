@@ -30,7 +30,8 @@ state={
 			}
 			
 		}
-		
+		owner = TRN
+		add_core_of = TRN
 	}
 
 	provinces={

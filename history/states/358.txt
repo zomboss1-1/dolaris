@@ -27,9 +27,8 @@ state={
 			
 			
 		}
-		owner = ATL
-		add_core_of = ATL
-		
+		owner = LIL
+		add_core_of = LIL
 	}
 
 	provinces={

@@ -30,7 +30,8 @@ state={
 			}
 			
 		}
-		
+		owner = AIO
+		add_core_of = AIO
 	}
 
 	provinces={

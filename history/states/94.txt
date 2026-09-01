@@ -30,7 +30,8 @@ state={
 			}
 			
 		}
-		
+		owner = NSH
+		add_core_of = NSH
 	}
 
 	provinces={

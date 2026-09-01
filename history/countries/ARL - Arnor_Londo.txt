@@ -1,4 +1,4 @@
-capital = 563
+capital = 579
 oob = "ARL_1900"
 set_research_slots = 3
 set_stability = 0.45

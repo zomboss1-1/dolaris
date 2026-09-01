@@ -98,3 +98,7 @@ TRA = {
 	color = rgb { 247 220 48 }
 	color_ui = rgb { 247 220 48 }
 }
+BLE = {
+	color = rgb { 10 79 10 }
+	color_ui = rgb { 10 79 10 }
+}

@@ -27,7 +27,8 @@ state={
 			
 			
 		}
-		
+		owner = BLE
+		add_core_of = BLE
 	}
 
 	provinces={

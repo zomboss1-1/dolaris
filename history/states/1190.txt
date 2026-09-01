@@ -30,7 +30,8 @@ state={
 			}
 			
 		}
-		owner = ATL
+		owner = ALO
+		add_core_of = ALO
 	}
 
 	provinces={

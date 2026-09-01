@@ -27,7 +27,8 @@ state={
 			
 			
 		}
-		
+		owner = LIL
+		add_core_of = LIL
 	}
 
 	provinces={

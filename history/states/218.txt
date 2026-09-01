@@ -30,8 +30,8 @@ state={
 			}
 			
 		}
-		owner = ATL
-		add_core_of = ATL
+		owner = NSH
+		add_core_of = NSH
 		
 	}
 

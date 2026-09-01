@@ -30,7 +30,8 @@ state={
 			}
 			
 		}
-		
+		owner = SSH
+		add_core_of = SSH
 	}
 
 	provinces={

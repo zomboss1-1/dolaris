@@ -27,7 +27,8 @@ state={
 			
 			
 		}
-		
+		owner = ALN
+		add_core_of = ALN
 	}
 
 	provinces={
