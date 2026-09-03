@@ -27,8 +27,8 @@ state={
 			
 			
 		}
-		owner= TIB
-		add_core_of = TIB
+		owner= VOL
+		add_core_of = VOL
 	}
 
 	provinces={

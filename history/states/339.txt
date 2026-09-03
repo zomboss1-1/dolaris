@@ -30,7 +30,8 @@ state={
 			}
 			
 		}
-		
+		owner = VOL
+		add_core_of = VOL
 	}
 
 	provinces={

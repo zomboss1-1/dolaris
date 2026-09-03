@@ -106,3 +106,7 @@ SOL = {
 	color = rgb { 255 220 51 }
 	color_ui = rgb { 255 220 51 }
 }
+VOL = {
+	color = rgb { 49 230 91 }
+	color_ui = rgb { 49 230 91 }
+}

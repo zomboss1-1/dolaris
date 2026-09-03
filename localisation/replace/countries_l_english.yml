@@ -249,3 +249,13 @@
  BLE_democratic_def:0 "the Republic of Bleuck"
  BLE_anarchism:0 "Lawlessness"
  BLE_anarchism_def:0 "Lawlessness"
+
+ VOL:0 "Volheim"
+ VOL_def:0 "Volheim"
+ VOL_adj:0 "Volheimian"
+ VOL_monarchism:0 "Kingdom of Volheim"
+ VOL_monarchism_def:0 "the Kingdom of Volheim"
+ VOL_democratic:0 "Republic of Volheim"
+ VOL_democratic_def:0 "the Republic of Volheim"
+ VOL_anarchism:0 "Lawlessness"
+ VOL_anarchism_def:0 "Lawlessness"
