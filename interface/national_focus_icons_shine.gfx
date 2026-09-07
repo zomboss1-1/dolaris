@@ -69,7 +69,7 @@ spriteTypes = {
     }
     spriteType = {
         name = GFX_focus_ARL_tradition_is_key
-        texturefile = gfx/interface/national_focus/Tradition_is_key.png   
+        texturefile = gfx/interface/national_focus/Tradition_is_Key.png   
     }
     spriteType = {
         name = GFX_focus_ARL_tradition_is_key_shine

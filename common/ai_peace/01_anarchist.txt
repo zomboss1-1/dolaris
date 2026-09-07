@@ -58,8 +58,8 @@ ai_anarchist = {
 				}
 			}
 		}
+	}
 	force_government = { # No government
 		factor = 0
 	}
-}
 }
