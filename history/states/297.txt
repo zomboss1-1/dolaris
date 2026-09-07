@@ -30,9 +30,8 @@ state={
 			}
 			
 		}
-		owner = ATL
-		add_core_of = ATL
-		
+		owner = SHA
+		add_core_of = SHA
 	}
 
 	provinces={

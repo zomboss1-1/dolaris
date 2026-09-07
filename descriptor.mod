@@ -14,11 +14,20 @@ replace_path="common/factions/goals"
 replace_path="common/factions/rules"
 replace_path="common/factions/rules/groups"
 replace_path="common/factions/templates"
+replace_path="common/scripted_localisation"
+replace_path="common/scripted_triggers"
+replace_path="common/scripted_effects"
+replace_path="common/scripted_triggers"
+replace_path="common/decisions"
+replace_path="common/ideologies"
+replace_path="common/ai_strategy_plans"
+replace_path="common/ai_focus"
+replace_path="common/characters"
 
 tags={
 	"Gameplay"
 	"Historical"
 }
-supported_version="1.17.*"
+supported_version="1.19.*"
 
 remote_file_id="<ID>"

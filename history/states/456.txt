@@ -27,7 +27,8 @@ state={
 			
 			
 		}
-		
+		owner = ELK
+		add_core_of = ELK
 	}
 
 	provinces={

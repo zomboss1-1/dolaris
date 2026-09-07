@@ -30,7 +30,8 @@ state={
 			}
 			
 		}
-		
+		owner = LOC
+		add_core_of = LOC
 	}
 
 	provinces={

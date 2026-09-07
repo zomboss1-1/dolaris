@@ -1,4 +1,4 @@
-
+ 
 state={
 	id=735
 	name="STATE_735"
@@ -27,7 +27,8 @@ state={
 			
 			
 		}
-		
+		owner = LOC
+		add_core_of = LOC
 	}
 
 	provinces={

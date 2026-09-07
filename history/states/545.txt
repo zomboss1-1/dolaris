@@ -27,7 +27,8 @@ state={
 			
 			
 		}
-		
+		owner = VOH
+		add_core_of = VOH
 	}
 
 	provinces={

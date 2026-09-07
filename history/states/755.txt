@@ -27,7 +27,8 @@ state={
 			
 			
 		}
-		
+		owner = CHO
+		add_core_of = CHO
 	}
 
 	provinces={

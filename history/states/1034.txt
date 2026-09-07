@@ -27,7 +27,8 @@ state={
 			
 			
 		}
-		
+		owner = ZET
+		add_core_of = ZET
 	}
 
 	provinces={

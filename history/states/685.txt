@@ -27,7 +27,8 @@ state={
 			
 			
 		}
-		
+		owner = PAP
+		add_core_of = PAP
 	}
 
 	provinces={

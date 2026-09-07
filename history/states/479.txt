@@ -27,8 +27,8 @@ state={
 			
 			
 		}
-		owner= KIJ
-		add_core_of = KIJ
+		owner= CRE
+		add_core_of = CRE
 	}
 
 	provinces={

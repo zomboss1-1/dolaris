@@ -30,7 +30,8 @@ state={
 			}
 			
 		}
-		
+		owner = MAL
+		add_core_of = MAL
 	}
 
 	provinces={

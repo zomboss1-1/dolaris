@@ -110,3 +110,35 @@ VOL = {
 	color = rgb { 49 230 91 }
 	color_ui = rgb { 49 230 91 }
 }
+SHA = {
+	color = rgb { 255 233 132 }
+	color_ui = rgb { 255 233 132 }
+}
+ZET = {
+	color = rgb { 148 25 4 }
+	color_ui = rgb { 148 25 4 }
+}
+ELK = {
+	color = rgb { 74 64 62 }
+	color_ui = rgb { 74 64 62 }
+}
+VOH = {
+	color = rgb { 235 135 135 }
+	color_ui = rgb { 235 135 135 }
+}
+CHO = {
+	color = rgb { 235 132 28 }
+	color_ui = rgb { 235 132 28 }
+}
+MAL = {
+	color = rgb { 90 240 18 }
+	color_ui = rgb { 90 240 18 }
+}
+LOC = {
+	color = rgb { 161 161 161 }
+	color_ui = rgb { 161 161 161 }
+}
+PAP = {
+	color = rgb { 246 212 255 }
+	color_ui = rgb { 246 212 255 }
+}
