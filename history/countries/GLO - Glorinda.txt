@@ -12,11 +12,16 @@ set_technology = {
   infantry_equipment1 = 1
 }
 
+
 set_popularities = {
   monarchism = 30
   democratic = 20
   neutrality = 40
   anarchism = 10
+}
+set_autonomy = {
+  target = ATL
+  autonomous_state = autonomy_integrated_puppet
 }
 
 set_politics = {
