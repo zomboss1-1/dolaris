@@ -8,6 +8,10 @@ add_ideas = {
   
 }
 
+set_autonomy = {
+  target = GLO
+  autonomy_state = autonomy_integrated_puppet
+}
 set_technology = {
   infantry_equipment1 = 1
 }

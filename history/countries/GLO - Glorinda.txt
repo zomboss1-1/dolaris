@@ -19,10 +19,6 @@ set_popularities = {
   neutrality = 40
   anarchism = 10
 }
-set_autonomy = {
-  target = ATL
-  autonomous_state = autonomy_integrated_puppet
-}
 
 set_politics = {
   ruling_party = neutrality
