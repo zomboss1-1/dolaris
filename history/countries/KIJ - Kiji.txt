@@ -12,6 +12,8 @@ set_technology = {
   infantry_equipment1 = 1
 }
 
+recruit_character = KIJ_zakiye_ekmekci
+
 set_popularities = {
   monarchism = 30
   democratic = 40

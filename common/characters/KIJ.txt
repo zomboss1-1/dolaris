@@ -1,0 +1,15 @@
+characters = {
+  KIJ_zakiye_ekmekci = {
+    name = KIJ_zakiye_ekmekci
+    portraits = {
+      civilian = {
+        large = "GFX_KIJ_zakiye_ekmekci"
+      }
+    }
+    country_leader = {
+      ideology = elitist
+      traits = {  }
+      desc = KIJ_zakiye_ekmekci_desc
+    }
+  }
+}

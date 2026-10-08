@@ -7,4 +7,8 @@ spriteTypes = {
         name = GFX_ATL_akilla_pretense
         texturefile = gfx/interface/portraits/ATL/ATL_Akilla_Pretense.png
     }
+    spriteType = {
+        name = GFX_KIJ_zakiye_ekmekci
+        texturefile = gfx/interface/portraits/KIJ/Zakiye_Ekmekci.png
+    }
 }
