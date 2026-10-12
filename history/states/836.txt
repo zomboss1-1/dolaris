@@ -29,6 +29,7 @@ state={
 		}
 		owner = ALO
 		add_core_of = ALO
+		add_core_of = BEL
 	}
 
 	provinces={

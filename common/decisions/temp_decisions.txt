@@ -1,24 +1,40 @@
 # ALL DECISIONS IN THIS FILE WILL BE REPLACED LATER ON
 # THE MAJORITY OF THIS WILL BE THINGS LIKE STARTING A CIVIL WAR
 
-civil_war_cat = {
-  BEL_civil_war_imminent = {
-    #icon = GFX_
-    is_good = yes
-    days_mission_timeout = 180
-    activation = {
-      date > 1907.03.01
+war_cat = {
+	BEL_civil_war = {
+    allowed = {
+      tag = BEL
     }
+		activation = {
+			date > 1907.4.7
+		}
+		icon = mission_icon
+		is_good = yes
+		days_mission_timeout = 30
+		timeout_effect = {
+			start_civil_war = {
+				ideology = monarchism
+				size = party_popularity@monarchism
+				capital = 820
+			}
+		}
+	}
+  VOL_war_of_reclemation = {
+    allowed = {
+      tag = VOL
+    }
+    activation = {
+      date > 1909.8.6
+    }
+    icon = mission_icon
+    is_good = yes
+    days_mission_timeout = 30
+    war_with_on_timeout = LIL
     timeout_effect = {
-      start_civil_war = {
-        ideology = monarchism
-        capital = 860
-        states = {
-          860
-        }
-        effects = {
-          
-        }
+      declare_war_on = {
+        target = LIL
+        type = take_core_state
       }
     }
   }

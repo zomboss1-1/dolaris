@@ -16,7 +16,7 @@ ideologies = {
       "FACTION_NAME_MONARCHIST_5"
       "FACTION_NAME_MONARCHIST_6"
     }
-    color = { 145 56 172 }
+    color = { 120 15 220 }
         rules = {
       can_create_collaboration_government = yes
       can_declare_war_on_same_ideology = yes
