@@ -9,6 +9,18 @@ spriteTypes = {
   }
   spriteType = {
     name = GFX_idea_birthplace_of_goldism
-    texturefile = gfx/interface/ideas/Birthplace_of_Goldim.png
+    texturefile = gfx/interface/ideas/Birthplace_of_Goldism.png
+  }
+  spriteType = {
+    name = GFX_idea_ATL_treaty_of_atland
+    texturefile = gfx/interface/ideas/ATL_treaty_of_atland.png
+  }
+  spriteType = {
+    name = GFX_idea_ATL_intense_corruption
+    texturefile = gfx/interface/ideas/ATL_intense_corruption.png
+  }
+  spriteType = {
+    name = GFX_idea_ATL_suppression_of_thought
+    texturefile = gfx/interface/ideas/suppression_of_thought.png
   }
 }

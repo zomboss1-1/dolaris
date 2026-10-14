@@ -1,4 +1,4 @@
-#capital = 
+capital = 957
 oob = "GLO_1900"
 set_research_slots = 2
 set_stability = 0.45

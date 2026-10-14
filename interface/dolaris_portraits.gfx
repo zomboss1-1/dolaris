@@ -11,4 +11,8 @@ spriteTypes = {
         name = GFX_KIJ_zakiye_ekmekci
         texturefile = gfx/interface/portraits/KIJ/Zakiye_Ekmekci.png
     }
+    spriteType = {
+        name = GFX_CRE_klement_tichy
+        texturefile = gfx/interface/portraits/CRE/Klement_Tichy.png
+    }
 }

@@ -12,6 +12,8 @@ set_technology = {
   infantry_equipment1 = 1
 }
 
+recruit_character = CRE_klement_tichy
+
 set_popularities = {
   monarchism = 75
   democratic = 10

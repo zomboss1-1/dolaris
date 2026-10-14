@@ -1,11 +1,18 @@
 capital = 364
-#oob = "ATL_1900"
+oob = "ATL_1900"
 set_research_slots = 3
 set_stability = 0.45
 set_war_support = 0.25
 
 add_ideas = {
-  
+  ATL_treaty_of_atland
+  ATL_intense_corruption
+  ATL_suppression_of_thought
+}
+
+set_autonomy = {
+  target = GLO
+  autonomy_state = autonomy_integrated_puppet
 }
 
 set_technology = {

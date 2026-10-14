@@ -1,0 +1,15 @@
+characters = {
+  CRE_klement_tichy = {
+    name = CRE_klement_tichy
+    portraits = {
+      civilian = {
+        large = "GFX_CRE_klement_tichy"
+      }
+    }
+    country_leader = {
+      ideology = centrism
+      traits = { CRE_alcoholic }
+      desc = CRE_klement_tichy_desc
+    }
+  }
+}

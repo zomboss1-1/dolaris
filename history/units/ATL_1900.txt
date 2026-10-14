@@ -1,1 +1,31 @@
+division_template = {
+    name = "Colonial Militia"
+    regiments = {
+        militia = { x = 0 y = 0 }
+        militia = { x = 0 y = 1 }
+        militia = { x = 1 y = 0 }
+        militia = { x = 1 y = 1 }
+    }
+}
+
+instant_effect = {
+  add_equipment_production = {
+     equipment = {
+	      type = infantry_equipment_0
+	      creator = "ATL"
+  	}
+	  requested_factories = 1
+	  progress = 0.19
+	  efficiency = 100
+  }
+  add_equipment_production = {
+     equipment = {
+	      type = artillery_equipment_1
+	      creator = "ATL"
+  	}
+	  requested_factories = 1
+	  progress = 0.19
+	  efficiency = 100
+  }
+}
 

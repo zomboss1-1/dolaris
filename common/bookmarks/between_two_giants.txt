@@ -32,7 +32,9 @@ bookmarks = {
 
       }
       ideas = {
-
+        ATL_treaty_of_atland
+        ATL_intense_corruption
+        ATL_suppression_of_thought 
       }
     }
   }

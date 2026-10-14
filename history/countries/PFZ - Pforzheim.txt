@@ -12,11 +12,13 @@ set_technology = {
   infantry_equipment1 = 1
 }
 
+recruit_character = PFZ_ariadna_janda
+
 set_popularities = {
-  monarchism = 30
-  democratic = 20
-  neutrality = 40
-  anarchism = 10
+  monarchism = 5
+  democratic = 5
+  neutrality = 85
+  anarchism = 5
 }
 
 set_politics = {

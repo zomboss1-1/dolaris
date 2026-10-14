@@ -17,8 +17,7 @@ state={
 	}
 
 	history={
-				owner = ATL
-		add_core_of = ATL
+		owner = ATL
 		
 		buildings = {
 			infrastructure = 3

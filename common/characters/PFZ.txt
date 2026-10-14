@@ -1,0 +1,15 @@
+characters = {
+  PFZ_ariadna_janda = {
+    name = PFZ_ariadna_janda
+    portraits = {
+      civilian = {
+        large = "GFX_PFZ_ariadna_janda"
+      }
+    }
+    country_leader = {
+      ideology = centrism
+      traits = {  }
+      desc = PFZ_ariadna_janda_desc
+    }
+  }
+}
