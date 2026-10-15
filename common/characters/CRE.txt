@@ -7,7 +7,7 @@ characters = {
       }
     }
     country_leader = {
-      ideology = centrism
+      ideology = absolute_monarchy
       traits = { CRE_alcoholic }
       desc = CRE_klement_tichy_desc
     }

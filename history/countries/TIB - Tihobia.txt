@@ -12,6 +12,8 @@ set_technology = {
   infantry_equipment1 = 1
 }
 
+recruit_character = TIB_zel_tsulman
+
 set_popularities = {
   monarchism = 30
   democratic = 20
