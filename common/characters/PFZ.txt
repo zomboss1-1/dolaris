@@ -3,7 +3,7 @@ characters = {
     name = PFZ_ariadna_janda
     portraits = {
       civilian = {
-        large = "GFX_PFZ_ariadna_janda"
+        large = "GFX_PFZ_arianda_janda"
       }
     }
     country_leader = {

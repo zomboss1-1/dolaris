@@ -1,13 +1,13 @@
 ideas = {
   country = {
     ATL_treaty_of_atland = {
-      picture = treaty_of_atland
+      picture = ATL_treaty_of_atland
     }
     ATL_intense_corruption = {
-      picture = intense_corruption
+      picture = ATL_intense_corruption
     }
     ATL_suppression_of_thought = {
-      picture = suppression_of_thought
+      picture = ATL_suppression_of_thought
     }
   }
 }

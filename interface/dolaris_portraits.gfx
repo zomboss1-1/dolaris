@@ -15,4 +15,12 @@ spriteTypes = {
         name = GFX_CRE_klement_tichy
         texturefile = gfx/interface/portraits/CRE/Klement_Tichy.png
     }
+    spriteType = {
+        name = GFX_TIB_zel_tsulman
+        texturefile = gfx/interface/portraits/TIB/Zel_Tsulman.png
+    }
+    spriteType = {
+        name = GFX_PFZ_arianda_janda
+        texturefile = gfx/interface/portraits/PFZ/Arianda_Janda.png
+    }
 }

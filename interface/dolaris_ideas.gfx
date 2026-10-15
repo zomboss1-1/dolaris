@@ -17,7 +17,7 @@ spriteTypes = {
   }
   spriteType = {
     name = GFX_idea_ATL_intense_corruption
-    texturefile = gfx/interface/ideas/ATL_intense_corruption.png
+    texturefile = gfx/interface/ideas/Intense_Corruption.png
   }
   spriteType = {
     name = GFX_idea_ATL_suppression_of_thought

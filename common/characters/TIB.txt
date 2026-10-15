@@ -1,0 +1,15 @@
+characters = {
+  TIB_zel_tsulman = {
+    name = TIB_zel_tsulman
+    portraits = {
+      civilian = {
+        large = "GFX_TIB_zel_tsulman"
+      }
+    }
+    country_leader = {
+      ideology = theocracy
+      traits = {  }
+      desc = TIB_zel_tsulman_desc
+    }
+  }
+}
