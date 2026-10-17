@@ -7,4 +7,385 @@ focus_tree = {
 	
 	default = yes
 	reset_on_civilwar = no
+
+	continuous_focus_position = {
+		x = -1500
+		y = 500
+
+	}
+	focus = {
+		id = gen_our_place_under_the_sun
+		#icon = 
+		x = 0
+		y = 0
+		cost = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+			country_event = generic.1
+		}
+	}
+
+	focus = {
+		id = gen_king_and_country
+		#icon = 
+		x = -7
+		y = 1
+		relative_position_id = gen_our_place_under_the_sun
+		prerequisite = { focus = gen_our_place_under_the_sun }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_toe_the_middle_line }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = gen_monarchist_sentiments
+		}
+	}
+
+	focus = {
+		id = gen_the_past_is_the_future
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_king_and_country
+		prerequisite = { focus = gen_king_and_country }
+		cost = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+			add_popularity = {
+				ideology = monarchism
+				popularity = 0.10
+			}
+		}
+	}
+
+	focus = {
+		id = gen_light_the_match
+		#icon = 
+		x = -2
+		y = 1
+		relative_position_id = gen_the_past_is_the_future
+		prerequisite = { focus = gen_the_past_is_the_future }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_by_legal_means_only }
+		mutually_exclusive = { focus = gen_reaffirm_the_monarchy }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_by_legal_means_only
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_the_past_is_the_future
+		prerequisite = { focus = gen_the_past_is_the_future }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_light_the_match }
+		mutually_exclusive = { focus = gen_reaffirm_the_monarchy }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_reaffirm_the_monarchy
+		#icon =
+		x = 2
+		y = 1
+		relative_position_id = gen_the_past_is_the_future
+		prerequisite = { focus = gen_the_past_is_the_future }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_light_the_match }
+		mutually_exclusive = { focus = gen_by_legal_means_only }
+
+		completion_reward = {
+			add_popularity = {
+				ideology = monarchism
+				popularity = 0.15
+
+			}
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = gen_the_rights_of_the_monarch
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_by_legal_means_only
+		prerequisite = { focus = gen_light_the_match focus = gen_by_legal_means_only focus = gen_reaffirm_the_monarchy }
+		cost = 5
+
+		completion_reward = {
+			country_event = generic.2
+		}
+	}
+
+	focus = {
+		id = gen_forwards_with_arnor
+		#icon = 
+		x = -2
+		y = 1
+		relative_position_id = gen_the_rights_of_the_monarch
+		prerequisite = { focus = gen_the_rights_of_the_monarch }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_stay_out_of_the_fight }
+
+		completion_reward = {
+			ARL = {
+				country_event = generic.3
+			}
+		}
+	}
+
+	focus = {
+		id = gen_independantly_together
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_forwards_with_arnor
+		prerequisite = { focus = gen_forwards_with_arnor }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_a_faithful_government }
+
+		completion_reward = {
+			country_event = generic.4
+		}
+	}
+
+	focus = {
+		id = gen_our_state_religion
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_independantly_together
+		prerequisite = { focus = gen_independantly_together focus = gen_a_faithful_government }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_adopt_goldism }
+
+		completion_reward = {
+			country_event = generic.5
+		}
+	}
+
+	focus = {
+		id = gen_our_economy
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_our_state_religion
+		prerequisite = { focus = gen_our_state_religion }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_the_peoples_economy }
+
+		completion_reward = {
+			country_event = generic.6
+		}
+	}
+
+	focus = {
+		id = gen_a_faithful_government
+		#icon = 
+		x = -2
+		y= 1
+		relative_position_id = gen_forwards_with_arnor
+		prerequisite = { focus = gen_forwards_with_arnor }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_independantly_together }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_adopt_goldism
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_a_faithful_government
+		prerequisite = { focus = gen_a_faithful_government focus = gen_independantly_together }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_our_state_religion }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_the_peoples_economy
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_adopt_goldism
+		prerequisite = { focus = gen_adopt_goldism focus = gen_our_state_religion }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_our_economy }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_her_most_loyal_subject
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_the_peoples_economy
+		prerequisite = { focus = gen_the_peoples_economy }
+		cost = 5
+
+		available = {
+			has_completed_focus = gen_a_faithful_government
+			has_completed_focus = gen_adopt_goldism
+			has_ideology = absolute_monarchy
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_stay_out_of_the_fight
+		#icon = 
+		x = 2
+		y = 1
+		relative_position_id = gen_the_rights_of_the_monarch
+		prerequisite = { focus = gen_the_rights_of_the_monarch }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_forwards_with_arnor }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_true_neutrality
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_stay_out_of_the_fight
+		prerequisite = { focus = gen_stay_out_of_the_fight }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_the_independant_bloc }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_civilian_focus
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_true_neutrality
+		prerequisite = { focus = gen_true_neutrality }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_secure_the_borders
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_civilian_focus
+		prerequisite = { focus = gen_civilian_focus }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_the_independant_bloc
+		#icon = 
+		x = 2
+		y = 1
+		relative_position_id = gen_stay_out_of_the_fight
+		prerequisite = { focus = gen_stay_out_of_the_fight }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_true_neutrality }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_mobilize_the_nation
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_the_independant_bloc
+		prerequisite = { focus = gen_the_independant_bloc }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_prepare_for_the_offensive
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_mobilize_the_nation
+		prerequisite = { focus = gen_mobilize_the_nation }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_toe_the_middle_line
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_our_place_under_the_sun
+		prerequisite = { focus = gen_our_place_under_the_sun }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_king_and_country }
+
+		completion_reward = {
+			
+		}
+	}
 }

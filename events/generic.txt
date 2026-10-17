@@ -1,0 +1,56 @@
+namespace = generic
+
+country_event = {
+	id = generic.1
+	title = "The Shifting Tides"
+	desc = generic.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We need a King!"
+		add_popularity = {
+			ideology = monarchism
+			popularity = 0.05
+		}
+	}
+	option = {
+		name = "We should stay out of this"
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.05
+		}
+	}
+	option = {
+		name = " Democracy is the path to strength!"
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.05
+		}
+	}
+}
+
+country_event = {
+	id = generic.2
+	title = "Should we limit the power of our monarch?"
+	desc = generic.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = "The King has absolute power!"
+		set_country_leader_ideology = absolute_monarchy
+		add_trait = {
+			ideology = absolute_monarchy
+			trait = gen_absolute_rule
+		}
+	}
+	option = {
+		name = "Perhaps its wise to limit the Monarchs power..."
+		set_country_leader_ideology = constitutional_monarchy
+		add_trait = {
+			ideology = constitutional_monarchy
+			trait = gen_the_constitution
+		}
+	}
+}
