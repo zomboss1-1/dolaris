@@ -17,10 +17,10 @@ set_technology = {
 recruit_character = ARL_andrej_ciernik
 
 set_popularities = {
-  monarchism = 60
-  democratic = 18
-  neutrality = 20
-  anarchism = 2
+  monarchism = 85
+  democratic = 4
+  neutrality = 10
+  anarchism = 1
 }
 
 set_politics = {

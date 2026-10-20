@@ -15,10 +15,10 @@ set_technology = {
 recruit_character = CRE_klement_tichy
 
 set_popularities = {
-  monarchism = 75
-  democratic = 10
-  neutrality = 10
-  anarchism = 5
+  monarchism = 60
+  democratic = 18
+  neutrality = 20
+  anarchism = 2
 }
 
 set_politics = {

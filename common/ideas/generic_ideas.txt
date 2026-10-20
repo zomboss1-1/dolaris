@@ -1,0 +1,69 @@
+ideas = {
+	country = {
+		gen_monarchist_sentiments = {
+			#picture = 
+			monarchism_drift = 0.01
+		}
+		gen_limited_neutrality = {
+			#picture = 
+			stability_factor = 0.10
+			poltiical_power_gain_factor = 0.05
+			generate_wargoal_tension = 40
+			guarantee_tension = 40
+			join_faction_tension = 40
+			lend_lease_tension = 40
+		}
+		gen_truly_neutral = {
+			#picture = 
+			stability_factor = 0.20
+			poltiical_power_gain_factor = 0.15
+			generate_wargoal_tension = 80
+			guarantee_tension = 80
+			join_faction_tension = 80
+			lend_lease_tension = 80
+		}
+		gen_a_defensive_military = {
+			#picture = 
+			defence = 0.15
+			army_org_factor = 0.10
+			offense = -0.15
+		}
+		gen_strike_first_strike_fast = {
+			offense = 0.15
+			initiative_factor = 0.15
+			army_speed_Factor = 0.15
+			defence = -0.20
+		}
+		gen_arnorianization = {
+			#picture = 
+		}
+		gen_growing_goldist_following = {
+			#picture = 
+		}
+		gen_socializing_the_economy = {
+			#picture = 
+		}
+		gen_a_willing_subject = {
+			#picture = 
+		}
+		gen_our_way_forwards = {
+			#picture =
+		}
+		gen_moving_towards_neutrality = {
+			#picture = 
+			neutrality_drift = 0.01
+		}
+		# RELIGION 1
+		# RELIGION 2
+		gen_state_atheism = {
+			#picture = 
+		}
+		gen_command_economy = {
+			#picture = 
+		}
+		gen_free_market = {
+			#picture = 
+		}
+
+	}
+}

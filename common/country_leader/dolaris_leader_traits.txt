@@ -30,4 +30,19 @@ leader_traits = {
     trade_laws_cost_factor = 0.05
     economy_laws_cost_factor = 0.05
   }
+  gen_absolute_rule = {
+    random = no
+    sprite = 1
+    political_power_factor = 0.05
+    political_advisor_cost_factor = -0.10
+    stability_factor = -0.05
+  }
+  gen_the_constitution = {
+    random = no
+    sprite = 1
+    stability_factor = 0.10
+    monarchism_drift = 0.01
+    political_power_factor = -0.05
+
+  }
 }

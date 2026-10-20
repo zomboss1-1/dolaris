@@ -54,3 +54,73 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = generic.3
+	title = "[FROM.GetName] wants to join the [ARL.GetFactionName]!"
+	desc = generic.3.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We are stronger together!"
+		add_to_faction = FROM
+	}
+	option = {
+		name = "We have other plans for [FROM.GetName]..."
+	}
+}
+
+country_event = {
+	id = generic.4
+	title = "Our state religion"
+	desc = generic.4.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = "INSERT RELIGION 1 HERE"
+		#add_ideas = gen_religion_1
+	}
+	option = {
+		name = "INSERT RELIGION 2 HERE"
+		#add_ideas = gen_religion_2
+	}
+	option = {
+		name = "We do not need religion."
+		add_ideas = gen_state_atheism
+	}
+}
+
+country_event = {
+	id = generic.5
+	title = "Our economy"
+	desc = generic.5.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A state controlled economy is nessecary"
+		add_ideas = gen_command_economy
+	}
+	option = {
+		name = "We shall have a free market"
+		add_ideas = gen_free_market
+	}
+}
+
+country_event = {
+	id = generic.6
+	title = "[FROM.GetName] wants to join the Neutral Bloc!"
+	desc = generic.5.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Of course!"
+		add_to_faction = FROM
+	}
+	option = {
+		name = "No."
+	}
+}
