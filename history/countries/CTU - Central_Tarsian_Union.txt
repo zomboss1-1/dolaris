@@ -1,4 +1,4 @@
-#capital = 
+infantry_equipment = 1#capital = 
 oob = "CTU_1900"
 set_research_slots = 1
 set_stability = 0.45

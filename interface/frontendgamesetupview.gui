@@ -606,8 +606,9 @@ guiTypes = {
 			font = "hoi4_typewriter16"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 540
-			maxHeight = 30
+			maxHeight = 100
 			format = left
+			scrollbartype = "standardlistbox_slider"
 		}
 
 		ButtonType = {
@@ -945,8 +946,9 @@ guiTypes = {
 			font = "hoi4_typewriter16"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 380
-			maxHeight = 30
+			maxHeight = 180
 			format = left
+			scrollbartype = "standardlistbox_slider"
 		}
 
 		dropDownBoxType = {

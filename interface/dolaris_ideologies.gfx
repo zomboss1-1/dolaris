@@ -36,8 +36,8 @@ spriteTypes = {
     texturefile = gfx/interface/ideologies/Socialism.png
   }
   spriteType = {
-    name = GFX_ideology_democratic_socialism
-    texturefile = gfx/interface/ideologies/Democratic_Socialism.png
+    name = GFX_ideology_Social_Democracy
+    texturefile = gfx/interface/ideologies/Social_Democracy.png
   }
   spriteType = {
     name = GFX_ideology_revolutionary_socialism
