@@ -31,7 +31,7 @@ focus_tree = {
 	focus = {
 		id = gen_king_and_country
 		#icon = 
-		x = -11
+		x = -10
 		y = 1
 		relative_position_id = gen_our_place_under_the_sun
 		prerequisite = { focus = gen_our_place_under_the_sun }
@@ -443,6 +443,7 @@ focus_tree = {
 		cost = 5
 
 		mutually_exclusive = { focus = gen_king_and_country }
+		mutually_exclusive = { focus = gen_in_the_name_of_liberty }
 
 		completion_reward = {
 			add_ideas = gen_moving_towards_neutrality
@@ -466,6 +467,440 @@ focus_tree = {
 				ideology = monarchism
 				popularity = -0.10
 			}
+		}
+	}
+	
+	focus = {
+		id = gen_the_junta_takes_over
+		#icon = 
+		x = -1
+		y = 1
+		relative_position_id = gen_denounce_the_blocs
+		prerequisite = { focus = gen_denounce_the_blocs }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_make_neutrality_law }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_make_neutrality_law
+		#icon = 
+		x = 1
+		y = 1
+		relative_position_id = gen_denounce_the_blocs
+		prerequisite = { focus = gen_denounce_the_blocs }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_the_junta_takes_over }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_secure_the_administration
+		#icon = 
+		x = 1
+		y = 1
+		relative_position_id = gen_the_junta_takes_over
+		prerequisite = { focus = gen_the_junta_takes_over focus = gen_make_neutrality_law }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_our_own_way_forwards
+		#icon = 
+		x = -2
+		y = 1
+		relative_position_id = gen_secure_the_administration
+		prerequisite = { focus = gen_secure_the_administration }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_armed_neutrality }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_this_is_us
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_our_own_way_forwards
+		prerequisite = { focus = gen_our_own_way_forwards }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_civilian_economy
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_this_is_us
+		prerequisite = { focus = gen_this_is_us }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_a_new_identity
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_civilian_economy
+		prerequisite = { focus = gen_civilian_economy }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_armed_neutrality
+		#icon = 
+		x = 2
+		y = 1
+		relative_position_id = gen_secure_the_administration
+		prerequisite = { focus = gen_secure_the_administration }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_our_own_way_forwards }
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = gen_balanced_economy
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_armed_neutrality
+		prerequisite = { focus = gen_armed_neutrality }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_joint_training
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_balanced_economy
+		prerequisite = { focus = gen_balanced_economy }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_prepare_for_the_future
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_joint_training
+		prerequisite = { focus = gen_joint_training }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_in_the_name_of_liberty
+		#icon = 
+		x = 9
+		y = 1
+		relative_position_id = gen_our_place_under_the_sun
+		prerequisite = { focus = gen_our_place_under_the_sun }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_king_and_country }
+		mutually_exclusive = { focus = gen_toe_the_middle_line }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_kings_means_brutality
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_in_the_name_of_liberty
+		prerequisite = { focus = gen_in_the_name_of_liberty }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_shut_down_the_resistance
+		#icon = 
+		x = -2
+		y = 1
+		relative_position_id = gen_kings_means_brutality
+		prerequisite = { focus = gen_kings_means_brutality }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_our_first_election }
+		mutually_exclusive = { focus = gen_democracy_shall_stay }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_our_first_election
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_kings_means_brutality
+		prerequisite = { focus = gen_kings_means_brutality }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_shut_down_the_resistance }
+		mutually_exclusive = { focus = gen_democracy_shall_stay }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_democracy_shall_stay
+		#icon = 
+		x = 2
+		y = 1
+		relative_position_id = gen_kings_means_brutality
+		prerequisite = { focus = gen_kings_means_brutality }
+		cost = 5 
+
+		mutually_exclusive = { focus = gen_shut_down_the_resistance }
+		mutually_exclusive = { focus = gen_our_first_election }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_reorganizing_democracy
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_our_first_election
+		prerequisite = { focus = gen_shut_down_the_resistance focus = gen_our_first_election focus = gen_democracy_shall_stay }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_along_atlantis_side
+		#icon = 
+		x = -3
+		y = 1
+		relative_position_id = gen_reorganizing_democracy
+		prerequisite = { focus = gen_reorganizing_democracy }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_democracy_means_peace }
+		mutually_exclusive = { focus = gen_a_new_path }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_open_trade
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_along_atlantis_side
+		prerequisite = { focus = gen_along_atlantis_side }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_increase_investments
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_open_trade
+		prerequisite = { focus = gen_open_trade }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_revalue_our_currency
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_increase_investments
+		prerequisite = { focus = gen_increase_investments }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_democracy_means_peace
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_reorganizing_democracy
+		prerequisite = { focus = gen_reorganizing_democracy }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_along_atlantis_side }
+		mutually_exclusive = { focus = gen_a_new_path }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_never_any_bloodshed
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_democracy_means_peace
+		prerequisite = { focus = gen_democracy_means_peace }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = gen_consumer_economy
+		#icon =
+		x = 0
+		y = 1
+		relative_position_id = gen_never_any_bloodshed
+		prerequisite = { focus = gen_never_any_bloodshed }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_pax_name
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_consumer_economy
+		prerequisite = { focus = gen_consumer_economy }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_a_new_path
+		#icon = 
+		x = 3
+		y = 1
+		relative_position_id = gen_reorganizing_democracy
+		prerequisite = { focus = gen_reorganizing_democracy }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_along_atlantis_side }
+		mutually_exclusive = { focus = gen_democracy_means_peace }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_strengthen_our_industry
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_a_new_path
+		prerequisite = { focus = gen_a_new_path }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_supporting_global_neutrality
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_strengthen_our_industry
+		prerequisite = { focus = gen_strengthen_our_industry }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_industry_for_our_allies
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_supporting_global_neutrality
+		prerequisite = { focus = gen_supporting_global_neutrality }
+		cost = 5
+
+		completion_reward = {
+			
 		}
 	}
 }
