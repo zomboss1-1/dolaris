@@ -43,4 +43,9 @@ spriteTypes = {
     name = GFX_ideology_revolutionary_socialism
     texturefile = gfx/interface/ideologies/Revolutionary_Socialism.png
   }
+  spriteType = {
+    name = GFX_ideology_junta
+    texturefile = gfx/interface/ideologies/military_junta.png
+  }
 }
+
