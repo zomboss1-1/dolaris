@@ -64,6 +64,47 @@ ideas = {
 		gen_free_market = {
 			#picture = 
 		}
-
+		gen_carving_our_path = {
+			#picture = 
+		}
+		gen_carving_our_path1 = {
+			#picture = 
+		}
+		gen_our_nation = {
+			#picture =
+		}
+		gen_joint_training = {
+			#picture =
+		}
+		gen_arming_our_forces = {
+			#picture =
+		}
+		gen_democratic_movements = {
+			#picture = 
+		}
+		gen_favorable_agreements = {
+			#picture =
+		}
+		gen_increased_investments = {
+			#picture = 
+		}
+		gen_writing_over_weapons = {
+			#picture = 
+		}
+		gen_writing_over_weapons1 = {
+			#picture =
+		}
+		gen_writing_over_weapons2 = {
+			#picture =
+		}
+		gen_pax_nation = {
+			#picture =
+		}
+		gen_global_volunteers = {
+			#picture = 
+		}
+		gen_industry_for_our_allies = {
+			#picture = 
+		}
 	}
 }

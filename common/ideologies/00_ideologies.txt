@@ -175,6 +175,9 @@ ideologies = {
 			}
       theocracy = {
       }
+      junta = {
+        
+      }
 		}
 
 		dynamic_faction_names = {

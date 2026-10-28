@@ -1,0 +1,19 @@
+victory_over_atlantis_goal = {
+	name = "Victory Over Atlantis"
+	description = victory_over_atlantis_goal_desc
+	group = MONARCHIST_GOALS
+	category = long_term
+
+	allowed = {
+		has_government = monarchism
+	}
+
+	completed = {
+		has_global_flag = gf_victory_over_atlantis
+		has_war = no
+	}
+
+	complete_effect = {
+		add_ideas = monarchist_victory_over_atlantis
+	}
+}

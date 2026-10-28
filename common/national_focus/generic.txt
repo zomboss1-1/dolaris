@@ -132,6 +132,10 @@ focus_tree = {
 		mutually_exclusive = { focus = gen_light_the_match }
 		mutually_exclusive = { focus = gen_by_legal_means_only }
 
+		available = {
+			has_government = monarchism
+		}
+		
 		completion_reward = {
 			add_popularity = {
 				ideology = monarchism
@@ -391,13 +395,30 @@ focus_tree = {
 
 		mutually_exclusive = { focus = gen_true_neutrality }
 
-		completion_reward = {
-			any_country = {
-				limit = {
+		available = {
+			OR = {
+				any_country = {
 					is_faction_leader = yes
-					has_faction_template = faction_temp_neutral_bloc
+					has_faction_template = gen_neutral_bloc
 				}
-				country_event = gen.6
+				tag = KIJ
+			}
+		}
+
+		completion_reward = {
+			if = {
+				limit = {
+					tag = KIJ
+				}
+				create_faction_from_template = faction_temp_neutral_bloc
+			}
+			else = {
+				every_country = {
+					limit = {
+						is_faction_leader = yes
+						has_faction_template = faction_temp_neutral_bloc
+					}
+				}
 			}
 		}
 	}
@@ -413,7 +434,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = {
-				partial_mobilisation
+				partial_economic_mobilisation
 				limited_conscription
 			}
 		}
@@ -482,7 +503,11 @@ focus_tree = {
 		mutually_exclusive = { focus = gen_make_neutrality_law }
 
 		completion_reward = {
-			
+			start_civil_war = {
+				ideology = ROOT
+				ruling_party = neutrality
+				size = party_popularity@neutrality
+			}
 		}
 	}
 
@@ -498,7 +523,9 @@ focus_tree = {
 		mutually_exclusive = { focus = gen_the_junta_takes_over }
 
 		completion_reward = {
-			
+			set_politics = {
+				ruling_party = neutrality
+			}
 		}
 	}
 
@@ -512,7 +539,15 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			if = {
+				limit = {
+					has_ideology = junta
+				}
+				country_event = generic.6
+			}
+			else = {
+				add_political_power = 150
+			}
 		}
 	}
 
@@ -528,7 +563,7 @@ focus_tree = {
 		mutually_exclusive = { focus = gen_armed_neutrality }
 
 		completion_reward = {
-			
+			add_ideas = gen_carving_our_path
 		}
 	}
 
@@ -542,7 +577,10 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = gen_carving_our_path
+				add_idea = gen_carving_our_path1
+			}
 		}
 	}
 
@@ -556,7 +594,21 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			add_ideas = civilian_economy
+			random_core_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+				}
+			}
+			random_core_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+				}
+			}
 		}
 	}
 
@@ -570,7 +622,10 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = gen_carving_our_path1
+				add_idea = gen_our_nation
+			}
 		}
 	}
 
@@ -585,8 +640,31 @@ focus_tree = {
 
 		mutually_exclusive = { focus = gen_our_own_way_forwards }
 
-		completion_reward = {
+		available = {
+			OR = {
+				any_country = {
+					is_faction_leader = yes
+					has_faction_template = gen_neutral_bloc
+				}
+				tag = KIJ
+			}
+		}
 
+		completion_reward = {
+			if = {
+				limit = {
+					tag = KIJ
+				}
+				create_faction_from_template = faction_temp_neutral_bloc
+			}
+			else = {
+				every_country = {
+					limit = {
+						is_faction_leader = yes
+						has_faction_template = faction_temp_neutral_bloc
+					}
+				}
+			}
 		}
 	}
 
@@ -600,7 +678,7 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			add_ideas = partial_economic_mobilisation
 		}
 	}
 
@@ -614,7 +692,10 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			add_timed_idea = {
+				idea = gen_joint_training
+				days = 365
+			}
 		}
 	}
 
@@ -628,7 +709,7 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			add_ideas = gen_arming_our_forces
 		}
 	}
 
@@ -645,7 +726,7 @@ focus_tree = {
 		mutually_exclusive = { focus = gen_toe_the_middle_line }
 
 		completion_reward = {
-			
+			add_ideas = gen_democratic_movements
 		}
 	}
 
@@ -659,7 +740,14 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = democratic
+				popularity = 10
+			}
+			add_popularity = {
+				ideology = monarchism
+				popularity = -10
+			}
 		}
 	}
 
@@ -676,7 +764,11 @@ focus_tree = {
 		mutually_exclusive = { focus = gen_democracy_shall_stay }
 
 		completion_reward = {
-			
+			start_civil_war = {
+				ideology = ROOT
+				ruling_party = democratic
+				size = party_popularity@democratic
+			}
 		}
 	}
 
@@ -693,7 +785,7 @@ focus_tree = {
 		mutually_exclusive = { focus = gen_democracy_shall_stay }
 
 		completion_reward = {
-			
+			hold_election = ROOT
 		}
 	}
 
@@ -709,8 +801,16 @@ focus_tree = {
 		mutually_exclusive = { focus = gen_shut_down_the_resistance }
 		mutually_exclusive = { focus = gen_our_first_election }
 
+		available = {
+			has_government = democratic
+		}
+
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = democratic
+				popularity = 10
+			}
+			add_stability = 0.10
 		}
 	}
 
@@ -724,7 +824,7 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			country_event = gen.7
 		}
 	}
 
@@ -741,7 +841,9 @@ focus_tree = {
 		mutually_exclusive = { focus = gen_a_new_path }
 
 		completion_reward = {
-			
+			ATL = {
+				country_event = gen.8
+			}
 		}
 	}
 
@@ -755,7 +857,7 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			add_ideas = { free_trade gen_favorable_agreements }
 		}
 	}
 
@@ -769,7 +871,10 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			add_timed_idea = {
+				idea = gen_increased_investments
+				days = 780
+			}
 		}
 	}
 
@@ -783,7 +888,10 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			add_timed_idea = {
+				idea = gen_revaluing_our_currency
+				days = 365
+			}
 		}
 	}
 
@@ -800,7 +908,7 @@ focus_tree = {
 		mutually_exclusive = { focus = gen_a_new_path }
 
 		completion_reward = {
-			
+			add_ideas = gen_writing_over_weapons
 		}
 	}
 
@@ -814,7 +922,10 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = gen_writing_over_weapons
+				add_idea = gen_writing_over_weapons1
+			}
 		}
 	}
 	focus = {
@@ -827,7 +938,11 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			add_ideas = civilian_economy
+			swap_ideas = {
+				remove_idea = gen_writing_over_weapons1
+				add_idea = gen_writing_over_weapons2
+			}
 		}
 	}
 
@@ -841,7 +956,10 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = gen_writing_over_weapons2
+				add_idea = gen_pax_nation
+			}
 		}
 	}
 
@@ -857,8 +975,31 @@ focus_tree = {
 		mutually_exclusive = { focus = gen_along_atlantis_side }
 		mutually_exclusive = { focus = gen_democracy_means_peace }
 
+		available = {
+			OR = {
+				any_country = {
+					is_faction_leader = yes
+					has_faction_template = gen_neutral_bloc
+				}
+				tag = KIJ
+			}
+		}
+
 		completion_reward = {
-			
+			if = {
+				limit = {
+					tag = KIJ
+				}
+				create_faction_from_template = faction_temp_neutral_bloc
+			}
+			else = {
+				every_country = {
+					limit = {
+						is_faction_leader = yes
+						has_faction_template = faction_temp_neutral_bloc
+					}
+				}
+			}
 		}
 	}
 
@@ -872,7 +1013,20 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			random_core_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+				}
+			}
+			random_core_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+				}
+			}
 		}
 	}
 
@@ -886,7 +1040,7 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			add_ideas = gen_global_volunteers
 		}
 	}
 
@@ -900,7 +1054,7 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			add_ideas = gen_industry_for_our_allies
 		}
 	}
 }
