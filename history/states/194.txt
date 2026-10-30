@@ -4,7 +4,7 @@ state={
 	name="STATE_194"
 	manpower = 4845629
 	
-	state_category = megAROpolis
+	state_category = metropolis
 	#impassable = yes
 	resources={
 		aluminium=11

@@ -1,0 +1,14 @@
+gen_neutral_bloc = {
+	name = neutral_bloc
+	#icon = 
+	color = { 245 241 39 }
+
+	#manifest = 
+	goals = {
+
+	}
+
+	default_rules = {
+		
+	}
+}

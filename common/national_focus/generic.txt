@@ -323,7 +323,7 @@ focus_tree = {
 
 		completion_reward = {
 			swap_ideas = {
-				add_idea = gen_truly_neutral2
+				add_idea = gen_truly_neutral
 				remove_idea = gen_truly_neutral
 			}
 			add_ideas = civilian_economy
@@ -381,13 +381,13 @@ focus_tree = {
 				limit = {
 					tag = KIJ
 				}
-				create_faction_from_template = faction_temp_neutral_bloc
+				create_faction_from_template = gen_neutral_bloc
 			}
 			else = {
 				every_country = {
 					limit = {
 						is_faction_leader = yes
-						has_faction_template = faction_temp_neutral_bloc
+						has_faction_template = gen_neutral_bloc
 					}
 					country_event = generic.5
 				}
@@ -629,13 +629,13 @@ focus_tree = {
 				limit = {
 					tag = KIJ
 				}
-				create_faction_from_template = faction_temp_neutral_bloc
+				create_faction_from_template = gen_neutral_bloc
 			}
 			else = {
 				every_country = {
 					limit = {
 						is_faction_leader = yes
-						has_faction_template = faction_temp_neutral_bloc
+						has_faction_template = gen_neutral_bloc
 					}
 					country_event = generic.5
 				}
@@ -839,7 +839,8 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			add_ideas = { free_trade gen_favorable_agreements }
+			add_ideas = free_trade
+			add_ideas = gen_favorable_agreements
 		}
 	}
 
@@ -970,13 +971,13 @@ focus_tree = {
 				limit = {
 					tag = KIJ
 				}
-				create_faction_from_template = faction_temp_neutral_bloc
+				create_faction_from_template = gen_neutral_bloc
 			}
 			else = {
 				every_country = {
 					limit = {
 						is_faction_leader = yes
-						has_faction_template = faction_temp_neutral_bloc
+						has_faction_template = gen_neutral_bloc
 					}
 					country_event = generic.5
 				}

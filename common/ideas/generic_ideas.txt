@@ -34,12 +34,6 @@ ideas = {
 				
 			}
 		}
-		gen_truly_neutral2 = {
-			#picture =
-			modifier = {
-				
-			}
-		}
 		gen_a_defensive_military = {
 			#picture = 
 			modifier = {
@@ -107,13 +101,18 @@ ideas = {
 		gen_command_economy = {
 			#picture = 
 			modifier = {
-				
+				production_factory_max_efficiency_factor = 0.075
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = 0.20
 			}
 		}
 		gen_free_market = {
 			#picture = 
 			modifier = {
-				
+				production_factory_efficiency_gain_factor = -0.075
+				industrial_capacity_factory = -0.05
+				global_building_slots_factor = 0.10
+				consumer_goods_factor = -0.20
 			}
 		}
 		gen_carving_our_path = {
@@ -138,7 +137,9 @@ ideas = {
 		gen_our_nation = {
 			#picture =
 			modifier = {
-				
+				stability_factor = 0.20
+				political_power_factor = 0.10
+				consumer_goods_factor = 0.15
 			}
 		}
 		gen_joint_training = {
@@ -158,7 +159,7 @@ ideas = {
 		gen_democratic_movements = {
 			#picture = 
 			modifier = {
-				
+				democratic_drift = 0.01
 			}
 		}
 		gen_favorable_agreements = {
@@ -178,19 +179,33 @@ ideas = {
 		gen_writing_over_weapons = {
 			#picture = 
 			modifier = {
-				
+				political_power_factor = 0.05
+				war_support_factor = -0.15
 			}
 		}
 		gen_writing_over_weapons1 = {
 			#picture =
 			modifier = {
-				
+				political_power_factor = 0.10
+				consumer_goods_factor = -0.10
+				war_support_factor = -0.30
+				generate_wargoal_tension = 0.40
+				guarantee_tension = 0.40
+				join_faction_tension = 0.40
+				lend_lease_tension = 0.40
 			}
 		}
 		gen_writing_over_weapons2 = {
 			#picture =
 			modifier = {
-				
+				political_power_factor = 0.15
+				consumer_goods_factor = -0.20
+				war_support_factor = -0.50
+				stability_factor = 0.20
+				generate_wargoal_tension = 0.90
+				guarantee_tension = 0.90
+				join_faction_tension = 0.90
+				lend_lease_tension = 0.90
 			}
 		}
 		gen_pax_nation = {
@@ -219,7 +234,8 @@ ideas = {
 				add_ideas = gen_synonymous_currency
 			}
 			modifier = {
-				
+				consumer_goods_factor = 0.30
+				political_power_factor = 0.10
 			}
 		}
 		gen_synonymous_currency = {
