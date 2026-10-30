@@ -37,7 +37,7 @@ focus_tree = {
 		prerequisite = { focus = gen_our_place_under_the_sun }
 		cost = 5
 
-		mutually_exclusive = { focus = gen_toe_the_middle_line }
+		mutually_exclusive = { focus = gen_toe_the_middle_line focus = gen_in_the_name_of_liberty }
 		
 		available_if_capitulated = yes
 
@@ -65,7 +65,7 @@ focus_tree = {
 			}
 			add_popularity = {
 				ideology = democratic
-				popularity = 0.10
+				popularity = -0.10
 			}
 		}
 	}
@@ -85,8 +85,7 @@ focus_tree = {
 			}
 		}
 
-		mutually_exclusive = { focus = gen_by_legal_means_only }
-		mutually_exclusive = { focus = gen_reaffirm_the_monarchy }
+		mutually_exclusive = { focus = gen_by_legal_means_only focus = gen_reaffirm_the_monarchy }
 
 		completion_reward = {
 			start_civil_war = {
@@ -112,11 +111,10 @@ focus_tree = {
 			}
 		}
 		
-		mutually_exclusive = { focus = gen_light_the_match }
-		mutually_exclusive = { focus = gen_reaffirm_the_monarchy }
+		mutually_exclusive = { focus = gen_light_the_match focus = gen_reaffirm_the_monarchy }
 
 		completion_reward = {
-			
+			custom_effect_tooltip = unlocks_referendum_decision_tt
 		}
 	}
 
@@ -129,8 +127,7 @@ focus_tree = {
 		prerequisite = { focus = gen_the_past_is_the_future }
 		cost = 5
 
-		mutually_exclusive = { focus = gen_light_the_match }
-		mutually_exclusive = { focus = gen_by_legal_means_only }
+		mutually_exclusive = { focus = gen_light_the_match focus = gen_by_legal_means_only }
 
 		available = {
 			has_government = monarchism
@@ -281,34 +278,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = gen_her_most_loyal_subject
-		#icon = 
-		x = 0
-		y = 1
-		relative_position_id = gen_the_peoples_economy
-		prerequisite = { focus = gen_the_peoples_economy }
-		cost = 5
-
-		available = {
-			has_completed_focus = gen_a_faithful_government
-			has_completed_focus = gen_adopt_goldism
-			has_ideology = absolute_monarchy
-		}
-		completion_reward = {
-			add_ideas = gen_a_willing_subject
-			ARL = {
-				set_autonomy = {
-					target = FROM
-					autonomous_state = vassal_state
-					end_wars = no
-					end_civil_wars = no
-					keep_subjects = yes
-				}
-			}
-		}
-	}
-
-	focus = {
 		id = gen_stay_out_of_the_fight
 		#icon = 
 		x = 2
@@ -354,8 +323,8 @@ focus_tree = {
 
 		completion_reward = {
 			swap_ideas = {
-				add_ideas = gen_truly_neutral1
-				remove_ideas = gen_truly_neutral
+				add_idea = gen_truly_neutral2
+				remove_idea = gen_truly_neutral
 			}
 			add_ideas = civilian_economy
 		}
@@ -371,14 +340,16 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			add_ideas = gen_defensive_military
-			add_building_construction = {
-				type = bunker
-				level = 3
-				insant_build = yes
-				province = {
-					all_provinces = yes
-					limit_to_border = yes
+			add_ideas = gen_a_defensive_military
+			every_owned_state = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					insant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
 				}
 			}
 		}
@@ -418,6 +389,7 @@ focus_tree = {
 						is_faction_leader = yes
 						has_faction_template = faction_temp_neutral_bloc
 					}
+					country_event = generic.5
 				}
 			}
 		}
@@ -463,8 +435,7 @@ focus_tree = {
 		prerequisite = { focus = gen_our_place_under_the_sun }
 		cost = 5
 
-		mutually_exclusive = { focus = gen_king_and_country }
-		mutually_exclusive = { focus = gen_in_the_name_of_liberty }
+		mutually_exclusive = { focus = gen_king_and_country focus = gen_in_the_name_of_liberty }
 
 		completion_reward = {
 			add_ideas = gen_moving_towards_neutrality
@@ -541,7 +512,10 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					has_ideology = junta
+					any_character = {
+						is_country_leader = yes
+						has_ideology = junta
+					}
 				}
 				country_event = generic.6
 			}
@@ -663,6 +637,7 @@ focus_tree = {
 						is_faction_leader = yes
 						has_faction_template = faction_temp_neutral_bloc
 					}
+					country_event = generic.5
 				}
 			}
 		}
@@ -722,8 +697,7 @@ focus_tree = {
 		prerequisite = { focus = gen_our_place_under_the_sun }
 		cost = 5
 
-		mutually_exclusive = { focus = gen_king_and_country }
-		mutually_exclusive = { focus = gen_toe_the_middle_line }
+		mutually_exclusive = { focus = gen_king_and_country focus = gen_toe_the_middle_line }
 
 		completion_reward = {
 			add_ideas = gen_democratic_movements
@@ -760,8 +734,13 @@ focus_tree = {
 		prerequisite = { focus = gen_kings_means_brutality }
 		cost = 5
 
-		mutually_exclusive = { focus = gen_our_first_election }
-		mutually_exclusive = { focus = gen_democracy_shall_stay }
+		available = {
+			NOT = {
+				has_government = democratic
+			}
+		}
+
+		mutually_exclusive = { focus = gen_our_first_election focus = gen_democracy_shall_stay }
 
 		completion_reward = {
 			start_civil_war = {
@@ -781,8 +760,13 @@ focus_tree = {
 		prerequisite = { focus = gen_kings_means_brutality }
 		cost = 5
 
-		mutually_exclusive = { focus = gen_shut_down_the_resistance }
-		mutually_exclusive = { focus = gen_democracy_shall_stay }
+		available = {
+			NOT = {
+				has_government = democratic
+			}
+		}
+
+		mutually_exclusive = { focus = gen_shut_down_the_resistance focus = gen_democracy_shall_stay }
 
 		completion_reward = {
 			hold_election = ROOT
@@ -798,8 +782,7 @@ focus_tree = {
 		prerequisite = { focus = gen_kings_means_brutality }
 		cost = 5 
 
-		mutually_exclusive = { focus = gen_shut_down_the_resistance }
-		mutually_exclusive = { focus = gen_our_first_election }
+		mutually_exclusive = { focus = gen_shut_down_the_resistance focus = gen_our_first_election }
 
 		available = {
 			has_government = democratic
@@ -808,7 +791,7 @@ focus_tree = {
 		completion_reward = {
 			add_popularity = {
 				ideology = democratic
-				popularity = 10
+				popularity = 0.15
 			}
 			add_stability = 0.10
 		}
@@ -824,7 +807,7 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			country_event = gen.7
+			country_event = generic.7
 		}
 	}
 
@@ -837,12 +820,11 @@ focus_tree = {
 		prerequisite = { focus = gen_reorganizing_democracy }
 		cost = 5
 
-		mutually_exclusive = { focus = gen_democracy_means_peace }
-		mutually_exclusive = { focus = gen_a_new_path }
+		mutually_exclusive = { focus = gen_democracy_means_peace focus = gen_a_new_path }
 
 		completion_reward = {
 			ATL = {
-				country_event = gen.8
+				country_event = generic.8
 			}
 		}
 	}
@@ -904,8 +886,7 @@ focus_tree = {
 		prerequisite = { focus = gen_reorganizing_democracy }
 		cost = 5
 
-		mutually_exclusive = { focus = gen_along_atlantis_side }
-		mutually_exclusive = { focus = gen_a_new_path }
+		mutually_exclusive = { focus = gen_along_atlantis_side focus = gen_a_new_path }
 
 		completion_reward = {
 			add_ideas = gen_writing_over_weapons
@@ -972,8 +953,7 @@ focus_tree = {
 		prerequisite = { focus = gen_reorganizing_democracy }
 		cost = 5
 
-		mutually_exclusive = { focus = gen_along_atlantis_side }
-		mutually_exclusive = { focus = gen_democracy_means_peace }
+		mutually_exclusive = { focus = gen_along_atlantis_side focus = gen_democracy_means_peace }
 
 		available = {
 			OR = {
@@ -998,6 +978,7 @@ focus_tree = {
 						is_faction_leader = yes
 						has_faction_template = faction_temp_neutral_bloc
 					}
+					country_event = generic.5
 				}
 			}
 		}

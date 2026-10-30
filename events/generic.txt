@@ -1,4 +1,4 @@
-namespace = generic
+add_namespace = generic
 
 country_event = {
 	id = generic.1
@@ -112,7 +112,7 @@ country_event = {
 country_event = {
 	id = generic.6
 	title = "[FROM.GetName] wants to join the Neutral Bloc!"
-	desc = generic.5.d
+	desc = generic.7.d
 
 	is_triggered_only = yes
 
@@ -122,5 +122,47 @@ country_event = {
 	}
 	option = {
 		name = "No."
+	}
+}
+
+country_event = {
+	id = generic.7
+	title = "The Future of Our Democracy"
+	desc = generic.7.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Uphold Tradition"
+		#Switch to Conservatism
+		add_political_power = 100
+	}
+	option = {
+		name = "Embrace Liberalism"
+		#Switch to Liberalism
+		add_political_power = 150
+		add_stability = -10
+	}
+	option = {
+		name = "Socialism is the Future"
+		#Switch to Democratic Socialism
+		add_political_power = 50
+		add_stability = 10
+	}
+}
+
+country_event = {
+	id = generic.8
+	title = "[FROM.GetName] Wants to Join the Democratic Bloc"
+	desc = generic.8.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Of course!"
+		add_to_faction = FROM
+	}
+	option = {
+		name = "No"
 	}
 }

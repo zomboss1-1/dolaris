@@ -2,109 +2,231 @@ ideas = {
 	country = {
 		gen_monarchist_sentiments = {
 			#picture = 
-			monarchism_drift = 0.01
+			modifier = {
+				monarchism_drift = 0.01
+			}
 		}
 		gen_limited_neutrality = {
 			#picture = 
-			stability_factor = 0.10
-			poltiical_power_gain_factor = 0.05
-			generate_wargoal_tension = 40
-			guarantee_tension = 40
-			join_faction_tension = 40
-			lend_lease_tension = 40
+			modifier = {
+				stability_factor = 0.10
+				poltiical_power_gain_factor = 0.05
+				generate_wargoal_tension = 0.40
+				guarantee_tension = 0.40
+				join_faction_tension = 0.40
+				lend_lease_tension = 0.40
+			}
 		}
 		gen_truly_neutral = {
 			#picture = 
-			stability_factor = 0.20
-			poltiical_power_gain_factor = 0.15
-			generate_wargoal_tension = 80
-			guarantee_tension = 80
-			join_faction_tension = 80
-			lend_lease_tension = 80
+			modifier = {
+				stability_factor = 0.20
+				poltiical_power_gain_factor = 0.15
+				generate_wargoal_tension = 0.80
+				guarantee_tension = 0.80
+				join_faction_tension = 0.80
+				lend_lease_tension = 0.80
+			}
+		}
+		gen_truly_neutral1 = {
+			#picture = 
+			modifier = {
+				
+			}
+		}
+		gen_truly_neutral2 = {
+			#picture =
+			modifier = {
+				
+			}
 		}
 		gen_a_defensive_military = {
 			#picture = 
-			defence = 0.15
-			army_org_factor = 0.10
-			offense = -0.15
+			modifier = {
+				defence = 0.15
+				army_org_factor = 0.10
+				offense = -0.15
+			}
 		}
 		gen_strike_first_strike_fast = {
-			offense = 0.15
-			initiative_factor = 0.15
-			army_speed_Factor = 0.15
-			defence = -0.20
+			modifier = {
+				offense = 0.15
+				initiative_factor = 0.15
+				army_speed_Factor = 0.15
+				defence = -0.20
+			}
 		}
 		gen_arnorianization = {
 			#picture = 
+			modifier = {
+				stability_weekly = -0.01
+				research_speed_factor = 0.05
+			}
 		}
 		gen_growing_goldist_following = {
 			#picture = 
+			modifier = {
+				monthly_population = 0.05
+				drift_defence_factor = 0.10
+				political_power_factor = -0.10
+			}
 		}
 		gen_socializing_the_economy = {
 			#picture = 
-		}
-		gen_a_willing_subject = {
-			#picture = 
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_factory_efficiency_gain_factor = -0.10
+				production_factory_max_efficiency_factor = 0.15
+			}
 		}
 		gen_our_way_forwards = {
 			#picture =
+			modifier = {
+				stability_weekly = 0.01
+				political_power_factor = 0.075
+			}
 		}
 		gen_moving_towards_neutrality = {
 			#picture = 
-			neutrality_drift = 0.01
+			modifier = {
+				neutrality_drift = 0.01
+			}
 		}
 		# RELIGION 1
 		# RELIGION 2
 		gen_state_atheism = {
 			#picture = 
+			modifier = {
+				research_speed_factor = 0.10
+				political_power_factor = 0.10
+				stability_factor = -0.15
+				war_support_factor = -0.15
+				drift_defence_factor = -0.10
+			}
 		}
 		gen_command_economy = {
 			#picture = 
+			modifier = {
+				
+			}
 		}
 		gen_free_market = {
 			#picture = 
+			modifier = {
+				
+			}
 		}
 		gen_carving_our_path = {
 			#picture = 
+			modifier = {
+				political_power_factor = -0.10
+				political_advisor_cost_factor = -0.10
+				consumer_goods_factor = 0.10
+				stability_weekly = 0.01
+			}
 		}
 		gen_carving_our_path1 = {
 			#picture = 
+			modifier = {
+				political_power_factor = -0.2
+				political_advisor_cost_factor = -0.15
+				consumer_goods_factor = 0.20
+				stability_weekly = 0.03
+				production_speed_buildings_factor = 0.05
+			}
 		}
 		gen_our_nation = {
 			#picture =
+			modifier = {
+				
+			}
 		}
 		gen_joint_training = {
 			#picture =
+			modifier = {
+				experience_gain_army_factor = 0.10
+				land_maserty_gain_factor = 0.10
+				training_time_factor = -0.10
+			}
 		}
 		gen_arming_our_forces = {
 			#picture =
+			modifier = {
+				
+			}
 		}
 		gen_democratic_movements = {
 			#picture = 
+			modifier = {
+				
+			}
 		}
 		gen_favorable_agreements = {
 			#picture =
+			modifier = {
+				consumer_goods_factor = 0.15
+				resource_trade_cost_bonus_per_factory = 1
+			}
 		}
 		gen_increased_investments = {
 			#picture = 
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = 0.10
+			}
 		}
 		gen_writing_over_weapons = {
 			#picture = 
+			modifier = {
+				
+			}
 		}
 		gen_writing_over_weapons1 = {
 			#picture =
+			modifier = {
+				
+			}
 		}
 		gen_writing_over_weapons2 = {
 			#picture =
+			modifier = {
+				
+			}
 		}
 		gen_pax_nation = {
 			#picture =
+			modifier = {
+				
+			}
 		}
 		gen_global_volunteers = {
 			#picture = 
+			modifier = {
+				excperience_gain_army_factor = 0.05
+				war_support_factor = 0.05
+				send_volunteer_size = 3
+			}
 		}
 		gen_industry_for_our_allies = {
 			#picture = 
+			modifier = {
+				
+			}
+		}
+		gen_revaluing_our_currency = {
+			#picture =
+			on_remove = {
+				add_ideas = gen_synonymous_currency
+			}
+			modifier = {
+				
+			}
+		}
+		gen_synonymous_currency = {
+			#picture = 
+			modifier = {
+
+			}
 		}
 	}
 }

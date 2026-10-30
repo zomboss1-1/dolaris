@@ -2,3 +2,7 @@ war_cat = {
 	priority = 50
 	visible_when_empty = no
 }
+gen_referendum_cat = {
+	priority = 25
+	visible_when_empty = no
+}

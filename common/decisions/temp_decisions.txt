@@ -39,3 +39,21 @@ war_cat = {
     }
   }
 }
+
+gen_referendum_cat = {
+  gen_hold_referendum = {
+    visible = {
+      has_completed_focus = gen_by_legal_means_only
+    }
+    available = {
+      monarchism > 0.49
+    }
+    cost = 150
+    complete_effect = {
+      set_politics = {
+        ruling_party = monarchism
+        elections_allowed = no
+      }
+    }
+  }
+}
