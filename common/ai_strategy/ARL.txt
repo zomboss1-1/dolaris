@@ -1,0 +1,66 @@
+ARL_unit_production = {
+  allowed = { 
+    original_tag = ARL
+  }
+  enable = {
+    always = no
+  }
+  abort = {
+    always = no
+  }
+
+  ai_strategy = {
+    type = role_ratio
+    id = garrison
+    value = 5
+  }
+
+  ai_strategy = {
+    type = role_ratio
+    id = cavalry
+    value = 15
+  }
+
+  ai_strategy = {
+    type = role_ratio
+    id = infantry
+    value = 50
+  }
+
+  ai_strategy = {
+    type = role_ratio
+    id = motorized
+    value = 5
+  }
+
+  # Naval Production
+  ai_strategy = {
+    type = role_ratio
+    id = capital_ship
+    value = 30
+  }
+
+  ai_strategy = {
+    type = role_ratio
+    id = screen_ship
+    value = 60
+  }
+
+  ai_strategy = {
+    type = role_ratio
+    id = convoy
+    value = 10
+  }
+
+  ai_strategy = {
+    type = equipment_production_factor
+    id = infantry
+    value = 50
+  }
+
+  ai_strategy = {
+    type = equipment_production_factor
+    id = artillery
+    value = 25
+  }
+}
