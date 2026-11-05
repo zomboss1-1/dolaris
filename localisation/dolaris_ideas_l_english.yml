@@ -42,3 +42,10 @@
  ATL_intense_corruption_desc:0 " "
  ATL_suppression_of_thought:0 "Suppression of Thought"
  ATL_suppression_of_thought_desc:0 " "
+
+ generic_tank_manufacturer:0 "Tank Manufacturer"
+ generic_naval_manufacturer:0 "Naval Manufacturer"
+ generic_aircraft_manufacturer:0 "Aircraft Manufacturer"
+ generic_industrial_concern:0 "Industrial Concern"
+ generic_mining_company:0 "Mining Company"
+ generic_electronics_company:0 "Electronics Company"

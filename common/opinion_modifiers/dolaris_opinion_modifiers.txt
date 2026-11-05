@@ -1,0 +1,6 @@
+opinion_modifiers = {
+	gen_trade_with_atlantis = {
+		trade = yes
+		value = 50
+	}
+}

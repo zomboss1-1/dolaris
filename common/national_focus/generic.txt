@@ -41,6 +41,14 @@ focus_tree = {
 		
 		available_if_capitulated = yes
 
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 50
+				has_government = monarchism
+			}
+		}
+
 		completion_reward = {
 			add_ideas = gen_monarchist_sentiments
 		}
@@ -437,6 +445,14 @@ focus_tree = {
 
 		mutually_exclusive = { focus = gen_king_and_country focus = gen_in_the_name_of_liberty }
 
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 50
+				has_government = democratic
+			}
+		}
+
 		completion_reward = {
 			add_ideas = gen_moving_towards_neutrality
 		}
@@ -698,6 +714,14 @@ focus_tree = {
 		cost = 5
 
 		mutually_exclusive = { focus = gen_king_and_country focus = gen_toe_the_middle_line }
+
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 50
+				has_government = democratic
+			}
+		}
 
 		completion_reward = {
 			add_ideas = gen_democratic_movements

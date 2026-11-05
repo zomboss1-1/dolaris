@@ -112,7 +112,7 @@ country_event = {
 country_event = {
 	id = generic.6
 	title = "[FROM.GetName] wants to join the Neutral Bloc!"
-	desc = generic.7.d
+	desc = generic.6.d
 
 	is_triggered_only = yes
 
@@ -163,6 +163,6 @@ country_event = {
 		add_to_faction = FROM
 	}
 	option = {
-		name = "No"
+		name = "No thank you"
 	}
 }
