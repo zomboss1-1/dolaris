@@ -1,0 +1,244 @@
+doc_aggressive_assault = {
+	folder = land
+
+	name = doc_aggressive_assault
+	description = doc_aggressive_assault_desc
+	#icon = 
+	available = {
+		always = yes
+	}
+
+	xp_cost = 100
+	xp_type = army
+
+	ai_will_do = {
+		base = 1
+	}
+
+	tracks = {
+		infantry
+		combat_support
+		operations
+	}
+
+	# EFFECTS
+	offence = 0.10
+	recon_factor = 0.10
+	army_speed_factor = 0.10
+
+	milestones = {
+		{
+			#Infantry
+			org_loss_when_moving = -0.15
+			initiative = 0.10
+
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = infantry_milestone_var
+						}
+					}
+					set_variable = { infantry_milestone_var = 1 }
+				}
+				else = {
+					add_to_variable = { infantry_milestone_var = 1 }
+				}
+			}
+		}
+		{
+			#Support
+			artillery_attack = 0.10
+			artillery_organisation = 0.15
+
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = support_milestone_var
+						}
+					}
+					set_variable = { support_milestone_var = 1 }
+				}
+				else = {
+					add_to_variable = { support_milestone_var = 1 }
+				}
+			}
+		}
+		{
+			#Operations
+			planning_speed = 0.10
+			excperience_loss_factor = -0.10
+						
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = operations_milestone_var
+						}
+					}
+					set_variable = { operations_milestone_var = 1 }
+				}
+				else = {
+					add_to_variable = { operations_milestone_var = 1 }
+				}
+			}
+		}
+	}
+}
+
+doc_stalwart_defense = {
+	folder = land
+
+	name = doc_stalwart_defense
+	description = doc_stalwart_defense_desc
+	#icon = 
+	available = {
+		always = yes
+	}
+
+	xp_cost = 100
+	xp_type = army
+
+	ai_will_do = {
+		base = 1
+	}
+
+	tracks = {
+		infantry
+		combat_support
+		operations
+	}
+
+	# EFFECTS
+
+	milestones = {
+		{
+			#Infantry
+
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = infantry_milestone_var
+						}
+					}
+					set_variable = { infantry_milestone_var = 1 }
+				}
+				else = {
+					add_to_variable = { infantry_milestone_var = 1 }
+				}
+			}
+		}
+		{
+			#Support
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = support_milestone_var
+						}
+					}
+					set_variable = { support_milestone_var = 1 }
+				}
+				else = {
+					add_to_variable = { support_milestone_var = 1 }
+				}
+			}
+		}
+		{
+			#Operations
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = operations_milestone_var
+						}
+					}
+					set_variable = { operations_milestone_var = 1 }
+				}
+				else = {
+					add_to_variable = { operations_milestone_var = 1 }
+				}
+			}
+		}
+	}
+}
+
+doc_careful_strategy = {
+	folder = land
+
+	name = doc_careful_strategy
+	description = doc_careful_strategy_desc
+	#icon = 
+	available = {
+		always = yes
+	}
+
+	xp_cost = 100
+	xp_type = army
+
+	ai_will_do = {
+		base = 1
+	}
+
+	tracks = {
+		infantry
+		combat_support
+		operations
+	}
+
+	# EFFECTS
+
+	milestones = {
+		{
+			#Infantry
+
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = infantry_milestone_var
+						}
+					}
+					set_variable = { infantry_milestone_var = 1 }
+				}
+				else = {
+					add_to_variable = { infantry_milestone_var = 1 }
+				}
+			}
+		}
+		{
+			#Support
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = support_milestone_var
+						}
+					}
+					set_variable = { support_milestone_var = 1 }
+				}
+				else = {
+					add_to_variable = { support_milestone_var = 1 }
+				}
+			}
+		}
+		{
+			#Operations
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = operations_milestone_var
+						}
+					}
+					set_variable = { operations_milestone_var = 1 }
+				}
+				else = {
+					add_to_variable = { operations_milestone_var = 1 }
+				}
+			}
+		}
+	}
+}

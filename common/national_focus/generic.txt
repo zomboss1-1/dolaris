@@ -1063,4 +1063,199 @@ focus_tree = {
 			add_ideas = gen_industry_for_our_allies
 		}
 	}
+
+	focus = {
+		id = gen_begin_preperations
+		#icon =
+		x = 26
+		y = 0
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_increase_training_efforts
+		#icon =
+		x = 0
+		y = 1
+		relative_position_id = gen_begin_preperations
+		prerequisite = { focus = gen_begin_preperations }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_doctrine_of_stalwart_defense
+		#icon =
+		x = 0
+		y = 1
+		relative_position_id = gen_increase_training_efforts
+		prerequisite = { focus = gen_increase_training_efforts }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_fund_fortification_research
+		#icon =
+		x = 0
+		y = 1
+		relative_position_id = gen_doctrine_of_stalwart_defense
+		prerequisite = { focus = gen_doctrine_of_stalwart_defense }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_wall_of_men
+		#icon =
+		x = -2
+		y = 1
+		relative_position_id = gen_doctrine_of_stalwart_defense
+		prerequisite = { focus = gen_doctrine_of_stalwart_defense }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_entrenchment_techniques
+		#icon =
+		x = 0
+		y = 1
+		relative_position_id = gen_wall_of_men
+		prerequisite = { focus = gen_wall_of_men }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_wall_of_fire
+		#icon =
+		x = 2
+		y = 1
+		relative_position_id = gen_doctrine_of_stalwart_defense
+		prerequisite = { focus = gen_doctrine_of_stalwart_defense }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_unrelenting_barrage
+		#icon =
+		x = 0
+		y = 1
+		relative_position_id = gen_wall_of_fire
+		prerequisite = { focus = gen_wall_of_fire }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_halt_the_advance
+		#icon =
+		x = 2
+		y = 1
+		relative_position_id = gen_entrenchment_techniques
+		prerequisite = { focus = gen_entrenchment_techniques }
+		prerequisite = { focus = gen_unrelenting_barrage }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_doctrine_of_overwhelming_assualt
+		#icon =
+		x = -8
+		y = 1
+		relative_position_id = gen_increase_training_efforts
+		prerequisite = { focus = gen_increase_training_efforts }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_fight_for_freedom
+		#icon =
+		x = 3
+		y = 1
+		relative_position_id = gen_doctrine_of_overwhelming_assualt
+		prerequisite = { focus = gen_doctrine_of_overwhelming_assualt focus = gen_doctrine_of_stalwart_defense }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_like_lightning
+		#icon =
+		x = 0
+		y = 1
+		relative_position_id = gen_doctrine_of_overwhelming_assualt
+		prerequisite = { focus = gen_doctrine_of_overwhelming_assualt }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_doctrine_of_careful_strategy
+		#icon =
+		x = 8
+		y = 1
+		relative_position_id = gen_increase_training_efforts
+		prerequisite = { focus = gen_increase_training_efforts }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_improve_the_logistics_network
+		#icon =
+		x = 5
+		y = 1
+		relative_position_id = gen_doctrine_of_stalwart_defense
+		prerequisite = { focus = gen_doctrine_of_stalwart_defense  focus = gen_doctrine_of_careful_strategy }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
 }

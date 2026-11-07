@@ -4,9 +4,7 @@ bookmarks = {
     desc = 1900_between_two_giants_desc
     date = 1905.1.1.12
     #picture = GFX_1900_between_two_giants
-    "---" = {
-      history = 1900_BETWEEN_TWO_GIANTS_HISTORY
-    }
+    
     effect = {
       randomize_weather = 22345
     }
@@ -24,6 +22,9 @@ bookmarks = {
         ARL_divided_nation
         ARL_birthplace_of_goldism
       }
+    }
+    "---" = {
+      history = 1900_BETWEEN_TWO_GIANTS_HISTORY
     }
     ATL = {
       history = 1900_between_two_giants_ATL
