@@ -271,6 +271,63 @@ ideas = {
 				resource_trade_cost_bonus_per_factory = 1
 			}
 		}
+		gen_training_efforts = {
+			#icon =
+			modifier = {
+
+			}
+		}
+		gen_defensive_infantry = {
+			#icon = 
+			modifier = {
+				army_infantry_defence_factor = 0.10
+			}
+		}
+		gen_defensive_infantry1= {
+			#icon = 
+			modifier = {
+				army_infantry_defence_factor = 0.10
+				max_dig_in_factor = 0.10
+			}
+		}
+		gen_defensive_artillery = {
+			#icon = 
+			modifier = {
+				army_artillery_defence_factor = 0.10
+			}
+		}
+		gen_defensive_artillery1= {
+			#icon = 
+			modifier = {
+				army_artillery_defence_factor = 0.10
+				artillery_organization_factor = 0.10
+				artillery_coordination_bonus = 0.10
+			}
+		}
+		gen_stop_their_advance = {
+			#icon = 
+			modifier = {
+				army_infantry_defence_factor = 0.10
+				max_dig_in_factor = 0.10
+				artillery_organization_factor = 0.10
+				artillery_coordination_bonus = 0.10
+				army_core_defence_factor = 0.10
+				organization_factor = 0.05
+			}
+		}
+		gen_shock_infantry = {
+			#icon = 
+			modifier = {
+				coordination_bonus = 0.10
+				army_speed_factor = 0.10
+			}
+		}
+		gen_improved_logistics = {
+			#icon =
+			modifier = {
+				supply_consumption_factor = -0.10
+			}
+		}
 	}
 
 	tank_manufacturer = {

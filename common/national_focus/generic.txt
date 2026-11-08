@@ -44,7 +44,7 @@ focus_tree = {
 		ai_will_do = {
 			base = 1
 			modifier = {
-				factor = 50
+				factor = 98
 				has_government = monarchism
 			}
 		}
@@ -119,6 +119,10 @@ focus_tree = {
 			}
 		}
 		
+		ai_will_do = {
+			base = 99
+		}
+
 		mutually_exclusive = { focus = gen_light_the_match focus = gen_reaffirm_the_monarchy }
 
 		completion_reward = {
@@ -448,7 +452,7 @@ focus_tree = {
 		ai_will_do = {
 			base = 1
 			modifier = {
-				factor = 50
+				factor = 98
 				has_government = democratic
 			}
 		}
@@ -508,6 +512,10 @@ focus_tree = {
 		cost = 5
 
 		mutually_exclusive = { focus = gen_the_junta_takes_over }
+
+		ai_will_do = {
+			base = 99
+		}
 
 		completion_reward = {
 			set_politics = {
@@ -718,7 +726,7 @@ focus_tree = {
 		ai_will_do = {
 			base = 1
 			modifier = {
-				factor = 50
+				factor = 98
 				has_government = democratic
 			}
 		}
@@ -792,6 +800,10 @@ focus_tree = {
 
 		mutually_exclusive = { focus = gen_shut_down_the_resistance focus = gen_democracy_shall_stay }
 
+		ai_will_do = {
+			base = 99
+		}
+		
 		completion_reward = {
 			hold_election = ROOT
 		}
@@ -1072,7 +1084,7 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			army_experience = 100
 		}
 	}
 
@@ -1086,7 +1098,10 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			add_timed_idea = {
+				idea = gen_training_efforts
+				days = 365
+			}
 		}
 	}
 
@@ -1099,8 +1114,21 @@ focus_tree = {
 		prerequisite = { focus = gen_increase_training_efforts }
 		cost = 5
 
+		available = {
+			has_doctrine = doc_stalwart_defense
+			NOT = {
+				has_completed_focus = gen_doctrine_of_overwhelming_assualt
+				has_completed_focus = gen_doctrine_of_careful_strategy
+			}
+		}
+
 		completion_reward = {
-			
+			add_mastery = {
+				amount = 150
+				#FILTERS:
+				folder = land
+				grand_doctrine = doc_stalwart_defense
+			}
 		}
 	}
 
@@ -1114,7 +1142,11 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = fortification_tech
+			}
 		}
 	}
 
@@ -1128,7 +1160,7 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			add_ideas = gen_defensive_infantry
 		}
 	}
 
@@ -1142,7 +1174,15 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = gen_defensive_infantry
+				add_idea = gen_defensive_infantry1
+			}
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				category = engineer_tech
+			}
 		}
 	}
 
@@ -1156,7 +1196,7 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			add_ideas = gen_defensive_artillery
 		}
 	}
 
@@ -1170,7 +1210,10 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = gen_defensive_artillery
+				add_idea = gen_defensive_artillery1
+			}
 		}
 	}
 
@@ -1185,7 +1228,11 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = gen_defensive_infantry1
+				remove_idea = gen_defensive_artillery1
+				add_idea = gen_stop_their_advance
+			}
 		}
 	}
 
@@ -1198,8 +1245,20 @@ focus_tree = {
 		prerequisite = { focus = gen_increase_training_efforts }
 		cost = 5
 
+		available = {
+			has_doctrine = doc_aggressive_assault
+			NOT = {
+				has_completed_focus = gen_doctrine_of_stalwart_defense
+				has_completed_focus = gen_doctrine_of_careful_strategy
+			}
+		}
 		completion_reward = {
-			
+			add_mastery = {
+				amount = 150
+				#FILTERS:
+				folder = land
+				grand_doctrine = doc_aggressive_assault
+			}
 		}
 	}
 
@@ -1213,7 +1272,7 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			custom_effect_tooltip = "Unlocks a decision that allows for the raising of Penal Battalions every 90 days"
 		}
 	}
 
@@ -1227,7 +1286,7 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			add_ideas = gen_shock_infantry
 		}
 	}
 
@@ -1240,8 +1299,21 @@ focus_tree = {
 		prerequisite = { focus = gen_increase_training_efforts }
 		cost = 5
 
+		available = {
+			has_doctrine = doc_careful_strategy
+			NOT = {
+				has_completed_focus = gen_doctrine_of_overwhelming_assualt
+				has_completed_focus = gen_doctrine_of_stalwart_defense
+			}
+		}
+
 		completion_reward = {
-			
+			add_mastery = {
+				amount = 150
+				#FILTERS:
+				folder = land
+				grand_doctrine = doc_careful_strategy
+			}
 		}
 	}
 
@@ -1255,7 +1327,7 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			
+			add_ideas = gen_improved_logistics
 		}
 	}
 }
