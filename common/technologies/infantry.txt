@@ -1,0 +1,154 @@
+technologies = {
+
+	@1890 = -1
+	@1900 = 2
+	@1905 = 4
+	@1907 = 6
+	@1911 = 8
+	@1913 = 10
+	@1915 = 12
+	@1920 = 14
+
+	early_infantry_arms = {
+		enable_equipments = {
+			early_infantry_arms
+		}
+
+		research_cost = 1.5
+		start_year = 1890
+
+		path = {
+			leads_to_tech = basic_infantry_arms
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1890 }
+		}
+
+		categories = { infantry_weapons }
+	}
+	basic_infantry_arms = {
+		enable_equipments = {
+			basic_infantry_arms
+		}
+
+		research_cost = 1.5
+		start_year = 1900
+
+		path = {
+			leads_to_tech = infantry_arms
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1900 }
+		}
+
+		categories = { infantry_weapons }
+	}
+	infantry_arms = {
+		enable_equipments = {
+			infantry_arms
+		}
+
+		research_cost = 1.5
+		start_year = 1905
+
+		path = {
+			leads_to_tech = small_arms_improvement_I
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 1905 }
+		}
+
+		categories = { infantry_weapons }
+	}
+	small_arms_improvement_I = {
+		category_all_infantry = {
+			soft_attack = 0.1
+		}
+		
+		research_cost = 1
+		start_year = 1905
+
+		path = {
+			leads_to_tech = improved_infantry_arms_I
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 5 }
+		}
+
+		categories = { infantry_weapons }
+	}
+	improved_infantry_arms_I = {
+
+	}
+	small_arms_improvement_II = {
+
+	}
+	small_arms_improvements_III = {
+
+	}
+	improved_infantry_arms_II = {
+
+	}
+	improved_infantry_arms_III = {
+
+	}
+	modern_infantry_arms = {
+
+	}
+	infantry_kit_I = {
+
+	}
+	infantry_kit_II = {
+
+	}
+	infantry_kit_III = {
+
+	}
+	infantry_kit_IV = {
+
+	}
+	support_I = {
+
+	}
+	support_II = {
+
+	}
+	support_III = {
+
+	}
+	support_IV = {
+
+	}
+	support_V = {
+
+	}
+	support_VI = {
+
+	}
+	mobile_flamethrower = {
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_flame_tech
+			}
+		}
+	}
+	improved_flamethrower = {
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_flame_tech
+			}
+		}
+	}
+}
