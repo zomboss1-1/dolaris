@@ -1,0 +1,19 @@
+spriteTypes = {
+	spriteType = {
+        name = GFX_early_infantry_arms_medium
+        texturefile = gfx/technology/generic_rifle.png
+	}
+	spriteType = {
+        name = GFX_basic_infantry_arms_medium
+        texturefile = gfx/technology/generic_rifle.png
+	}
+	spriteType = {
+        name = GFX_infantry_arms_medium
+        texturefile = gfx/technology/generic_rifle.png
+	}
+	spriteType = {
+		name = GFX_improved_infantry_arms_I_medium
+		texturefile = gfx/technology/generic_rifle.png
+
+	}
+}
