@@ -1291,6 +1291,49 @@ focus_tree = {
 	}
 
 	focus = {
+		id = gen_sudden_assault
+		#icon = 
+		x = -1
+		y = 1
+		relative_position_id = gen_like_lightning
+		prerequisite = { focus = gen_like_lightning }
+		cost = 5
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = gen_advance_barrage
+		#icon = 
+		x = 1
+		y = 1
+		relative_position_id = gen_like_lightning
+		prerequisite = { focus = gen_like_lightning }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_break_the_lines
+		#icon = 
+		x = -1
+		y = 1
+		relative_position_id = gen_advance_barrage
+		prerequisite = { focus = gen_advance_barrage }
+		prerequisite = { focus = gen_sudden_assault }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
 		id = gen_doctrine_of_careful_strategy
 		#icon =
 		x = 8
@@ -1314,6 +1357,67 @@ focus_tree = {
 				folder = land
 				grand_doctrine = doc_careful_strategy
 			}
+		}
+	}
+
+	focus = {
+		id = gen_expand_strategic_staff
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_doctrine_of_careful_strategy
+		prerequisite = { focus = gen_doctrine_of_careful_strategy }
+		cost = 5
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = gen_maintain_the_timetables
+		#icon = 
+		x = -1
+		y = 1
+		relative_position_id = gen_expand_strategic_staff
+		prerequisite = { focus = gen_expand_strategic_staff }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_unit_autonomy }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_unit_autonomy
+		#icon = 
+		x = 1
+		y = 1
+		relative_position_id = gen_expand_strategic_staff
+		prerequisite = { focus = gen_expand_strategic_staff }
+		cost = 5
+
+		mutually_exclusive = { focus = gen_maintain_the_timetables }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_operational_integrity
+		#icon = 
+		x = 1
+		y = 1
+		relative_position_id = gen_maintain_the_timetables
+		prerequisite = { focus = gen_maintain_the_timetables }
+		prerequisite = { focus = gen_unit_autonomy }
+		cost = 5
+
+		completion_reward = {
+			
 		}
 	}
 
