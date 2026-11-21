@@ -56,7 +56,7 @@ focus_tree = {
 
 	focus = {
 		id = gen_the_past_is_the_future
-		#icon = 
+		icon = GFX_focus_the_past_is_the_future
 		x = 0
 		y = 1
 		relative_position_id = gen_king_and_country
@@ -80,7 +80,7 @@ focus_tree = {
 
 	focus = {
 		id = gen_light_the_match
-		#icon = 
+		icon = GFX_focus_light_the_match
 		x = -2
 		y = 1
 		relative_position_id = gen_the_past_is_the_future
@@ -106,7 +106,7 @@ focus_tree = {
 
 	focus = {
 		id = gen_by_legal_means_only
-		#icon = 
+		icon = GFX_focus_by_legal_means_only
 		x = 0
 		y = 1
 		relative_position_id = gen_the_past_is_the_future
@@ -132,7 +132,7 @@ focus_tree = {
 
 	focus = {
 		id = gen_reaffirm_the_monarchy
-		#icon =
+		icon = GFX_focus_reaffirm_the_monarchy
 		x = 2
 		y = 1
 		relative_position_id = gen_the_past_is_the_future
@@ -157,7 +157,7 @@ focus_tree = {
 
 	focus = {
 		id = gen_the_rights_of_the_monarch
-		#icon = 
+		icon = GFX_focus_the_rights_of_the_monarch
 		x = 0
 		y = 1
 		relative_position_id = gen_by_legal_means_only
@@ -171,7 +171,7 @@ focus_tree = {
 
 	focus = {
 		id = gen_forwards_with_arnor
-		#icon = 
+		icon = GFX_focus_forwards_with_arnor
 		x = -2
 		y = 1
 		relative_position_id = gen_the_rights_of_the_monarch
@@ -291,7 +291,7 @@ focus_tree = {
 
 	focus = {
 		id = gen_stay_out_of_the_fight
-		#icon = 
+		icon = GFX_focus_stay_out_of_the_fight
 		x = 2
 		y = 1
 		relative_position_id = gen_the_rights_of_the_monarch
@@ -307,7 +307,7 @@ focus_tree = {
 
 	focus = {
 		id = gen_true_neutrality
-		#icon = 
+		icon = GFX_focus_true_neutrality
 		x = 0
 		y = 1
 		relative_position_id = gen_stay_out_of_the_fight
@@ -326,7 +326,7 @@ focus_tree = {
 
 	focus = {
 		id = gen_civilian_focus
-		#icon = 
+		icon = GFX_focus_civilian_focus
 		x = 0
 		y = 1
 		relative_position_id = gen_true_neutrality
@@ -369,7 +369,7 @@ focus_tree = {
 
 	focus = {
 		id = gen_the_independant_bloc
-		#icon = 
+		icon = GFX_focus_the_independant_bloc
 		x = 2
 		y = 1
 		relative_position_id = gen_stay_out_of_the_fight
@@ -409,7 +409,7 @@ focus_tree = {
 
 	focus = {
 		id = gen_mobilize_the_nation
-		#icon = 
+		icon = GFX_focus_mobilize_the_nation
 		x = 0
 		y = 1
 		relative_position_id = gen_the_independant_bloc
@@ -1432,6 +1432,133 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = gen_improved_logistics
+		}
+	}
+
+	focus = {
+		id = gen_advancing_naval_doctrine
+		#icon = 
+		x = 26
+		y = 7
+		available = {
+			any_state = {
+				is_coastal = yes
+			}
+		}
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_accelerate_naval_rearmament
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_advancing_naval_doctrine
+		prerequisite = { focus = gen_advancing_naval_doctrine }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_small_ship_navy
+		#icon = 
+		x = -2
+		y = 1
+		relative_position_id = gen_accelerate_naval_rearmament
+		prerequisite = { focus = gen_accelerate_naval_rearmament }
+		available = {
+			has_doctrine = doc_small_ship_focus
+			NOT = {
+				has_completed_focus = gen_a_symbol_of_pride
+			}
+		}
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_divert_production_to_screens
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_small_ship_navy
+		prerequisite = { focus = gen_small_ship_navy }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_a_symbol_of_pride
+		#icon = 
+		x = 2
+		y = 1
+		relative_position_id = gen_accelerate_naval_rearmament
+		prerequisite = { focus = gen_accelerate_naval_rearmament }
+		available = {
+			has_doctrine = doc_capital_navy
+			NOT = {
+				has_completed_focus = gen_small_ship_navy
+			}
+		}
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_divert_produciton_to_capitals
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_a_symbol_of_pride
+		prerequisite = { focus = gen_a_symbol_of_pride }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_expand_navy_yards
+		#icon = 
+		x = 2
+		y = 0
+		relative_position_id = gen_divert_production_to_screens
+		prerequisite = { focus = gen_small_ship_navy focus = gen_a_symbol_of_pride }
+		cost = 5
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = gen_undersea_research
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_expand_navy_yards
+		prerequisite = { focus = gen_expand_navy_yards }
+		cost = 5
+
+		completion_reward = {
+			
 		}
 	}
 }

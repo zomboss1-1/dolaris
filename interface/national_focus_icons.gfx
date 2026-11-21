@@ -1,0 +1,386 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_focus_by_legal_means_only
+        texturefile = gfx/interface/national_focus/Generic/by_legal_means_only.png
+    }
+    spriteType = {
+        name = GFX_focus_by_legal_means_only_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/national_focus/Generic/by_legal_means_only.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/by_legal_means_only.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/by_legal_means_only.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = GFX_focus_civilian_focus
+        texturefile = gfx/interface/national_focus/Generic/civilian_focus.png
+	}  
+    spriteType = {
+        name = GFX_focus_civilian_focus_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/national_focus/Generic/civilian_focus.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/civilian_focus.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/civilian_focus.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = GFX_focus_forwards_with_arnor
+        texturefile = gfx/interface/national_focus/Generic/forwards_with_arnor.png
+    }
+    spriteType = {
+        name = GFX_focus_forwards_with_arnor_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/national_focus/Generic/forwards_with_arnor.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/forwards_with_arnor.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/forwards_with_arnor.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = GFX_focus_light_the_match
+        texturefile = gfx/interface/national_focus/Generic/light_the_match.png
+    }
+    spriteType = {
+        name = GFX_focus_light_the_match_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/national_focus/Generic/light_the_match.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/light_the_match.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/light_the_match.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = GFX_focus_mobilize_the_nation
+        texturefile = gfx/interface/national_focus/Generic/mobilize_the_nation.png
+    }
+    spriteType = {
+        name = GFX_focus_mobilize_the_nation_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/national_focus/Generic/mobilize_the_nation.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/mobilize_the_nation.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/mobilize_the_nation.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = GFX_focus_reaffirm_the_monarchy
+        texturefile = gfx/interface/national_focus/Generic/reaffirm_the_monarchy.png
+    }
+    spriteType = {
+        name = GFX_focus_reaffirm_the_monarchy_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/national_focus/Generic/reaffirm_the_monarchy.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/reaffirm_the_monarchy.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/reaffirm_the_monarchy.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = GFX_focus_stay_out_of_the_fight
+        texturefile = gfx/interface/national_focus/Generic/stay_out_of_the_fight.png
+    }
+    spriteType = {
+        name = GFX_focus_stay_out_of_the_fight_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/national_focus/Generic/stay_out_of_the_fight.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/stay_out_of_the_fight.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/stay_out_of_the_fight.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = GFX_focus_the_independant_bloc
+        texturefile = gfx/interface/national_focus/Generic/the_independant_bloc.png
+    }
+    spriteType = {
+        name = GFX_focus_the_independant_bloc_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/national_focus/Generic/the_independant_bloc.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/the_independant_bloc.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/the_independant_bloc.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = GFX_focus_the_past_is_the_future
+        texturefile = gfx/interface/national_focus/Generic/The_Past_Is_the_future.png
+    }
+    spriteType = {
+        name = GFX_focus_the_past_is_the_future_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/national_focus/Generic/The_Past_Is_the_future.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/The_Past_Is_the_future.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/The_Past_Is_the_future.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = GFX_focus_the_rights_of_the_monarch
+        texturefile = gfx/interface/national_focus/Generic/the_rights_of_the_monarch.png
+    }
+    spriteType = {
+        name = GFX_focus_the_rights_of_the_monarch_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/national_focus/Generic/the_rights_of_the_monarch.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/the_rights_of_the_monarch.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/the_rights_of_the_monarch.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+
+	    spriteType = {
+        name = GFX_focus_true_neutrality
+        texturefile = gfx/interface/national_focus/Generic/true_Neutrality.png   
+    }
+    spriteType = {
+        name = GFX_focus_true_neutrality_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/national_focus/Generic/true_Neutrality.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/true_Neutrality.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/true_Neutrality.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+}
