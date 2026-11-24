@@ -111,11 +111,13 @@ doc_stalwart_defense = {
 	}
 
 	# EFFECTS
-
+	army_defence_factor = 0.10
+	army_org_factor = 0.05
 	milestones = {
 		{
 			#Infantry
-
+			max_dig_in_factor = 0.05
+			org_loss_at_low_factor = 0.05
 			effect = {
 				if = {
 					limit = {
@@ -132,6 +134,7 @@ doc_stalwart_defense = {
 		}
 		{
 			#Support
+			army_artillery_defence_factor = 0.10
 			effect = {
 				if = {
 					limit = {
@@ -148,6 +151,7 @@ doc_stalwart_defense = {
 		}
 		{
 			#Operations
+			recon_bonus_while_entrenched = 0.10
 			effect = {
 				if = {
 					limit = {
