@@ -1,6 +1,6 @@
 ai_monarchism = {
 	enable = {
-		ideology = monarchism
+		has_government = monarchism
 	}
 	annex_randomness = 0
 	liberate_randomness = 0
@@ -13,24 +13,7 @@ ai_monarchism = {
 		factor = 5
     	modifier = {
     	  factor = 0
-			FROM = {
-				NOT = {
-					OR = { 
-						is_claimed_by = ROOT
-						is_core_of = ROOT
-					}
-				}
-			}
-   		 }
-    	modifier = {
-      		factor = 999
-      		FROM = {
-        		OR = {
-          		is_claimed_by = ROOT
-        		is_core_of = ROOT
-        		}
-      		}
-    	}
+   		}
 	}
 
 	# ROOT = Taker, FROM = Liberated
@@ -72,7 +55,7 @@ ai_monarchism = {
 		}
 		modifier = { #Only take claimed/core land if a puppet.
 			factor = 0
-			is_puppet = yes
+			is_subject = yes
 			FROM = {
 				NOT = {
 					OR = { 

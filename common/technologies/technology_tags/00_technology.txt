@@ -19,14 +19,19 @@ technology_categories = {
 	# LOGISTICS TECH
 
 	# ARMOR TECH
+	armor_tech
 
 	# NAVAL TECH
 	submarine_tech
 
 	# ENGINEERING TECH
+	engineering_tech
+	electronics_tech
 	fortification_tech
 
 	# INDUSTRY TECH
+	industry_tech
+	excavation_tech
 }
 
 # If you update the folder order (=logical order), consider updating the .gui ordering (=visual order) to maintain consistency
