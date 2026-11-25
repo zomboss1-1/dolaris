@@ -412,9 +412,11 @@ ideas = {
 				equipment_bonus = {
 					ship_hull_light = {
 						build_cost_ic = -0.10
+						instant = yes
 					}
 					ship_hull_heavy = {
 						build_cost_ic = 0.10
+						instant = yes
 					}
 				}
 			}
@@ -427,9 +429,11 @@ ideas = {
 						build_cost_ic = -0.05
 						naval_hit_chance = 0.05
 						armor_value = 0.05
+						instant = yes
 					}
 					ship_hull_heavy = {
 						build_cost_ic = 0.10
+						instant = yes
 					}
 				}
 			}
@@ -441,9 +445,11 @@ ideas = {
 					ship_hull_light = {
 						naval_hit_chance = 0.10
 						armor_value = 0.10
+						instant = yes
 					}
 					ship_hull_heavy = {
 						build_cost_ic = 0.10
+						instant = yes
 					}
 				}
 			}
@@ -454,9 +460,11 @@ ideas = {
 				equipment_bonus = {
 					ship_hull_heavy = {
 						build_cost_ic = -0.10
+						instant = yes
 					}
 					ship_hull_light = {
 						build_cost_ic = 0.10
+						instant = yes
 					}
 				}
 			}
@@ -469,23 +477,27 @@ ideas = {
 						build_cost_ic = -0.05
 						naval_hit_chance = 0.05
 						armor_value = 0.05
+						instant = yes
 					}
 					ship_hull_light = {
 						build_cost_ic = 0.10
+						instant = yes
 					}
 				}
 			}
 		}
-		gen_screens_performance = {
+		gen_capitals_performance = {
 			#icon = 
 			modifier = {
 				equipment_bonus = {
 					ship_hull_heavy = {
 						naval_hit_chance = 0.10
 						armor_value = 0.10
+						instant = yes
 					}
 					ship_hull_light = {
 						build_cost_ic = 0.10
+						instant = yes
 					}
 				}
 			}

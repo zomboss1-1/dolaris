@@ -344,7 +344,7 @@ focus_tree = {
 
 	focus = {
 		id = gen_secure_the_borders
-		#icon = 
+		icon = GFX_focus_secure_the_borders
 		x = 0
 		y = 1
 		relative_position_id = gen_civilian_focus
@@ -426,7 +426,7 @@ focus_tree = {
 
 	focus = {
 		id = gen_prepare_for_the_offensive
-		#icon = 
+		icon = GFX_focus_prepare_for_the_offensive
 		x = 0
 		y = 1
 		relative_position_id = gen_mobilize_the_nation
@@ -1309,6 +1309,15 @@ focus_tree = {
 					remove_idea = gen_shock_infantry
 				}
 			}
+			else_if = {
+				limit = {
+					NOT = {
+						has_idea = gen_shock_infantry
+						has_idea = gen_shock_infantry2
+					}
+				}
+				custom_effect_tooltip = upgrades_shock_infantry_tt
+			}
 			else = {
 				swap_ideas = {
 					add_idea = gen_shock_infantry3
@@ -1337,9 +1346,20 @@ focus_tree = {
 					remove_idea = gen_shock_infantry
 				}
 			}
+			else_if = {
+				limit = {
+					NOT = {
+						has_idea = gen_shock_infantry
+						has_idea = gen_shock_infantry2
+					}
+				}
+				custom_effect_tooltip = upgrades_shock_infantry_tt
+			}
 			else = {
-				add_idea = gen_shock_infantry3
-				remove_idea = gen_shock_infantry2
+				swap_ideas = {
+					add_idea = gen_shock_infantry3
+					remove_idea = gen_shock_infantry2
+				}
 			}
 		}
 	}
@@ -1495,7 +1515,7 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			navy_excperience = 100
+			navy_experience = 100
 		}
 	}
 
@@ -1514,7 +1534,7 @@ focus_tree = {
 					is_coastal = yes
 				}
 				add_building_construction = {
-					type = naval_facility
+					type = dockyard
 					level = 2
 					instant_build = yes
 				}

@@ -2,11 +2,31 @@
 # If adding new technology, make sure they are uniquely named.
 
 technology_categories = {
-	infantry_weapons
-	fortification_tech
+
+	# DOCTRINES
 	land_doctrine
 	air_doctrine
 	naval_doctrine
+
+	# ARMY WEAPONS
+	infantry_weapons
+
+	# ARTILLERY
+
+	# SUPPORT COMPANIES
+	engineer_tech
+
+	# LOGISTICS TECH
+
+	# ARMOR TECH
+
+	# NAVAL TECH
+	submarine_tech
+
+	# ENGINEERING TECH
+	fortification_tech
+
+	# INDUSTRY TECH
 }
 
 # If you update the folder order (=logical order), consider updating the .gui ordering (=visual order) to maintain consistency

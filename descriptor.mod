@@ -22,6 +22,8 @@ replace_path="common/ai_strategy_plans"
 replace_path="common/ai_focus"
 replace_path="common/characters"
 replace_path="history/countries"
+replace_path="common/on_actions"
+replace_path="common/ai_templates"
 
 tags={
 	"Gameplay"

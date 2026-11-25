@@ -217,7 +217,7 @@ country_event = {
 
 	# Performance
 	option = {
-		name = generic.10.a
+		name = generic.10.c
 		add_ideas = gen_capitals_performance
 	}
 }

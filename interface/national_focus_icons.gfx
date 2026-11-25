@@ -349,7 +349,7 @@ spriteTypes = {
         legacy_lazy_load = no
     }
 
-	    spriteType = {
+	spriteType = {
         name = GFX_focus_true_neutrality
         texturefile = gfx/interface/national_focus/Generic/true_Neutrality.png   
     }
@@ -371,6 +371,76 @@ spriteTypes = {
         }
         animation = {
             animationmaskfile = gfx/interface/national_focus/Generic/true_Neutrality.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+
+    spriteType = {
+        name = GFX_focus_prepare_for_the_offensive
+        texturefile = gfx/interface/national_focus/Generic/prepare_for_the_offense.png   
+    }
+    spriteType = {
+        name = GFX_focus_prepare_for_the_offensive_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/national_focus/Generic/prepare_for_the_offense.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/prepare_for_the_offense.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/prepare_for_the_offense.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+
+    spriteType = {
+        name = GFX_focus_secure_the_borders
+        texturefile = gfx/interface/national_focus/Generic/secure_the_border.png   
+    }
+    spriteType = {
+        name = GFX_focus_secure_the_borders_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/national_focus/Generic/secure_the_border.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/secure_the_border.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/secure_the_border.png # Change to the focus icon
             animationtexturefile = gfx/interface/goals/shine_overlay.dds
             animationrotation = 90.0
             animationlooping = no
