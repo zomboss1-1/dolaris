@@ -195,7 +195,7 @@ focus_tree = {
 
 	focus = {
 		id = gen_independantly_together
-		#icon = 
+		icon = GFX_focus_independantly_together
 		x = 0
 		y = 1
 		relative_position_id = gen_forwards_with_arnor
@@ -243,7 +243,7 @@ focus_tree = {
 
 	focus = {
 		id = gen_a_faithful_government
-		#icon = 
+		icon = GFX_focus_a_faithful_government
 		x = -2
 		y= 1
 		relative_position_id = gen_forwards_with_arnor
