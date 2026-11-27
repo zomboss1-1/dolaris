@@ -93,6 +93,7 @@ technologies = {
 
 		categories = { infantry_weapons }
 	}
+
 	improved_infantry_arms_I = {
 		enable_equipments = {
 			improved_infantry_arms_I
@@ -205,34 +206,200 @@ technologies = {
 		categories = { infantry_weapons }
 	}
 	infantry_kit_I = {
+		category_all_infantry = {
+			defence = 0.5
+			supply_consumption_factor = -0.005
+		}
 
+		research_cost = 1
+		start_year = 1905
+
+		path = {
+			leads_to_tech = infantry_kit_II
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1905 }
+		}
 	}
 	infantry_kit_II = {
+		category_all_infantry = {
+			defence = 0.5
+			supply_consumption_factor = -0.005
+		}
 
+		research_cost = 1
+		start_year = 1907
+
+		path = {
+			leads_to_tech = infantry_kit_III
+			research_cost_coeff = 1
+		}
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1907 }
+		}
 	}
 	infantry_kit_III = {
+		category_all_infantry = {
+			defence = 0.5
+			supply_consumption_factor = -0.005
+		}
 
+		research_cost = 1
+		start_year = 1911
+
+		path = {
+			leads_to_tech = infantry_kit_IV
+			research_cost_coeff = 1
+		}
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1911 }
+		}
 	}
 	infantry_kit_IV = {
+		category_all_infantry = {
+			defence = 0.5
+			supply_consumption_factor = -0.005
+		}
 
+		research_cost = 1
+		start_year = 1913
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1913 }
+		}
 	}
 	support_I = {
+		category_all_infantry = {
+			soft_attack = 0.1
+			defence = 0.05
+		}
+		
+		research_cost = 1
+		start_year = 1905
 
+		path = {
+			leads_to_tech = support_II
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1905 }
+		}
+
+		categories = { infantry_support }
 	}
 	support_II = {
+		category_all_infantry = {
+			soft_attack = 0.1
+			defence = 0.05
+		}
+		
+		research_cost = 1
+		start_year = 1906
 
+		path = {
+			leads_to_tech = support_III
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 10 }
+		}
+
+		categories = { infantry_support }
 	}
 	support_III = {
+		category_all_infantry = {
+			soft_attack = 0.1
+			defence = 0.05
+		}
+		
+		research_cost = 1
+		start_year = 1907
 
+		path = {
+			leads_to_tech = support_IV
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1907 }
+		}
+
+		categories = { infantry_support }
 	}
 	support_IV = {
+		category_all_infantry = {
+			soft_attack = 0.1
+			defence = 0.05
+		}
+		
+		research_cost = 1
+		start_year = 1909
 
+		path = {
+			leads_to_tech = support_V
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 15 }
+		}
+
+		categories = { infantry_support }
 	}
 	support_V = {
+		category_all_infantry = {
+			soft_attack = 0.1
+			defence = 0.05
+		}
+		
+		research_cost = 1
+		start_year = 1905
 
+		path = {
+			leads_to_tech = support_VI
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = mobile_flamethrower
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1911 }
+		}
+
+		categories = { infantry_support }
 	}
 	support_VI = {
+		category_all_infantry = {
+			soft_attack = 0.1
+			defence = 0.05
+		}
+		
+		research_cost = 1
+		start_year = 1915
 
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1913 }
+		}
+
+		categories = { infantry_support }
 	}
 	mobile_flamethrower = {
 		allow = {
@@ -240,12 +407,41 @@ technologies = {
 				is_special_project_completed = sp:sp_flame_tech
 			}
 		}
+		enable_subunits = {
+			flame_company
+		}
+
+		research_cost = 1.5
+		start_year = 1915
+
+		path = {
+			leads_to_tech = improved_flamethrower
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = infantry_folder
+			position = { x = -1 y = @1915 }
+		}
 	}
 	improved_flamethrower = {
 		allow = {
 			ROOT = {
 				is_special_project_completed = sp:sp_flame_tech
 			}
+		}
+		category_flame_company = {
+			soft_attack = 0.10
+			hard_attack = 0.10
+			breakthrough = 0.10
+		}
+
+		research_cost = 1.5
+		start_year = 1917
+
+		folder = {
+			name = infantry_folder
+			position = { x = -1 y = 27 }
 		}
 	}
 }

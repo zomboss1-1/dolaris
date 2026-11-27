@@ -211,7 +211,7 @@ focus_tree = {
 
 	focus = {
 		id = gen_our_state_religion
-		#icon = 
+		icon = GFX_focus_our_state_religion
 		x = 0
 		y = 1
 		relative_position_id = gen_independantly_together
@@ -259,7 +259,7 @@ focus_tree = {
 
 	focus = {
 		id = gen_adopt_goldism
-		#icon = 
+		icon = GFX_focus_adopt_goldism
 		x = 0
 		y = 1
 		relative_position_id = gen_a_faithful_government
@@ -1505,7 +1505,7 @@ focus_tree = {
 	focus = {
 		id = gen_advancing_naval_doctrine
 		#icon = 
-		x = 26
+		x = 21
 		y = 7
 		available = {
 			any_state = {
@@ -1647,7 +1647,189 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 0.5
 				uses = 2
-				tech = submarine_tech
+				name = submarine_tech
+			}
+		}
+	}
+
+	focus = {
+		id = gen_speed_up_industrialisation
+		#icon = 
+		x = 31
+		y = 7
+		cost = 5
+		
+		completion_reward = {
+			random_core_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_core_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = gen_improve_housing
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_speed_up_industrialisation
+		prerequisite = { focus = gen_speed_up_industrialisation }
+		cost = 5
+
+		completion_reward = {
+			random_core_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_core_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = gen_expand_civil_ammenities
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_improve_housing
+		prerequisite = { focus = gen_improve_housing }
+		cost = 5
+
+		completion_reward = {
+			random_core_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_core_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = gen_increase_consumer_production
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_expand_civil_ammenities
+		prerequisite = { focus = gen_expand_civil_ammenities }
+		cost = 5
+
+		completion_reward = {
+			random_core_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_core_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = gen_rearmament_funding
+		#icon = 
+		x = 2
+		y = 1
+		relative_position_id = gen_speed_up_industrialisation
+		prerequisite = { focus = gen_speed_up_industrialisation }
+		cost = 5
+
+		completion_reward = {
+			random_core_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = gen_continued_arms_expansion
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_rearmament_funding
+		prerequisite = { focus = gen_rearmament_funding }
+		cost = 5
+
+		completion_reward = {
+			random_core_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = gen_invest_in_industry_research
+		#icon = 
+		x = -2
+		y = 1
+		relative_position_id = gen_speed_up_industrialisation
+		prerequisite = { focus = gen_speed_up_industrialisation }
+		cost = 5
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				name = industry_tech
+			}
+		}
+	}
+
+	focus = {
+		id = gen_invest_in_excavation_research
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = gen_invest_in_industry_research
+		prerequisite = { focus = gen_invest_in_industry_research }
+		cost = 5
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				name = excavation_tech
 			}
 		}
 	}

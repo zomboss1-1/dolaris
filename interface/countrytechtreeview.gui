@@ -81,19 +81,6 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "infantry_subtitle_kits"
-					position = { x = 30 y = 510 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_KITS"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
 					name = "infantry_year2"
 					position = { x = 130 y = 50 }
 					textureFile = ""
@@ -194,7 +181,7 @@ guiTypes = {
 
 
 			gridboxtype = {
-				name = "support_weapons_tree"
+				name = "support_I_tree"
 				position = { x = 140 y = 210 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
@@ -224,8 +211,8 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "tech_trucks_tree"
-				position = { x = 140 y = 620 }
+				name = "infantry_kit_I_tree"
+				position = { x = 140 y = 500 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}

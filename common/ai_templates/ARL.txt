@@ -1,0 +1,38 @@
+ARL_infantry_upgrade = {
+	available_for = {
+		ARL
+	}
+
+	role = infantry
+
+	upgrade_prio = {
+		factor = 1
+	}
+
+	ARL_upg_1 = {
+		reinforce_prio = 1
+		division_names_group = ARL_INF_01
+
+		upgrade_prio = {
+			factor = 1
+		}
+		
+		enable = {
+			date > 1907.1.1
+		}
+
+		can_upgrade_in_field = {
+			always = yes
+		}
+
+		target_template = {
+			regiments = {
+				infantry = 9
+			}
+			support = {
+				engineer = 1
+				artillery = 1
+			}
+		}
+	}
+}

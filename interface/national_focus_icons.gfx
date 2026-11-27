@@ -523,4 +523,74 @@ spriteTypes = {
         }
         legacy_lazy_load = no
     }
+
+    spriteType = {
+        name = GFX_focus_adopt_goldism
+        texturefile = gfx/interface/national_focus/Generic/Adopt_Goldism.png
+    }
+    spriteType = {
+        name = GFX_focus_adopt_goldism_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/national_focus/Generic/Adopt_Goldism.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/Adopt_Goldism.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/Adopt_Goldism.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+
+    spriteType = {
+        name = GFX_focus_our_state_religion
+        texturefile = gfx/interface/national_focus/Generic/Our_State_Religion.png
+    }
+    spriteType = {
+        name = GFX_focus_our_state_religion_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/interface/national_focus/Generic/Our_State_Religion.png # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/Our_State_Religion.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/national_focus/Generic/Our_State_Religion.png # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
 }

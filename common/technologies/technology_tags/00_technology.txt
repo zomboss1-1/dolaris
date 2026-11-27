@@ -10,6 +10,7 @@ technology_categories = {
 
 	# ARMY WEAPONS
 	infantry_weapons
+	infantry_support
 
 	# ARTILLERY
 
